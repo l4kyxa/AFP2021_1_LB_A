@@ -64,3 +64,11 @@ A rövidárukat két csoportra osztják:
 	* gyűszűk,
 	* (kézi)kötő- és horgolótűk,
 	* stoppolófa.
+* Egyéb fogalmak:
+	gumi
+	cérnatű
+	szalag
+	cipzár
+	vipőfűző
+	gomb
+
