@@ -46,7 +46,7 @@ A „rövidáru” szó a német Kurzware tükörfordítása. Vélhetőleg a mé
 
 A rövidárukat két csoportra osztják:
 
-* Puha rövidáruk:
+* **Puha rövidáruk:**
 	* varrócérnák,
 	* kézimunkafonalak (kézikötő-, horgoló- és hímzőfonalak, háziszőttesekhez készült fonalak),
 	* különféle szalagok,
@@ -58,13 +58,13 @@ A rövidárukat két csoportra osztják:
 	* vállpárnák,
 	* ízlapok (a ruhák hónaljában az izzadság felfogására),
 	
-* Kemény rövidáruk:
+* **Kemény rövidáruk:**
 	* ruhazáró kellékek (gombok, cipzárak, tépőzárak, nyomókapcsok és egyéb kapcsok, csatok)
 	* varrótűk, gombostűk, biztosítótűk, hímzőtűk, fűzőtűk,
 	* gyűszűk,
 	* (kézi)kötő- és horgolótűk,
 	* stoppolófa.
-* Egyéb fogalmak:
+* **Egyéb fogalmak:**
 	* gumi: A cérna nyúlásra hajlamos megfelelője.
 	* cérna: A textilipari szaknyelvben a cérna általában két vagy több fonal összesodrásával létrehozott termék. Attól függően, hogy hány fonalat sodornak (cérnáznak) össze, két- vagy többágú cérnáról beszélünk. Ha több cérnát sodornak össze, akkor a termék neve: többszörös cérna. A cérnák között különösen fontos szerepet töltenek be a varráshoz használt cérnák.
 	* tű: A tű olyan eszköz, amellyel szöveteket és másféle szálas anyagokat közvetlenül v. közvetve összetűznek. Megkülönböztetünk tűző- és kapcsolótűket, továbbá varró- és fűzőtűket. Az első csoport legelterjedtebb alakja a gombostű, a másodiknak a kézi varrótű.
