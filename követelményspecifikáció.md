@@ -70,6 +70,17 @@ A rövidárukat két csoportra osztják:
 	* tű: A tű olyan eszköz, amellyel szöveteket és másféle szálas anyagokat közvetlenül v. közvetve összetűznek. Megkülönböztetünk tűző- és kapcsolótűket, továbbá varró- és fűzőtűket. Az első csoport legelterjedtebb alakja a gombostű, a másodiknak a kézi varrótű.
 	* szalag: A szalag egy hosszú, keskeny, vékony textilszövetből, műanyagból, papírból vagy más hajlékony anyagból, sőt esetleg fémből készült tárgy. A textilszalagokat szövésmintájuk szerint ripsz-, taft-, esetleg danubiaszalagnak hívjuk. Ezeket szalagszövő gépen készítik (pl. Frick-Müller, Mageba stb.), de egyes fajtái horgológépen (pl. Frick-Müller, Comez stb.) is előállíthatók.
 	* cipzár: A cipzár – hivatalos nevén húzózár vagy villámzár a Magyar értelmező kéziszótár szerint – mindennapos termékeken gyakran alkalmazott záró kellék. Az angol „zipper” elnevezés, amiből a „cipzár” szó is származik, a Goodrich cégtől ered, amely ezt a fajta zárat gumicsizmáin alkalmazta. Az angol zip szó egyik jelentése: gyorsaság, lendület, ebből egyértelműen következik a hazai villámzár elnevezés eredete.	
+	A cipzárak műszaki adatai a következőkre terjednek ki:
+		* a cipzár fajtája,
+		* a textilszalag anyaga,
+		* a zárlánc (a fogak ill. a spirál) anyaga,
+		* a zárlánc szélessége,
+		* a textilszalag szélessége,
+		* a zárt cipzár keresztirányú szakítószilárdsága, ami a fogak egymásba kapaszkodásának erejére, ill. a fogak vagy a spirál rögzítésének erősségére utal,
+		* a kezdőszem keresztirányú szakítószilárdsága (azaz az, hogy a cipzár keresztirányú igénybevételekor a kezdőszem mekkora terhelést bír el kiszakadás nélkül),
+		* a végszemek hosszirányú szakítószilárdsága,
+		* a bontórész keresztirányú szakítószilárdsága (azaz az, hogy a cipzár keresztirányú igénybevételekor a bontórész mekkora terhelést bír el kiszakadás nélkül).	
+
 	* cipőfűző: A cipőfűző vagy cipőpertli vagy cipőzsinór fűzős cipőbe való zsinór vagy szalag, a cipőfelsőrész nyílásának szoros összezárását , ezáltal a cipő megfelelő illeszkedését, lábról való leesésének meggátlását és a cipőben való járás nagyobb biztonságát és kényelmét szolgálja, valamint a fűző nélküli bebújós cipőkkel, mokaszinokkal, loafer-cipőkkel, papucsokkal szemben könnyebbé, habár egyesek számára bonyolultabbá teszi a lábbeli váltását, fel- és levételét. Különböző hosszúságokban, színben, esetleg mintázattal készül, jellegzetessége a mindkét végét megerősítő kemény csúcs („végezés”), ami megkönnyíti a befűzését a cipőfelsőrész megfelelő nyílásaiba és egyúttal meggátolja a cipőfűző esetleges felfejtődését vagy kirojtosodását. Fonatoló-, körkötő- vagy szalagszövőgépen készítik, a végek megerősítését az ún. "végezőgép" végzi.
 	* gomb: A gomb a ruházat összekapcsolására való eszköz. A legkülönbözőbb anyagból készül, fémekből, fából, csontból, bőrből, műanyagból, fás dióból stb.
 
