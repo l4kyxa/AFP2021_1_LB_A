@@ -1,6 +1,6 @@
-## Követelmény specifikáció
+# Követelmény specifikáció
 
-### Jelenlegi helyzet leírása
+## Jelenlegi helyzet leírása
 Szerencsés helyzetben vagyok, hiszen két hónapja vehettem át a nagyszüleim által indított 
 rövidáru és gomb kereskedést, melyről elmondhatom, hogy apáról-fiúra szállt, 
 tehát családi vállalkozás. Nagy lehetőség van benne, hiszen Budapesten közlekedési szempontból 
@@ -12,7 +12,7 @@ Az üzlet népszerű, kedvelt elsősorban az idősebb korosztály körében, val
 termékeket nagyobb mennyiségben vásárló varró, illetve hasonló szakmában dolgozók számára. 
 Jelenleg az üzletnek nincs saját weboldala.
 
-### Vágyálom rendszer leírása
+## Vágyálom rendszer leírása
 Manapság a legtöbb vállalkozás számára óriási előnyt jelent, ha rendelkezik egy saját honlappal, 
 hiszen egy cég ilyen irányú hirdetése, illetve egy jó termékkereső rendszerrel rendelkező, 
 megfelelően kivitelezett internetes vásárlás nagy mértékben fellendítheti egy üzlet hírnevét 
@@ -30,17 +30,17 @@ tudnak létrehozni. Elvárt, hogy a weboldal könnyen üzemeltethető legyen. A 
 és tableten is működjön, reszponzív felülettel.
 
 
-### A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása.
+## A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása.
 
-### Jelenlegi üzleti folyamatok modellje.
+## Jelenlegi üzleti folyamatok modellje.
 
-### Igényelt üzleti folyamatok modellje.
+## Igényelt üzleti folyamatok modellje.
 
-### Követelménylista
+## Követelménylista
 
-### Irányított és szabad szöveges riportok szövege.
+## Irányított és szabad szöveges riportok szövege.
 
-### Fogalomszótár
+## Fogalomszótár
 
 A „rövidáru” szó a német Kurzware tükörfordítása. Vélhetőleg a méteráru (a méterszámra árult szövetek és egyéb kelmék) ellenpárjaként alakult ki ez az elnevezés. A rövidáruk körébe a ruházati és lakástextil termékek gyártásában nélkülözhetetlen kiegészítő anyagokat sorolják, mind a nagyipari, mind a kézmű- vagy háziipari feldolgozáshoz.
 
