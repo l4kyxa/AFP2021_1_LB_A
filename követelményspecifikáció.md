@@ -66,7 +66,7 @@ A rövidárukat két csoportra osztják:
 	* stoppolófa.
 * Egyéb fogalmak:
 	*gumi: A cérna nyúlásra hajlamos megfelelője.
-	cérna
+	*cérna: A textilipari szaknyelvben a cérna általában két vagy több fonal összesodrásával létrehozott termék. Attól függően, hogy hány fonalat sodornak (cérnáznak) össze, két- vagy többágú cérnáról beszélünk. Ha több cérnát sodornak össze, akkor a termék neve: többszörös cérna. A cérnák között különösen fontos szerepet töltenek be a varráshoz használt cérnák.
 	tű
 	szalag
 	cipzár
