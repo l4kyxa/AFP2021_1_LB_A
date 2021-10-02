@@ -31,6 +31,9 @@ tudnak létrehozni. Elvárt, hogy a weboldal könnyen üzemeltethető legyen. A 
 
 
 ## A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása.
+* Impresszum.
+* Adatkezelési tájékoztató.
+* Általános Szerződési Feltételek (ÁSZF).
 
 ## Jelenlegi üzleti folyamatok modellje.
 
