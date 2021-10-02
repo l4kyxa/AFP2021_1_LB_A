@@ -1,4 +1,4 @@
-# Követelmény specifikáció
+# <div align="center">Követelmény specifikáció </div>
 
 ## Jelenlegi helyzet leírása
 Szerencsés helyzetben vagyok, hiszen két hónapja vehettem át a nagyszüleim által indított 
