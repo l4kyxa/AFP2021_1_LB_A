@@ -44,4 +44,7 @@ tudnak létrehozni. Elvárt, hogy a weboldal könnyen üzemeltethető legyen. A 
 
 A „rövidáru” szó a német Kurzware tükörfordítása. Vélhetőleg a méteráru (a méterszámra árult szövetek és egyéb kelmék) ellenpárjaként alakult ki ez az elnevezés. A rövidáruk körébe a ruházati és lakástextil termékek gyártásában nélkülözhetetlen kiegészítő anyagokat sorolják, mind a nagyipari, mind a kézmű- vagy háziipari feldolgozáshoz.
 
+A rövidárukat két csoportra osztják:
 
+* Puha rövidáruk:
+* Kemény rövidáruk:
