@@ -47,4 +47,11 @@ A „rövidáru” szó a német Kurzware tükörfordítása. Vélhetőleg a mé
 A rövidárukat két csoportra osztják:
 
 * Puha rövidáruk:
+	* varrócérnák,
+	* kézimunkafonalak (kézikötő-, horgoló- és hímzőfonalak, háziszőttesekhez készült fonalak),
+	* különféle szalagok,
+	* hevederek,
+	
 * Kemény rövidáruk:
+	* ruhazáró kellékek (gombok, cipzárak, tépőzárak, nyomókapcsok és egyéb kapcsok, csatok)
+	* varrótűk, gombostűk, biztosítótűk, hímzőtűk, fűzőtűk,
