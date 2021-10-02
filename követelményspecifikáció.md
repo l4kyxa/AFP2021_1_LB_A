@@ -61,3 +61,6 @@ A rövidárukat két csoportra osztják:
 * Kemény rövidáruk:
 	* ruhazáró kellékek (gombok, cipzárak, tépőzárak, nyomókapcsok és egyéb kapcsok, csatok)
 	* varrótűk, gombostűk, biztosítótűk, hímzőtűk, fűzőtűk,
+	* gyűszűk,
+	* (kézi)kötő- és horgolótűk,
+	* stoppolófa.
