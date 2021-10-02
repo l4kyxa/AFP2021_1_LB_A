@@ -1,6 +1,6 @@
 # <div align="center">Követelmény specifikáció </div>
 
-## Jelenlegi helyzet leírása
+## I. Jelenlegi helyzet leírása
 Szerencsés helyzetben vagyok, hiszen két hónapja vehettem át a nagyszüleim által indított 
 rövidáru és gomb kereskedést, melyről elmondhatom, hogy apáról-fiúra szállt, 
 tehát családi vállalkozás. Nagy lehetőség van benne, hiszen Budapesten közlekedési szempontból 
@@ -12,7 +12,7 @@ Az üzlet népszerű, kedvelt elsősorban az idősebb korosztály körében, val
 termékeket nagyobb mennyiségben vásárló varró, illetve hasonló szakmában dolgozók számára. 
 Jelenleg az üzletnek nincs saját weboldala.
 
-## Vágyálom rendszer leírása
+## II. Vágyálom rendszer leírása
 Manapság a legtöbb vállalkozás számára óriási előnyt jelent, ha rendelkezik egy saját honlappal, 
 hiszen egy cég ilyen irányú hirdetése, illetve egy jó termékkereső rendszerrel rendelkező, 
 megfelelően kivitelezett internetes vásárlás nagy mértékben fellendítheti egy üzlet hírnevét 
@@ -30,20 +30,29 @@ tudnak létrehozni. Elvárt, hogy a weboldal könnyen üzemeltethető legyen. A 
 és tableten is működjön, reszponzív felülettel.
 
 
-## A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása.
+## III. A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása.
 * Impresszum.
 * Adatkezelési tájékoztató.
 * Általános Szerződési Feltételek (ÁSZF).
 
-## Jelenlegi üzleti folyamatok modellje.
+## IV. Jelenlegi üzleti folyamatok modellje.
 
-## Igényelt üzleti folyamatok modellje.
+## V. Igényelt üzleti folyamatok modellje.
 
-## Követelménylista
+## VI. Követelménylista
+| Modul | ID  | Név | Kifejtés |
+| ----- | --- | --- | -------- |
+| Funkció	| K1	| Adat-rögzítés			| Új adat rögzítése									|
+| Funkció	| K2	| Adat-módosítás		| Meglévő adat módosítása								|
+| Funkció	| K3	| Adat-keresés			| Keresés, kulcsszó alapján	 							|
+| Funkció 	| K4	| Adat-szűrés			| Szűrés paraméter alapján								|
+| Funkció 	| K5	| Rendelés			| Termék megrendelése									|
+| Funkció 	| K6	| Ötlet oldal			| Felhasználók ötleteinek megjelenítése							|
+| Megjelenés	| K7	| Átlátható felület		| Elvárás: letisztult kinézet valamint logikus és könnyen olvasható megjelenítés	|
+| Megjelenés	| K8	| Dinamikus megjelenítés	| Elvárás: Reszponzív felület								|
 
-## Irányított és szabad szöveges riportok szövege.
 
-## Fogalomszótár
+## VII. Fogalomszótár
 
 A „rövidáru” szó a német Kurzware tükörfordítása. Vélhetőleg a méteráru (a méterszámra árult szövetek és egyéb kelmék) ellenpárjaként alakult ki ez az elnevezés. A rövidáruk körébe a ruházati és lakástextil termékek gyártásában nélkülözhetetlen kiegészítő anyagokat sorolják, mind a nagyipari, mind a kézmű- vagy háziipari feldolgozáshoz.
 
