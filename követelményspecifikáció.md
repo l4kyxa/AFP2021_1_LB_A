@@ -65,8 +65,9 @@ A rövidárukat két csoportra osztják:
 	* (kézi)kötő- és horgolótűk,
 	* stoppolófa.
 * Egyéb fogalmak:
-	gumi
-	cérnatű
+	*gumi: A cérna nyúlásra hajlamos megfelelője.
+	cérna
+	tű
 	szalag
 	cipzár
 	vipőfűző
