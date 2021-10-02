@@ -68,7 +68,7 @@ A rövidárukat két csoportra osztják:
 	*gumi: A cérna nyúlásra hajlamos megfelelője.
 	*cérna: A textilipari szaknyelvben a cérna általában két vagy több fonal összesodrásával létrehozott termék. Attól függően, hogy hány fonalat sodornak (cérnáznak) össze, két- vagy többágú cérnáról beszélünk. Ha több cérnát sodornak össze, akkor a termék neve: többszörös cérna. A cérnák között különösen fontos szerepet töltenek be a varráshoz használt cérnák.
 	tű
-	szalag
+	*szalag: A szalag egy hosszú, keskeny, vékony textilszövetből, műanyagból, papírból vagy más hajlékony anyagból, sőt esetleg fémből készült tárgy.[1] A textilszalagokat szövésmintájuk szerint ripsz-, taft-, esetleg danubiaszalagnak hívjuk. Ezeket szalagszövő gépen készítik (pl. Frick-Müller, Mageba stb.), de egyes fajtái horgológépen (pl. Frick-Müller, Comez stb.) is előállíthatók.
 	cipzár
 	vipőfűző
 	gomb
