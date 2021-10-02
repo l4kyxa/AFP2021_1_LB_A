@@ -51,6 +51,12 @@ A rövidárukat két csoportra osztják:
 	* kézimunkafonalak (kézikötő-, horgoló- és hímzőfonalak, háziszőttesekhez készült fonalak),
 	* különféle szalagok,
 	* hevederek,
+	* fonatolt és kötött zsinórok, cipőfűzők,
+	* paszományok,
+	* csipkék és hímzések,
+	* díszítő kellékek (bojtok, díszzsinórok, rojtok, sujtások stb.),
+	* vállpárnák,
+	* ízlapok (a ruhák hónaljában az izzadság felfogására),
 	
 * Kemény rövidáruk:
 	* ruhazáró kellékek (gombok, cipzárak, tépőzárak, nyomókapcsok és egyéb kapcsok, csatok)
