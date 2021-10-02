@@ -1,6 +1,7 @@
 # <div align="center">Követelmény specifikáció </div>
 
 ## I. Jelenlegi helyzet leírása
+
 Szerencsés helyzetben vagyok, hiszen két hónapja vehettem át a nagyszüleim által indított 
 rövidáru és gomb kereskedést, melyről elmondhatom, hogy apáról-fiúra szállt, 
 tehát családi vállalkozás. Nagy lehetőség van benne, hiszen Budapesten közlekedési szempontból 
@@ -13,6 +14,7 @@ termékeket nagyobb mennyiségben vásárló varró, illetve hasonló szakmában
 Jelenleg az üzletnek nincs saját weboldala.
 
 ## II. Vágyálom rendszer leírása
+
 Manapság a legtöbb vállalkozás számára óriási előnyt jelent, ha rendelkezik egy saját honlappal, 
 hiszen egy cég ilyen irányú hirdetése, illetve egy jó termékkereső rendszerrel rendelkező, 
 megfelelően kivitelezett internetes vásárlás nagy mértékben fellendítheti egy üzlet hírnevét 
@@ -31,15 +33,19 @@ tudnak létrehozni. Elvárt, hogy a weboldal könnyen üzemeltethető legyen. A 
 
 
 ## III. A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása.
+
 * Impresszum.
 * Adatkezelési tájékoztató.
 * Általános Szerződési Feltételek (ÁSZF).
 
 ## IV. Jelenlegi üzleti folyamatok modellje.
+...
 
 ## V. Igényelt üzleti folyamatok modellje.
+...
 
 ## VI. Követelménylista
+
 | Modul | ID  | Név | Kifejtés |
 | ----- | --- | --- | -------- |
 | Funkció	| K1	| Adat-rögzítés			| Új adat rögzítése									|
