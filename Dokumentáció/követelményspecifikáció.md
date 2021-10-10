@@ -39,15 +39,18 @@ tudnak létrehozni. Elvárt, hogy a weboldal könnyen üzemeltethető legyen. A 
 * Általános Szerződési Feltételek (ÁSZF).
 
 ## IV. Jelenlegi üzleti folyamatok modellje.
-1. A vásárlóban felmerül az igény.
-2. A vásárló bemegy az üzletbe.
-3. A vásárló kiválasztja a terméket.
-4. A vásárló kifizeti a terméket.
-5. A vásárló megkapja a terméket
-6. A vásárló hazamegy.
+1. A vásárlóban felmerül az igény. ->
+2. A vásárló bemegy az üzletbe. ->
+3. A vásárló kiválasztja a terméket. ->
+4. A vásárló kifizeti a terméket. ->
+5. A vásárló megkapja a terméket. ->
+6. A vásárló hazamegy. ->
 
 ## V. Igényelt üzleti folyamatok modellje.
-...
+1. A vásárlóban felmerül az igény. ->
+2. A vásárló felkeresi az üzletet (online). ->
+3. A vásárló kiválasztja/megrendeli a terméket (online). ->
+4. A vásárló kifizeti és megkapja a terméket. / A vásárló megkapja és kifizeti a terméket. ->
 
 ## VI. Követelménylista
 
