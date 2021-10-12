@@ -25,8 +25,8 @@ V. Az adminisztrátor postázza a terméket.
 
 * Funkcionális követelmények:
 
- - Felhasználó rögzítés
- - Felhasználó módosítás
+ 	- Felhasználó rögzítés
+ 	- Felhasználó módosítás
  - Felhasználó törlés
  - Termék rögzítés
  - Termék módisítás
