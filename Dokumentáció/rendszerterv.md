@@ -27,27 +27,27 @@ V. Az adminisztrátor postázza a terméket.
 
  	- Felhasználó rögzítés
  	- Felhasználó módosítás
- - Felhasználó törlés
- - Termék rögzítés
- - Termék módisítás
- - Termék törlés
- - Bejegyzés rögzítés
- - Bejegyzés módisítás
- - Bejegyzés törlés
- - Termék keresés
- - Termék szűrés
- - Termék Rendelés
- - Bejegyzés rögzítés
+ 	- Felhasználó törlés
+ 	- Termék rögzítés
+ 	- Termék módisítás
+ 	- Termék törlés
+ 	- Bejegyzés rögzítés
+ 	- Bejegyzés módisítás
+ 	- Bejegyzés törlés
+	- Termék keresés
+ 	- Termék szűrés
+ 	- Termék Rendelés
+ 	- Bejegyzés rögzítés
 
 * Nem funkcionális követelmények:
 
- - Hibamentes működés.
- - Felhasználóbarát környezet.
- - Reszponzív felület.
+ 	- Hibamentes működés.
+ 	- Felhasználóbarát környezet.
+ 	- Reszponzív felület.
 
 * Törvényi előírások, szabványok:
 
- (!!!)
+	-	
 
 ## VII. Funkcionális terv
 
