@@ -1,13 +1,14 @@
 # <div align="center"> Funkcionális specifikáció </div>
 
+## I. Áttekintés
 
-## Jelenlegi helyzet leírása
-
-
-## Vágyálom rendszer
+## II. Jelenlegi helyzet leírása
 
 
-## Követelménylista
+## III. Vágyálom rendszer
+
+
+## IV. Követelménylista
 | Modul | ID  | Név | Kifejtés |
 | ----- | --- | --- | -------- |
 | Funkció	| K1	| Adat-rögzítés			| A felhasználó (admin) képes legyen új adatok rögzítésére							|
@@ -20,7 +21,7 @@
 | Megjelenés	| K8	| Dinamikus megjelenítés	| Reszponzív felület												|
 
 
-## Fogalomszótár
+## V Fogalomszótár
 - *SZOFTVER (SOFTWARE)*
 Szoftvernek nevezzük a számítógépre írt programokat. A szoftvereket programozók készítik. Szellemi termékek, kézzel nem megfoghatóak A szoftver a számítógépen futó programok összefoglaló neve, valamint a hardver egységeket működtető-, és vezérlő programok összessége.
 - *PROGRAM*
@@ -40,14 +41,14 @@ Az a személy aki egy számítógépes vagy számítógép-hálózati szolgálta
 - *Felhasználó (user)*
 Az a személy (végfelhasználó, end-user) vagy szoftverágens, aki egy számítógépes vagy számítógép-hálózati szolgáltatás használója. A felhasználóhoz gyakran felhasználói fiók tartozik, amit felhasználói név (username, screen name, nick vagy handle) azonosít.
 
-## Használati esetek
+## VI. Használati esetek
 
 
-## Használati esetek - követelmény megfeleltetés
+## VII. Használati esetek - követelmény megfeleltetés
 
 
-## "Képernyő" tervek
+## VII. "Képernyő" tervek
 
 
-## Funkció - követelmény megfeleltetés
+## IX. Funkció - követelmény megfeleltetés
 
