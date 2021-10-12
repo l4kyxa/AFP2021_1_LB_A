@@ -4,9 +4,7 @@
 
 ## II. Jelenlegi helyzet leírása
 
-
 ## III. Vágyálom rendszer
-
 
 ## IV. Követelménylista
 | Modul | ID  | Név | Kifejtés |
