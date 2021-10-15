@@ -1,6 +1,8 @@
-# <div align="center"> Funkcionális specifikáció </div>
+﻿# <div align="center"> Funkcionális specifikáció </div>
 
 ## I. Áttekintés
+Az általunk fejlesztett rendszer célja, hogy kollégánk rövidáru boltját korszerűsítsük azzal, hogy weboldalt és egyben webáruházat fejlesztünk hozzá, ezzel az ide betérő érdeklődők tájékozódhatnak a bolt teljes kínálatáról, rendelést adhatnak le, vagy foglalást adhatnak le nagyobb mennyiségű árumennyiségre. Rengeteg áru közül tudnak majd válogatni, véleményt írhatnak és olvashatják másokét, tájékozódhatnak. Bárki számára elérhető lesz, amellett, hogy ingyenes, számítógépen/mobilon/tableten is tudnak majd böngészni rajta. Teljes mértékben magyar nyelvű lesz.
+Egy konkrét vásárlás esetén kosárba lehet összeszedni az adott termékeket, rendelés leadás előtt megtekinthető a kosár, a szállítás ára és a várható kézbesítés is. Regisztráció után további kedvezmény vehető igénybe, például az első vásárláskor, vagy születésnapkor. Vásárlás után pedig véleményt tudnak írni a termékről, vagy akár újra is tudják rendelni azt.
 
 ## II. Jelenlegi helyzet leírása
 
