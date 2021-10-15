@@ -11,6 +11,13 @@ Emellett szükség van egy logó megtervezésére is a weboldal számára, ami i
 Ezek az igények vezették a tulajdonost ahhoz, hogy egy beruházás keretében egy jól működő, könnyen használható webáruházat készítsen.
 
 ## III. Vágyálom rendszer
+A weboldalt úgy tervezzük, hogy ideális működése esetén a korábbi igények meghatározása alapján az alábbi funkciókat tartalmazza:
+1. Termékkereső rendszer a különböző árucikkek gyors és egyszerű  megtalálása érdekében
+2. Internetes vásárlás lehetősége
+3. Hobbi aloldal az elkészült munkák megosztásához, amit a vásárlók oszthatnak meg egymással
+4. Könnyen üzemeltethető weboldal
+5. Adatbázis az áruk online nyilvántartása érdekében, mely rendezetten, külön kategóriákba szedve (főkategóriák-alkategóriák-konkrét termékek)
+Külön opció a tulajdonos számára, ahol a karbantartóval kapcsolatot tartva tud üzeneteket, észrevételeket, hibákat küldeni.
 
 ## IV. Követelménylista
 | Modul | ID  | Név | Kifejtés |
