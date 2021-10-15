@@ -5,6 +5,10 @@ Az általunk fejlesztett rendszer célja, hogy kollégánk rövidáru boltját k
 Egy konkrét vásárlás esetén kosárba lehet összeszedni az adott termékeket, rendelés leadás előtt megtekinthető a kosár, a szállítás ára és a várható kézbesítés is. Regisztráció után további kedvezmény vehető igénybe, például az első vásárláskor, vagy születésnapkor. Vásárlás után pedig véleményt tudnak írni a termékről, vagy akár újra is tudják rendelni azt.
 
 ## II. Jelenlegi helyzet leírása
+Kollégánk boltjának növekedése érdekében szeretné kibővíteni lehetőségeit, hogy felvegye a versenyt a piacon szereplő konkurenciával és profitnövekedést érjen el. A modern világ technológiai fejlődése megköveteli a digitális jelenlétet weboldal/webáruház formájában.
+Eddig a vásárlók csak személyesen tudtak vásárolni, nagyobb mennyiséget előrendelni, vagy akár csak a termékeket megnézni. Ez kisebb profitot eredményezett, azonban a változatlan, egyre növekvő vásárlószám rávilágított, hogy weboldallal való rendelkezés szignifikáns növekedést eredményezhet, és a befektetett összeg elég gyorsan megtérülhet.
+Emellett szükség van egy logó megtervezésére is a weboldal számára, ami igazodik a kor szellemiségéhez és vonzóbbá teszi a boltot a weboldalra betérő látogatók számára.
+Ezek az igények vezették a tulajdonost ahhoz, hogy egy beruházás keretében egy jól működő, könnyen használható webáruházat készítsen.
 
 ## III. Vágyálom rendszer
 
