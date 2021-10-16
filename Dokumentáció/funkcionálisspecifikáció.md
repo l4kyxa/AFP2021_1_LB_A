@@ -17,7 +17,7 @@ A weboldalt úgy tervezzük, hogy ideális működése esetén a korábbi igény
 3. Hobbi aloldal az elkészült munkák megosztásához, amit a vásárlók oszthatnak meg egymással
 4. Könnyen üzemeltethető weboldal
 5. Adatbázis az áruk online nyilvántartása érdekében, mely rendezetten, külön kategóriákba szedve (főkategóriák-alkategóriák-konkrét termékek)
-Külön opció a tulajdonos számára, ahol a karbantartóval kapcsolatot tartva tud üzeneteket, észrevételeket, hibákat küldeni.
+6. Külön opció a tulajdonos számára, ahol a karbantartóval kapcsolatot tartva tud üzeneteket, észrevételeket, hibákat küldeni.
 
 ## IV. Követelménylista
 | Modul | ID  | Név | Kifejtés |
@@ -53,7 +53,10 @@ Az a személy aki egy számítógépes vagy számítógép-hálózati szolgálta
 Az a személy (végfelhasználó, end-user) vagy szoftverágens, aki egy számítógépes vagy számítógép-hálózati szolgáltatás használója. A felhasználóhoz gyakran felhasználói fiók tartozik, amit felhasználói név (username, screen name, nick vagy handle) azonosít.
 
 ## VI. Használati esetek
-
+1. Admin: minden jogosultság birtokosa, az oldal hibamentes működésének biztosításához. Feladata a rendszer működtetése, ellenőrzése. Az egész rendszerhez van hozzáférése. Ez a szerepkör a karbantartóra vonatkozik.
+2. Tulajdonos: árut tud rendelni, termékeket feltölteni, új terméket hozzáadni, árat módosítani, panaszokat kezel a vásárlók problémamentes kiszolgálása érdekében. Javaslatot tehet az adminnak egy külön oldalon a fejleszteni kívánt dolgokról, illetve hibát is jelezhet.
+3. Felhasználó: ő a vásárló, aki már betért. Rendelést adhat le, véleményt írhat a termékről, amit már megvásárolt, különböző termékekből csomagot állíthat össze, rendelést adhat le a tulajdonos felé nagyobb termék rögzítése esetén, vagy ha a termék éppen hiánycikk. Aloldalon keresztül megoszthatja a saját munkáját.
+4. Vendég: regisztráció nélküli betérő, tájékozódhat az oldalról, a termékekről, de nincs semmihez sem jogosultsága, nem adhat le rendelést. Felhasználóvá válhat regisztráció esetén.
 
 ## VII. Használati esetek - követelmény megfeleltetés
 
