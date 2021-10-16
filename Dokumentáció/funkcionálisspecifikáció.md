@@ -61,7 +61,7 @@ Az a személy (végfelhasználó, end-user) vagy szoftverágens, aki egy számí
 ## VII. Használati esetek - követelmény megfeleltetés
 
 
-## VII. "Képernyő" tervek
+## VIII. "Képernyő" tervek
 
 
 ## IX. Funkció - követelmény megfeleltetés
