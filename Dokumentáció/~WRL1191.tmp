@@ -1,12 +1,7 @@
-﻿# <div align="center"> Rendszerterv </div>
+# <div align="center"> Rendszerterv </div>
 
 ## I. Rendszer céljai, és nem céljai
-A rendszer célja, a tulajdonos szempontjából a bolt digitalizálása, a marketing fejlesztése illetve a profitnövelés.
-Felhasználók számára (vásárlók, nézelődők) a boltot egy olyan oldalról megmutatni, amely azt a benyomást kelti náluk, hogy ez valóban egy jól működő, informatív, vevőközpontú vállalkozás. Az oldalra betérve gyorsan, egyszerűen tudnak tájékozódni, vásárolni, egymással véleményt megosztani.
-Fontosnak tartjuk az árukapcsolást, minél több terméket szeretnénk megjeleníteni a számukra, a vásárlói elégedettség, és a bevétel növekedése érdekében.
-Az oldal megtekinthető okostelefonról (Android,IOS rendszerek), tabletről, számítógépről (PC, laptop). Nem célunk külön alkalmazást fejleszteni okostelefonokra, weboldalt tervezünk, ami egyben webáruház is.
-Az adatokat egy SQL szerverről kapja meg, melyek a termékkel kapcsolatos információkat szolgáltatják, illetve a regisztrált felhasználókat tárolják.
-A vendégek számára - akik nem akarnak még regisztrálni, de szeretnének körülnézni – pedig szeretnénk változatossá tenni az oldalt, de a minimalizmus elvét követve, a könnyű átláthatóság érdekében.
+
 
 ## II. Projektterv
 
