@@ -10,8 +10,11 @@ A vendégek számára - akik nem akarnak még regisztrálni, de szeretnének kö
 
 • A rendszert, annak működését, és az általa nyújtott szolgáltatásokat a következőképpen képzeljük el:
 Első része a weboldal, amelyen a frontend rész található. Itt kerül megalkotásra rendszerünk azon része, amit a látogatók, vevők meglátnak, kommunikálnak vele, ezen keresztül küldenek visszajelzést. A weboldalon megtalálható lesz minden fontos információ, mind a vásárlók, mind a tulajdonos számára, ami segít navigálni és leegyszerűsíti a használatot. A weboldal segítségével a vásárlók tudnak böngészni a termékkínálatból és össze tudnak állítani egy csomagot is, mielőtt fizetnének. A termékről értékelést tudnak írni. A tulajdonos új terméket tud feltölteni, meglévőt módosítani/törölni. Külön menüpontban tud a karbantartó felé üzenetet, észrevételt küldeni a weboldallal kapcsolatban. A felhasználók tudnak majd regisztrálni is az oldalra, mely egy SQL szerverben lesz tárolva. A rendszer különböző oldalain szereplő logó saját tervezés, a modernizáció jegyében kerül megvalósításra és elhelyezve, erősítve az üzlet egyéniségét.
+
 • Az ehhez kapcsolódó, korábban taglalt aloldal szerepe, hogy az előzőleg megvásárolt termékekből készült kész munkákat a vásárlók megosszák egymással, ezzel is népszerűsítve az üzletet. Egymás munkáit értékelni is tudják, véleményt írni róla, vagy egyszerűen csak szavazni (tetszik-e a termék, vagy nem). Erre az aloldalra a főoldal egyik almenüjén keresztül lehet elnavigálni. Megvalósításra használt nyelvek: HTML, CSS.
+
 • A fő- és az aloldal is egy SQL szerverrel fog kommunikálni, ami a regisztrált vásárlókat és termékeket tárolja.
+
 • A rendszer backend része Python nyelven lesz megvalósítva.
 
 ## II. Projektterv
