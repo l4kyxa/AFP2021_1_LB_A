@@ -18,8 +18,22 @@ Első része a weboldal, amelyen a frontend rész található. Itt kerül megalk
 • A rendszer backend része Python nyelven lesz megvalósítva.
 
 ## II. Projektterv
-
-
+Projektszerepkörök, felelősségek:
+	-Scrum master: Csathó Zsolt: feladatai közé tartozik a kommunikáció a csapat tagjaival, akadályok feltárása, feladatok meghatározása
+	-Product owner:
+	-Megrendelő: Pál Gábor
+Projektmunkások és felelősségeik:
+	-Frontend: Zsák József
+	A felhasználók által elérhető felület kialakítása, amin keresztűl a backend által biztosított szolgáltatások igénybevételével elérhetőek a rendszerben a felhasználók rendelkezésére álló funkciók.
+	-Backend: -Pál Gábor
+			  -Suhajda László
+			  -Kovács Dávid
+			  Feladataik közé tartozik az SQL szerver létrehozása, funkciók létrehozása, frontend kiszolgálása adatokkal
+	Tesztelés:
+	-Pál Gábor
+	-Zsák József
+	-Kovács Dávid
+	-Suhajda László
 ## III. Ütemterv
 
 
