@@ -62,7 +62,13 @@ Az a személy (végfelhasználó, end-user) vagy szoftverágens, aki egy számí
 
 
 ## VIII. "Képernyő" tervek
-
+A képernyőtervet Axure szoftverrel készítettem el, amelynek eredménye a https://zxb0g0.axshare.com/#id=v3dnyn&p=f_oldal linken találhatü. A főoldal ügy van kialakítva, hogy a teljes weboldal tartalmának lényeges részei ki legyenek emelve. Tehát a főoldalon jelennek meg a legfontosabb információk, melynek
+legfontosabb része az oldal tetején megjelenő bal és jobboldali horizontális menü. A baloldali menü tartalmazza a termékeket kategorizálva. Mellette egy kreatív hobbi fül van, amelyen ötleteiket oszthatják meg a felhasználók, legyen szó varrásról, vagy bármilyen más kreatív illetve költséghatékony megoldásról.
+A rólunk fülre klikkelve a céggel kapcsolatos legfontosabb információk találhatók. A jobboldali menüben a keresés gombra kattintva egy leugró boxban terméket írhatunk be. A találatok a beírt szöveg alatt jelennek meg. A menü következő fülén hírlevélre iratkozahtunk fel. Mellette a termék gombra kattintva a kosárhoz juthatuk el, amelyben láthatók az abba helyezett termékek.
+Végül, de nem utolsó sorban a regisztráció/bejelentkezés gombra kattintva válthatunk felhasználó titulust. 
+Rövidre fogva a főoldalon a menü alatt egy üdvözlőszöveg fogadja a látogatót. Alatta az akciós ajánlatok tekinthetők meg, amely aktuális, heti és szezonális bontásban látható. Alatta a közelmúltban érkezett új termékek tekinthetők meg. Ez alatt a népszerű, gyarkran vásárolt termékek sora jelenik meg.
+A cég mintegy 50 éves múlttal büszkélkedik, így fontos száméra a cég történetének előtérbe helyezése. Ezen oknál fogva egy rövid cégtörténet kerül a főoldal alsó részére. A főoldal alján a legfontosabb információk érhetők el.
+ 
 
 ## IX. Funkció - követelmény megfeleltetés
-
+A képernyőtervben, honlaptervben minden, a követelményspecifikációban megfogalmazott vágyálom megmutatkozik. A vágyálom rendszerben megfogalmazott hat pont kiemelt fontosságú, és a honlapterv alapján egyértelműen azonosítható, látható.
