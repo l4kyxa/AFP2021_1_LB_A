@@ -20,14 +20,19 @@ Első része a weboldal, amelyen a frontend rész található. Itt kerül megalk
 ## II. Projektterv
 Projektszerepkörök, felelősségek:
 
-	-Scrum master: Csathó Zsolt: feladatai közé tartozik a kommunikáció a csapat tagjaival, akadályok feltárása, feladatok meghatározása
+	-Scrum master: Csathó Zsolt: 
+	
+	Feladatai közé tartozik a kommunikáció a csapat tagjaival, akadályok feltárása, feladatok meghatározása
+	
 	-Product owner:
 	-Megrendelő: Pál Gábor
 
 Projektmunkások és felelősségeik:
 
 	-Frontend: Zsák József
-	A felhasználók által elérhető felület kialakítása, amin keresztűl a backend által biztosított szolgáltatások igénybevételével elérhetőek a rendszerben a felhasználók rendelkezésére álló funkciók.
+	A felhasználók által elérhető felület kialakítása, amin keresztűl 
+	a backend által biztosított szolgáltatások igénybevételével elérhetőek 
+	a rendszerben a felhasználók rendelkezésére álló funkciók.
 	
 	-Backend: 
 		-Pál Gábor
