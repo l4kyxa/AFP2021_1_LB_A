@@ -54,6 +54,7 @@ Projektmunkások és felelősségeik:
 	- Suhajda László
 ## III. Ütemterv
 
+Funkció /storyFeladat/taskPrioritásBecslésAktuális BecslésEltelt időHátralévő idő
 
 ## IV. Mérföldkövek
 
