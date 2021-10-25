@@ -60,6 +60,20 @@ Az a személy (végfelhasználó, end-user) vagy szoftverágens, aki egy számí
 
 ## VII. Használati esetek - követelmény megfeleltetés
 
+* ADMIN
+	* Böngészés	-> Weboldal alap funkciója
+	* Rögzítés	-> K1-es funkció
+	* Módosítás	-> K2-es funkció
+	* Keresés	-> K3-as funkció
+	* Szűrés	-> K4-es funkció
+	* Ötlet		-> K6-os funkció
+
+* USER
+	* Böngészés	-> Weboldal alap funkciója
+	* Keresés	-> K3-as funkció
+	* Szűrés	-> K4-es funkció
+	* Rendelés	-> K5-ös funkció
+	* Ötlet		-> K6-os funkció
 
 ## VIII. "Képernyő" tervek
 A képernyőtervet Axure szoftverrel készítettem el, amelynek eredménye a https://zxb0g0.axshare.com/#id=v3dnyn&p=f_oldal linken találhatü. A főoldal ügy van kialakítva, hogy a teljes weboldal tartalmának lényeges részei ki legyenek emelve. Tehát a főoldalon jelennek meg a legfontosabb információk, melynek
