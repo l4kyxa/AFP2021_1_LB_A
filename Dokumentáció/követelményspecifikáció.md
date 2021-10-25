@@ -2,16 +2,17 @@
 
 ## I. Jelenlegi helyzet leírása
 
-Szerencsés helyzetben vagyok, hiszen két hónapja vehettem át a nagyszüleim által indított 
+* Szerencsés helyzetben vagyok, hiszen két hónapja vehettem át a nagyszüleim által indított 
 rövidáru és gomb kereskedést, melyről elmondhatom, hogy apáról-fiúra szállt, 
-tehát családi vállalkozás. Nagy lehetőség van benne, hiszen Budapesten közlekedési szempontból 
+tehát családi vállalkozás. 
+* Nagy lehetőség van benne, hiszen Budapesten közlekedési szempontból 
 is kiváló helyen fekszik. Az árukészlet adott volt, amikor átvettem a vállalkozást. 
-A jelenlegi árukészlet legfőbb termékei a gumi, cérna, tű, szalag, cipzár, cipőfűző, gomb, 
+* A jelenlegi árukészlet legfőbb termékei a gumi, cérna, tű, szalag, cipzár, cipőfűző, gomb, 
 melyet folyamatosan igyekszem bővíteni fajtája, mérete, színe alapján a vásárlók kérésének, 
 kívánságának megfelelően, illetve más üzletek termékeit figyelemmel kísérve. 
-Az üzlet népszerű, kedvelt elsősorban az idősebb korosztály körében, valamint a rövidáru 
+* Az üzlet népszerű, kedvelt elsősorban az idősebb korosztály körében, valamint a rövidáru 
 termékeket nagyobb mennyiségben vásárló varró, illetve hasonló szakmában dolgozók számára. 
-Jelenleg az üzletnek nincs saját weboldala.
+* Jelenleg az üzletnek nincs saját weboldala.
 
 ## II. Vágyálom rendszer leírása
 
