@@ -109,7 +109,45 @@
             </div>
         </div>
     </div>
-       
+        <!---->
+    <div id="box_2">
+        <div class="flex-container">
+
+            <div class="flex-item">
+
+                <div class="vertical-menu">
+                    <h3>Nyitvatartás</h3>
+                    <a>Hétfő-Péntek: 09:00-16:30</a>
+                    <a>Szombat: 09:00-12:00</a>
+                    <a>Vasárnap: Zárva</a>
+                </div>
+
+            </div>
+
+            <div class="flex-item">
+
+                <div class="vertical-menu">
+                    <h3>Működés</h3>
+                    <a href="download/akt.pdf" download rel="noopener noreferrer" target="_blank">Adatkezelési tájékoztató</a>
+                    <a href="download/imp.pdf" download rel="noopener noreferrer" target="_blank">Impresszum</a>
+                    <a href="download/aszf.pdf" download rel="noopener noreferrer" target="_blank">ÁSZF</a>
+                </div>
+
+            </div>
+
+            <div class="flex-item">
+
+                <div class="vertical-menu">
+                    <h3>Online vásárlás</h3>
+                    <a href="rovidaru.php">Termékek</a>
+                    <a href="bejelentkezes.php">Regisztráció</a>
+                    <a href="kapcsolat.php">Kapcsolat</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
 <!---->
 <div id="footer">
     <div id="box_1">
