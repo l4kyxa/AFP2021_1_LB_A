@@ -61,7 +61,7 @@
                 <span class="psw">elfelejtette <a href="#">jelszavát?</a></span>
             </div>
         </form>
-
+  </div>
 <!---->
 <div id="footer">
     <div id="box_1">
