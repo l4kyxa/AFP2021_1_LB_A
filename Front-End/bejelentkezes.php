@@ -32,6 +32,35 @@
 </div>
 
 <!---->
+<div id="content">
+    <!---->
+    <div id="box_2">
+        <form action="/action_page.php" method="post">
+            <h2>Bejelentkezés</h2>
+            <div class="imgcontainer">
+                <!--    <img src="images\avatar.png" alt="Avatar" class="avatar">  -->
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Felhasználói név</b></label>
+                <input type="text" placeholder="adja meg a felhasználói nevét" name="uname" required>
+
+                <label for="psw"><b>Jelszó</b></label>
+                <input type="password" placeholder="adja meg a jelszavát" name="psw" required>
+                <button type="submit" class="registerbtn">BEJELENTKEZÉS</button>
+                <label>
+                    <br>
+                    <br>
+                    <br>
+                    <input type="checkbox" checked="checked" name="remember"> emlékezz Rám
+                </label>
+            </div>
+            <br>
+            <div class="container">
+                <button onclick="document.location.href='kezdolap.php'" type="button" class="cancelbtn">mégsem</button>
+                <span class="psw">elfelejtette <a href="#">jelszavát?</a></span>
+            </div>
+        </form>
 
 <!---->
 <div id="footer">
