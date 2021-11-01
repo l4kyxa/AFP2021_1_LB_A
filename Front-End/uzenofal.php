@@ -34,7 +34,41 @@
 <!---->
 <div id="content">
     <!---->
+    <div id="box_2">
+        <h2>Üzenőfal</h2>
+        <div class="container">
+            <img src="/images/avatar3.png" alt="Avatar">
+            <p>A Rendelésem megérkezett, minden flottul zajlott. Pista Bácsi!</p>
+            <span class="time-right">11:00</span>
+        </div>
 
+        <div class="container darker">
+            <img src="/images/avatar2.png" alt="Avatar" class="right">
+            <p>DB_01_text</p>
+            <span class="time-left">DB_01_time</span>
+        </div>
+
+
+        <div class="container">
+            <img src="/images/avatar3.png" alt="Avatar">
+            <p>DB_02_text</p>
+            <span class="time-left">DB_02_time</span>
+        </div>
+
+
+        <div class="container darker">
+            <img src="/images/avatar2.png" alt="Avatar" class="right">
+            <p>DB_03_text</p>
+            <span class="time-left">DB_03_time</span>
+        </div>
+    </div>
+    <div id="box_1">
+        <hr>
+    </div>
+
+    <!---->
+
+</div>
 <!---->
 <div id="footer">
     <div id="box_1">
