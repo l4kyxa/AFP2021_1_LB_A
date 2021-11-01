@@ -34,7 +34,7 @@
 <!---->
 <div id="content">
     <!---->
-       <div id="box_2">
+    <div id="box_2">
         <h2>Kapcsolatfelvétel</h2>
         <div class="container">
             <form action="action_page.php">
