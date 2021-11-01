@@ -39,7 +39,7 @@
         <h2>Termékek/Akciós-Kifutó</h2>
     </div>
 
-        <div id="box_1">
+    <div id="box_1">
         <div class="btncontainer">
             <div class="btnvertical-center">
                 <form class="example" action="/action_page.php">
@@ -49,8 +49,7 @@
             </div>
         </div>
     </div>
-
- <!---->
+    <!---->
     <div id="box_2">
         <h2>AKCIÓS AJÁNLATAINK:</h2>
         <div class="flex-container">
@@ -124,9 +123,6 @@
         </div>
     </div>
 </div>
-
-
-
 <!---->
 <div id="footer">
     <div id="box_1">
