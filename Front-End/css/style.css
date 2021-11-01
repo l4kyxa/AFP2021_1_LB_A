@@ -750,4 +750,58 @@ form.example::after {
 }
 
 
+
 /**************************************************************/
+
+/* SIDENAV-FELSOROLÁS*/
+.sidenav {
+	margin: 10px;
+}
+
+.sidenav a, .sidenav .dropdown-btn {
+	padding: 10px;
+	margin: 0px 0px 20px 0px ;
+	text-decoration: none;
+	font-size: 15px;
+	/*font-size:2vw;*/
+	color: #030303;
+	display: block;
+	border: none;
+	background: none;
+	width:100%;
+	text-align: left;
+	cursor: pointer;
+	outline: none;
+}
+
+.sidenav a:hover, .sidenav .dropdown-btn:hover {
+	color: #f1f1f1;
+}
+
+.sidenav .main {
+	margin-left: 200px;
+	font-size: 20px;
+	padding: 0px 10px;
+}
+
+.sidenav .active {
+	background-color: rgba(3, 3, 3, 0.47);
+	color: white;
+}
+
+.sidenav .dropdown-container {
+	display: none;
+	padding-left: 8px;
+}
+
+.sidenav .fa-caret-down {
+	float: right;
+	padding-right: 8px;
+}
+
+/**************************************************************/
+
+div#myDIV
+{
+	display: none;
+}
