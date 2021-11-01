@@ -67,7 +67,24 @@
     </div>
 
     <!---->
+    <div id="box_2">
+        <h2>Üzenet</h2>
+        <div class="container">
+            <form action="action_page.php">
 
+                <label for="name"><b>Név</b></label>
+                <input type="text" placeholder="név" name="name" id="name" required>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="email cím" name="email" id="email" required>
+
+                <label for="subject">Üzenet</label>
+                <textarea id="subject" name="subject" placeholder="ide írhatja üzenetét" style="height:200px"></textarea>
+                <!-- <input type="submit" value="Submit">-->
+                <button type="submit" class="registerbtn">Küldés</button>
+            </form>
+        </div>
+    </div>
 </div>
 <!---->
 <div id="footer">
