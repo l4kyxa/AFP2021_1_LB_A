@@ -488,5 +488,33 @@ button#keres{
 /**************************************************************/
 
 
+/*VERTICALIS menü */
+.vertical-menu {
+	/*width: 100%;*/
+	min-width: 20%;
+	height: 100%;
+	/*overflow-y: auto;*/
+}
+.vertical-menu a {
+	background-color: rgba(238, 238, 238, 0);
+	color: black;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+.vertical-menu a:hover {
+	background-color: rgba(204, 204, 204, 0);
+	color: #fcfcfc;
+	text-shadow: 2px 2px 4px #000000;
+}
+.vertical-menu a.active {
+	background-color: #fcfcfc;
+	color: #030303;
+}
+
+
+
+/**************************************************************/
+
 
 
