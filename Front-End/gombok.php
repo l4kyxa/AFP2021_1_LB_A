@@ -36,7 +36,7 @@
         <h2>Termékek/Gomb</h2>
     </div>
     <!---->
- <div id="box_1">
+    <div id="box_1">
         <div class="btncontainer">
             <div class="btnvertical-center">
                 <form class="example" action="/action_page.php">
@@ -47,7 +47,7 @@
         </div>
     </div>
     <!---->
-  <div id="box_2">
+    <div id="box_2">
         <div class="col-container">
             <div class="col-30">
                 <div class="sidenav">
