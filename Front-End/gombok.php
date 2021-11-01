@@ -47,7 +47,51 @@
         </div>
     </div>
     <!---->
-  
+  <div id="box_2">
+        <div class="col-container">
+            <div class="col-30">
+                <div class="sidenav">
+                    <button class="dropdown-btn">Gombok<i class="fa fa-caret-down"></i></button>
+                    <div class="dropdown-container">
+                        <a href="#"> ➤ Egy lyukú</a>
+                        <a href="#"> ➤ Két lyukú</a>
+                        <a href="#"> ➤ Három lyukú</a>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="col-10"></div>
+            <!---->
+            <div class="col-70">
+                <div class="flex-container">
+                    <div class="flex-item">
+                        <div id="box">
+                            <img src="images\P_00.jpg" style="width:100%">
+                            <p>db_name_1</p>
+                            <p>db_price_1</p>
+                        </div>
+                    </div>
+
+                    <div class="flex-item">
+                        <div id="box">
+                            <img src="images\P_00.jpg" style="width:100%">
+                            <p>db_name_2</p>
+                            <p>db_price_2</p>
+                        </div>
+                    </div>
+
+                    <div class="flex-item">
+                        <div id="box">
+                            <img src="images\P_00.jpg" style="width:100%">
+                            <p>db_name_3</p>
+                            <p>db_price_3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!---->
 <div id="footer">
     <div id="box_1">
