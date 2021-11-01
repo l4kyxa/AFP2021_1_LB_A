@@ -149,6 +149,56 @@
 
             <div class="col-10">
             </div>
+
+            <div class="col-70">
+
+                <h3>Rövidáru</h3>
+                <p> A szó a német Kurzware tükörfordítása. Vélhetőleg a méteráru (a méterszámra árult szövetek és egyéb
+                    kelmék) ellenpárjaként alakult ki ez az elnevezés. A rövidáruk körébe a ruházati és lakástextil
+                    termékek gyártásában nélkülözhetetlen kiegészítő anyagokat sorolják, mind a nagyipari, mind a kézmű-
+                    vagy háziipari feldolgozáshoz.
+                    A rövidárukat két csoportra osztják:</p>
+
+                <h3> Puha rövidáruk:</h3>
+
+                <li> varrócérnák,</li>
+                <br>
+                <li>kézimunkafonalak (kézikötő-, horgoló- és hímzőfonalak, háziszőttesekhez készült fonalak),</li>
+                <br>
+                <li> különféle szalagok,</li>
+                <br>
+                <li> hevederek,</li>
+                <br>
+                <li> fonatolt és kötött zsinórok, cipőfűzők,</li>
+                <br>
+                <li>paszományok,</li>
+                <br>
+                <li> csipkék és hímzések,</li>
+                <br>
+                <li>díszítő kellékek (bojtok, díszzsinórok, rojtok, sujtások stb.),</li>
+                <br>
+                <li> vállpárnák,</li>
+                <br>
+                <li> ízlapok (a ruhák hónaljában az izzadság felfogására)</li>
+
+                <br>
+
+                <h3> Kemény rövidáruk: </h3>
+
+                <li> ruhazáró kellékek (gombok, cipzárak, tépőzárak, nyomókapcsok és egyéb kapcsok, csatok)</li>
+                <br>
+                <li>varrótűk, gombostűk, biztosítótűk, hímzőtűk, fűzőtűk,</li>
+                <br>
+                <li>gyűszűk,</li>
+                <br>
+                <li> (kézi)kötő- és horgolótűk,</li>
+                <br>
+                <li> stoppolófa</li>
+                <br>
+            </div>
+        </div>
+    </div>
+</div>
     
 <!---->
 <div id="footer">
