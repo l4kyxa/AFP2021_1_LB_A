@@ -39,7 +39,16 @@
         <h2>Termékek/Akciós-Kifutó</h2>
     </div>
 
-    
+        <div id="box_1">
+        <div class="btncontainer">
+            <div class="btnvertical-center">
+                <form class="example" action="/action_page.php">
+                    <input type="text" placeholder="keresés" name="search">
+                    <button id="keres" type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
 <!---->
 <div id="footer">
     <div id="box_1">
