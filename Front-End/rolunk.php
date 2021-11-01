@@ -43,6 +43,7 @@
                 <h3>BEMUTATKOZÁS</h3>
             </div>
         </div>
+
         <div class="content">
             <h3>Szerencsés helyzetben vagyok, hiszen két hónapja vehettem át a nagyszüleim által indított rövidáru
                 és gomb kereskedést, melyről elmondhatom, hogy apáról-fiúra szállt, tehát családi vállalkozás.
@@ -109,7 +110,7 @@
             </div>
         </div>
     </div>
-        <!---->
+    <!---->
     <div id="box_2">
         <div class="flex-container">
 
