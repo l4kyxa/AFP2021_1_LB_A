@@ -515,6 +515,8 @@ button#keres{
 
 
 /**************************************************************/
+
+
 /*regisztració*/
 * {box-sizing: border-box}
 
@@ -563,6 +565,10 @@ a {
 }
 
 /**************************************************************/
+
+
+
+
 
 /* login*/
 input[type=text], input[type=password] {
@@ -666,6 +672,44 @@ input[type=submit]:hover {
 }
 
 
+
+/* rendelés*/
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 300px;
+	margin: auto;
+	text-align: center;
+	font-family: arial;
+}
+
+.price {
+	color: grey;
+	font-size: 22px;
+}
+
+.card button {
+	border: none;
+	outline: 0;
+	padding: 12px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+}
+
+.card button:hover {
+	opacity: 0.7;
+}
+
+#more {display: none;}
+
+
+/**************************************************************/
+
+
 /* keresés*/
 form.example input[type=text] {
 	padding: 10px;
@@ -750,7 +794,6 @@ form.example::after {
 }
 
 
-
 /**************************************************************/
 
 /* SIDENAV-FELSOROLÁS*/
@@ -803,5 +846,22 @@ form.example::after {
 
 div#myDIV
 {
-	display: none;
+	/*display: none;*/
 }
+
+
+
+input[type=number] {
+	padding: 10px;
+	font-size: 17px;
+	width: 30%;
+	background: #f1f1f1;
+	box-shadow: 5px 10px 18px #030303;
+	border-radius: 15px;
+	margin: 5px;
+}
+
+
+
+
+
