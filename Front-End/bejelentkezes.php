@@ -21,12 +21,13 @@
             <div class="dropdown-content">
                 <a href="rovidaru.php"><i class="fa fa-fw fa-hand-o-right"></i> Rövidáru</a>
                 <a href="gombok.php"><i class="fa fa-fw fa-hand-o-right"></i> Gomb</a>
-                <a href="akciokkifutok.php"><i class="fa fa-fw fa-hand-o-right"></i> Akciós / kifutó termékek</a>
+                <a  href="akciokkifutok.php"><i class="fa fa-fw fa-hand-o-right"></i> Akciós / kifutó
+                    termékek</a>
             </div>
         </div>
         <a href="uzenofal.php"><i class="fa fa-fw fa-commenting-o"></i> ÜZENŐFAL</a>
         <a href="kapcsolat.php"><i class="fa fa-fw fa-vcard-o"></i> KAPCSOLAT</a>
-        <a class="active" href="bejelentkezes.php"><i class="fa fa-fw fa-sign-in"></i> BEJELENTKEZÉS</a>
+        <a href="bejelentkezes.php"><i class="fa fa-fw fa-sign-in"></i> BEJELENTKEZÉS</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
     </div>
 </div>
@@ -35,8 +36,15 @@
 <div id="content">
     <!---->
     <div id="box_2">
-        <form action="/action_page.php" method="post">
-            <h2>Bejelentkezés</h2>
+        <h2>Bejelentkezés</h2>
+    </div>
+    <div id="box_1">
+        <br>
+      <hr>
+    </div>
+
+    <div id="box_2">
+    <form action="/action_page.php" method="post">
             <div class="imgcontainer">
                 <!--    <img src="images\avatar.png" alt="Avatar" class="avatar">  -->
             </div>
@@ -61,34 +69,10 @@
                 <span class="psw">elfelejtette <a href="#">jelszavát?</a></span>
             </div>
         </form>
-
+      <a href="regisztracio.php">regisztráció</a>
+    </div>
     </div>
     <!-- -->
-    <div id="box_1">
-        <hr>
-    </div>
-    <!-- -->
-    <div id="box_2">
-        <a onclick="myFunction()"><h2>Regisztráció</h2></a>
-        <div id="myDIV">
-            <form action="action_page.php"
-            <div class="container">
-                <label for="name"><b>Név</b></label>
-                <input type="text" placeholder="felhasználói név" name="name" id="name" required>
-
-                <label for="email"><b>Email</b></label>
-                <input type="text" placeholder="email cím" name="email" id="email" required>
-
-                <label for="psw"><b>Jelszó</b></label>
-                <input type="password" placeholder="jelszó" name="psw" id="psw" required>
-
-                <label for="psw-repeat"><b>Jelszó</b></label>
-                <input type="password" placeholder="Jelszó még egyszer" name="psw-repeat" id="psw-repeat" required>
-                <button type="submit" class="registerbtn">REGISZTRÁCIÓ</button>
-            </div>
-            </form>
-        </div>
-    </div>
 </div>
 <!---->
 <div id="footer">
@@ -136,7 +120,6 @@
 <script src="script/regisztracio.js"></script>
 <script src="script/lapteteje.js"></script>
 <script src="script/menugomb.js"></script>
-<script src="script/reg.js"></script>
 
 </body>
 </html>
