@@ -34,8 +34,34 @@
 
 <!---->
 <div id="content">
-    <!---->
+<!-- -->
+<div id="box_2">
+   <h2>Regisztráció</h2>
+</div>
+    <div id="box_1">
+        <br>
+        <hr>
+    </div>
+    <div id="box_2">
+        <form action="action_page.php"
+        <div class="container">
+            <label for="name"><b>Név</b></label>
+            <input type="text" placeholder="felhasználói név" name="name" id="name" required>
 
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="email cím" name="email" id="email" required>
+
+            <label for="psw"><b>Jelszó</b></label>
+            <input type="password" placeholder="jelszó" name="psw" id="psw" required>
+
+            <label for="psw-repeat"><b>Jelszó</b></label>
+            <input type="password" placeholder="Jelszó még egyszer" name="psw-repeat" id="psw-repeat" required>
+            <button type="submit" class="registerbtn">REGISZTRÁCIÓ</button>
+        </div>
+        </form>
+    </div>
+</div>
+</div>
 <!---->
 <div id="footer">
     <div id="box_1">
@@ -82,7 +108,7 @@
 <script src="script/regisztracio.js"></script>
 <script src="script/lapteteje.js"></script>
 <script src="script/menugomb.js"></script>
-<script src="script/reg.js"></script>
+
 
 </body>
 </html>
