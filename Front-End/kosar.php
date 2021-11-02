@@ -44,7 +44,40 @@
         <hr>
     </div>
     <div id="box_2">
-        
+
+        <div class="flex-item">
+            <div class="card">
+                <img src="images\P_00.jpg" style="width:100%">
+                <h1>db_name_1</h1>
+                <p>db_price_1</p>
+                <p><button>töröl</button></p>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <div class="card">
+                <img src="images\P_00.jpg" style="width:100%">
+                <h1>db_name_1</h1>
+                <p>db_price_1</p>
+                <p><button>töröl</button></p>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <div class="card">
+                <img src="images\P_00.jpg" style="width:100%">
+                <h1>db_name_3</h1>
+                <p>db_price_3</p>
+                <p><button>töröl</button></p>
+            </div>
+        </div>
+
+        <div class="btncontainer">
+            <div class="btnvertical-center">
+                <button class="button" type="button" onclick="document.location.href='kosar.php'">Rendelés
+                </button>
+            </div>
+        </div>
     </div>
 </div>
 </div>
