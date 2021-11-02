@@ -64,28 +64,39 @@
             <div class="col-10"></div>
             <!---->
             <div class="col-70">
+                .
                 <div class="flex-container">
                     <div class="flex-item">
-                        <div id="box">
+                        <div class="card">
                             <img src="images\P_00.jpg" style="width:100%">
-                            <p>db_name_1</p>
+                            <h1>db_name_1</h1>
                             <p>db_price_1</p>
+                            <input type="number" value="1">
+                            <p><button>kosárba rak</button></p>
                         </div>
                     </div>
 
-                    <div class="flex-item">
-                        <div id="box">
-                            <img src="images\P_00.jpg" style="width:100%">
-                            <p>db_name_2</p>
-                            <p>db_price_2</p>
+                    <div class="flex-container">
+                        <div class="flex-item">
+                            <div class="card">
+                                <img src="images\P_00.jpg" style="width:100%">
+                                <h1>db_name_2</h1>
+                                <p>db_price_2</p>
+                                <input type="number" value="1">
+                                <p><button>kosárba rak</button></p>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="flex-item">
-                        <div id="box">
-                            <img src="images\P_00.jpg" style="width:100%">
-                            <p>db_name_3</p>
-                            <p>db_price_3</p>
+                        <div class="flex-container">
+                            <div class="flex-item">
+                                <div class="card">
+                                    <img src="images\P_00.jpg" style="width:100%">
+                                    <h1>db_name_3</h1>
+                                    <p>db_price_3</p>
+                                    <input type="number" value="1">
+                                    <p><button>kosárba rak</button></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
