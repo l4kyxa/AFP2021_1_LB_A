@@ -36,7 +36,7 @@
 <div id="content">
 <!-- -->
 <div id="box_2">
-   <h2>Rendelés</h2>
+   <h2>Kosár</h2>
 </div>
     <div id="box_1">
         <br>
