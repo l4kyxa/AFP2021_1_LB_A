@@ -56,33 +56,41 @@
         <div class="flex-container">
 
             <div class="flex-item">
-                <div id="box">
+                <div class="card">
                     <img src="images\P_00.jpg" style="width:100%">
                     <p>db_name_1</p>
                     <p>db_price_1</p>
+                    <input type="number" value="1">
+                    <p><button>kosárba rak</button></p>
                 </div>
             </div>
 
             <div class="flex-item">
-                <div id="box">
+                <div class="card">
                     <img src="images\P_00.jpg" style="width:100%">
                     <p>db_name_2</p>
                     <p>db_price_2</p>
+                    <input type="number" value="1">
+                    <p><button>kosárba rak</button></p>
                 </div>
             </div>
 
             <div class="flex-item">
-                <div id="box">
+                <div class="card">
                     <img src="images\P_00.jpg" style="width:100%">
                     <p>db_name_3</p>
                     <p>db_price_3</p>
+                    <input type="number" value="1">
+                    <p><button>kosárba rak</button></p>
                 </div>
             </div>
             <div class="flex-item">
-                <div id="box">
+                <div class="card">
                     <img src="images\P_00.jpg" style="width:100%">
                     <p>db_name_4</p>
                     <p>db_price_4</p>
+                    <input type="number" value="1">
+                    <p><button>kosárba rak</button></p>
                 </div>
             </div>
         </div>
@@ -92,33 +100,41 @@
         <div class="flex-container">
 
             <div class="flex-item">
-                <div id="box">
+                <div class="card">
                     <img src="images\P_00.jpg" style="width:100%">
                     <p>db_name_5</p>
                     <p>db_price_5</p>
+                    <input type="number" value="1">
+                    <p><button>kosárba rak</button></p>
                 </div>
             </div>
 
             <div class="flex-item">
-                <div id="box">
+                <div class="card">
                     <img src="images\P_00.jpg" style="width:100%">
                     <p>db_name_6</p>
                     <p>db_price_6</p>
+                    <input type="number" value="1">
+                    <p><button>kosárba rak</button></p>
                 </div>
             </div>
 
             <div class="flex-item">
-                <div id="box">
+                <div class="card">
                     <img src="images\P_00.jpg" style="width:100%">
                     <p>db_name_7</p>
                     <p>db_price_7</p>
+                    <input type="number" value="1">
+                    <p><button>kosárba rak</button></p>
                 </div>
             </div>
             <div class="flex-item">
-                <div id="box">
+                <div class="card">
                     <img src="images\P_00.jpg" style="width:100%">
                     <p>db_name_8</p>
                     <p>db_price_8</p>
+                    <input type="number" value="1">
+                    <p><button>kosárba rak</button></p>
                 </div>
             </div>
         </div>
