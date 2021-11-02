@@ -152,7 +152,7 @@
             </div>
 
             <div class="col-70">
-
+.
                 <div class="flex-container">
                     <div class="flex-item">
                         <div class="card">
