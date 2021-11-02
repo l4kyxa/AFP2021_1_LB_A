@@ -44,7 +44,11 @@
         <hr>
     </div>
     <div id="box_2">
-        
+        <h3>5 mp múlva átirányítjuk a kezdőlapra</h3>
+        <?php
+        header( 'Refresh: 5; URL=index.php');
+        ?>
+
     </div>
 </div>
 </div>
