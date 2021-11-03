@@ -44,7 +44,7 @@
     </div>
 
     <div id="box_2">
-    <form action="/action_page.php" method="post">
+    <form action="#" method="#">
             <div class="imgcontainer">
                 <!--    <img src="images\avatar.png" alt="Avatar" class="avatar">  -->
             </div>

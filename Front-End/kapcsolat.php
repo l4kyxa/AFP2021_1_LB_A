@@ -38,7 +38,7 @@
     <div id="box_2">
         <h2>Kapcsolatfelvétel</h2>
         <div class="container">
-            <form action="action_page.php">
+            <form action="#">
 
                 <label for="name"><b>Név</b></label>
                 <input type="text" placeholder="név" name="name" id="name" required>

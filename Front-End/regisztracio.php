@@ -43,7 +43,7 @@
         <hr>
     </div>
     <div id="box_2">
-        <form action="action_page.php"
+        <form action="#"
         <div class="container">
             <label for="name"><b>Név</b></label>
             <input type="text" placeholder="felhasználói név" name="name" id="name" required>
