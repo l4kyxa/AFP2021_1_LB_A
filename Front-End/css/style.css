@@ -236,6 +236,16 @@ div#box_1 h2, div#box_2 h2, div#box_3 h2{
 	font-size: 40px;
 	text-shadow: 15px 10px 5px #030303, 0 0 25px rgb(3, 3, 3), 0 0 10px rgb(3, 3, 3);
 }
+div#box_1 p, div#box_2 p, div#box_3 p{
+	/*text-align: center;*/
+	/*text-decoration: none;*/
+	/*font-size: 22px;*/
+	font-size:1vw;
+	padding: 10px;
+	color: #fcfcfc;
+	/*font-size: 40px;*/
+	/*text-shadow: 15px 10px 5px #030303, 0 0 25px rgb(3, 3, 3), 0 0 10px rgb(3, 3, 3);*/
+}
 
 /**************************************************************/
 
@@ -622,7 +632,6 @@ span.psw {
 
 hr {
 	border: 1px solid #030303;
-	margin-bottom: 25px;
 }
 
 @media screen and (max-width: 300px) {
