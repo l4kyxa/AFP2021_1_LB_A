@@ -209,39 +209,23 @@
 
                     <h3> Puha rövidáruk:</h3>
 
-                    <li> varrócérnák,</li>
+                <p>varrócérnák</p>
+                    <p>kézimunkafonalak (kézikötő-, horgoló- és hímzőfonalak, háziszőttesekhez készült fonalak),</p>
+                    <p> különféle szalagok,</p>
+                    <p> hevederek,</p>
+                    <p> fonatolt és kötött zsinórok, cipőfűzők,</p>
+                    <p>paszományok,</p>
+                    <p> csipkék és hímzések,</p>
+                    <p>díszítő kellékek (bojtok, díszzsinórok, rojtok, sujtások stb.),</p>
+                    <p> vállpárnák,</p>
+                    <p> ízlapok (a ruhák hónaljában az izzadság felfogására)</p>
                     <br>
-                    <li>kézimunkafonalak (kézikötő-, horgoló- és hímzőfonalak, háziszőttesekhez készült fonalak),</li>
-                    <br>
-                    <li> különféle szalagok,</li>
-                    <br>
-                    <li> hevederek,</li>
-                    <br>
-                    <li> fonatolt és kötött zsinórok, cipőfűzők,</li>
-                    <br>
-                    <li>paszományok,</li>
-                    <br>
-                    <li> csipkék és hímzések,</li>
-                    <br>
-                    <li>díszítő kellékek (bojtok, díszzsinórok, rojtok, sujtások stb.),</li>
-                    <br>
-                    <li> vállpárnák,</li>
-                    <br>
-                    <li> ízlapok (a ruhák hónaljában az izzadság felfogására)</li>
-
-                    <br>
-
                     <h3> Kemény rövidáruk: </h3>
-
-                    <li> ruhazáró kellékek (gombok, cipzárak, tépőzárak, nyomókapcsok és egyéb kapcsok, csatok)</li>
-                    <br>
-                    <li>varrótűk, gombostűk, biztosítótűk, hímzőtűk, fűzőtűk,</li>
-                    <br>
-                    <li>gyűszűk,</li>
-                    <br>
-                    <li> (kézi)kötő- és horgolótűk,</li>
-                    <br>
-                    <li> stoppolófa</li>
+                    <p> ruhazáró kellékek (gombok, cipzárak, tépőzárak, nyomókapcsok és egyéb kapcsok, csatok)</p>
+                    <p>varrótűk, gombostűk, biztosítótűk, hímzőtűk, fűzőtűk,</p>
+                    <p>gyűszűk,</p>
+                    <p> (kézi)kötő- és horgolótűk,</p>
+                    <p> stoppolófa</p>
                     <br>
             </div>
     </div>
