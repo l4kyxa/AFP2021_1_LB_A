@@ -54,7 +54,7 @@
 
         <form action="#"
         <div class="container">
-            <label for="name"><b>ID</b></label>
+            <label for="id"><b>ID</b></label>
             <input type="text" placeholder="ID" name="id" id="id" required>
 
             <label for="name"><b>Név</b></label>
@@ -63,8 +63,11 @@
             <label for="email"><b>Email</b></label>
             <input type="text" placeholder="email cím" name="email" id="email" required>
 
-            <label for="psw"><b>Jelszó</b></label>
-            <input type="password" placeholder="jelszó" name="psw" id="psw" required>
+            <label for="jelszo"><b>Jelszó</b></label>
+            <input type="password" placeholder="jelszó" name="jelszo" id="jelszo" required>
+
+            <label for="statusz"><b>Státusz</b></label>
+            <input type="text" placeholder="státusz" name="statusz" id="statusz" required>
 
             <button type="submit" class="button" type="button">Létrehoz</button>
             <button type="submit" class="button" type="button">Módosít</button>
@@ -88,20 +91,23 @@
 
         <form action="#"
         <div class="container">
-            <label for="name"><b>ID</b></label>
+            <label for="id"><b>ID</b></label>
             <input type="text" placeholder="ID" name="id" id="id" required>
 
-            <label for="name"><b>Terméknév</b></label>
+            <label for="termeknev"><b>Terméknév</b></label>
             <input type="text" placeholder="terméknév" name="termeknev" id="termeknev" required>
 
-            <label for="name"><b>Termékleírás</b></label>
+            <label for="termekleiras"><b>Termékleírás</b></label>
             <input type="text" placeholder="termékleírás" name="termekleíras" id="termekleiras" required>
 
             <label for="name"><b>Ár</b></label>
             <input type="text" placeholder="ár" name="ar" id="ar" required>
 
-            <label for="name"><b>Megjegyzés</b></label>
+            <label for="megjegyzes"><b>Megjegyzés</b></label>
             <input type="text" placeholder="megjegyzés" name="megjegyzes" id="megjegyzes" required>
+
+            <label for="kep"><b>Kép</b></label>
+            <input type="text" placeholder="kép" name="kep" id="kep" required>
 
             <button type="submit" class="button" type="button">Létrehoz</button>
             <button type="submit" class="button" type="button">Módosít</button>
@@ -109,8 +115,49 @@
             <button type="submit" class="button" type="button">Listáz</button>
         </div>
         </form>
-
     </div>
+
+
+
+    <div id="box_1">
+        <h2>Bejegyzés Kezelés</h2>
+    </div>
+    <div id="box_2">
+        <div class="btncontainer">
+            <div class="btnvertical-center">
+                <form class="example" action="#">
+                    <input type="text" placeholder="keresés" name="search">
+                    <button id="keres" type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <form action="#"
+        <div class="container">
+            <label for="id"><b>ID</b></label>
+            <input type="text" placeholder="ID" name="id" id="id" required>
+
+            <label for="name"><b>Név</b></label>
+            <input type="text" placeholder="felhasználói név" name="name" id="name" required>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="email cím" name="email" id="email" required>
+
+            <label for="uzenet"><b>Üzenet</b></label>
+            <input type="text" placeholder="üzenet" name="uzenet" id="uzenet" required>
+
+            <label for="datum"><b>Dátum</b></label>
+            <input type="text" placeholder="dátum" name="datum" id="datum" required>
+
+            <button type="submit" class="button" type="button">Létrehoz</button>
+            <button type="submit" class="button" type="button">Módosít</button>
+            <button type="submit" class="button" type="button">Töröl</button>
+            <button type="submit" class="button" type="button">Listáz</button>
+        </div>
+        </form>
+    </div>
+
+
 </div>
 <!---->
 <div id="footer">
