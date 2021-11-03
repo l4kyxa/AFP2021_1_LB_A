@@ -858,6 +858,7 @@ form.example::after {
 	text-align: left;
 	cursor: pointer;
 	outline: none;
+	border-radius: 15px;
 }
 
 .sidenav a:hover, .sidenav .dropdown-btn:hover {

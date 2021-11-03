@@ -52,7 +52,7 @@
         <div class="col-container">
             <div class="col-30">
                 <div class="sidenav">
-                    <button class="dropdown-btn">Szalagok<i class="fa fa-caret-down"></i></button>
+                    <button class="dropdown-btn">Szalagok <i class="fa fa-caret-down"></i></button>
                     <div class="dropdown-container">
                         <a href="#"> ➤ Szatén szalag</a>
                         <a href="#"> ➤ Ripsz szalag</a>
