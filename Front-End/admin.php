@@ -82,7 +82,7 @@
     <div id="box_2">
         <div class="btncontainer">
             <div class="btnvertical-center">
-                <form class="example" action="/action_page.php">
+                <form class="example" action="#">
                     <input type="text" placeholder="keresés" name="search">
                     <button id="keres" type="submit"><i class="fa fa-search"></i></button>
                 </form>
