@@ -40,9 +40,81 @@
    <h2>ADMIN</h2>
 </div>
     <div id="box_1">
-        <hr>
+        <h2>Felhasználó Kezelés</h2>
     </div>
-   
+    <div id="box_2">
+        <div class="btncontainer">
+            <div class="btnvertical-center">
+                <form class="example" action="/action_page.php">
+                    <input type="text" placeholder="keresés" name="search">
+                    <button id="keres" type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <form action="#"
+        <div class="container">
+            <label for="name"><b>ID</b></label>
+            <input type="text" placeholder="ID" name="id" id="id" required>
+
+            <label for="name"><b>Név</b></label>
+            <input type="text" placeholder="felhasználói név" name="name" id="name" required>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="email cím" name="email" id="email" required>
+
+            <label for="psw"><b>Jelszó</b></label>
+            <input type="password" placeholder="jelszó" name="psw" id="psw" required>
+
+            <button type="submit" class="button" type="button">Létrehoz</button>
+            <button type="submit" class="button" type="button">Módosít</button>
+            <button type="submit" class="button" type="button">Töröl</button>
+            <button type="submit" class="button" type="button">Listáz</button>
+        </div>
+        </form>
+
+
+    </div>
+    </div>
+<div id="box_1">
+    <h2>Termék Kezelés</h2>
+</div>
+    <div id="box_2">
+        <div class="btncontainer">
+            <div class="btnvertical-center">
+                <form class="example" action="/action_page.php">
+                    <input type="text" placeholder="keresés" name="search">
+                    <button id="keres" type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <form action="#"
+        <div class="container">
+            <label for="name"><b>ID</b></label>
+            <input type="text" placeholder="ID" name="id" id="id" required>
+
+            <label for="name"><b>Terméknév</b></label>
+            <input type="text" placeholder="terméknév" name="termeknev" id="termeknev" required>
+
+            <label for="name"><b>Termékleírás</b></label>
+            <input type="text" placeholder="termékleírás" name="termekleíras" id="termekleiras" required>
+
+            <label for="name"><b>Ár</b></label>
+            <input type="text" placeholder="ár" name="ar" id="ar" required>
+
+            <label for="name"><b>Megjegyzés</b></label>
+            <input type="text" placeholder="megjegyzés" name="megjegyzes" id="megjegyzes" required>
+
+            <button type="submit" class="button" type="button">Létrehoz</button>
+            <button type="submit" class="button" type="button">Módosít</button>
+            <button type="submit" class="button" type="button">Töröl</button>
+            <button type="submit" class="button" type="button">Listáz</button>
+        </div>
+        </form>
+
+    </div>
+</div>
 <!---->
 <div id="footer">
     <div id="box_1">
