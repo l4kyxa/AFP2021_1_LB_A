@@ -8,6 +8,7 @@
 <link href="css/style.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <body>
 
 <!---->
@@ -39,7 +40,7 @@
         </div>
     </div>
 </div>
-
+<!---->
 <div id="content">
     <div id="box_2">
         <h2>AKCIÓS AJÁNLATAINK:</h2>
@@ -290,6 +291,22 @@
     <i class="fa fa-arrow-up" aria-hidden="true"></i>
 </button>
 <!---->
+<div class="wrapper">
+    <img src="#" alt="">
+    <div class="content">
+                <header>FIGYELEM</header>
+        <hr>
+                <p>Tájékoztatjuk, hogy az oldal „cookie”-kat (sütiket) használ. Fontos azonban tudni,
+                    hogy ezek semmilyen adatot nem tárolnak illetve küldenek a látogatóról vagy böngészési szokásairól, csak is az oldal használatát segítik.
+                    Weboldalunk használatával beleegyezel a cookie-k használatába. Ha mégsem, akkor az internetböngésző beállításainak megváltoztatásával a sütik küldése letiltható!.</p>
+                <div class="buttons">
+                    <button class="item">Elfogad</button>
+                    <button onclick="document.location.href='https://www.google.com'"  class="i">Elutasít</button>
+                </div>
+    </div>
+</div>
+
+<script src="script/cook.js"></script>
 <script src="script/szalag.js"></script>
 <script src="script/lapteteje.js"></script>
 <script src="script/menugomb.js"></script>
