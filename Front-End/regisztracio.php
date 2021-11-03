@@ -45,17 +45,17 @@
     <div id="box_2">
         <form action="#"
         <div class="container">
-            <label for="name"><b>Név</b></label>
-            <input type="text" placeholder="felhasználói név" name="name" id="name" required>
+            <label for="felhasznaloinev"><b>Név</b></label>
+            <input type="text" placeholder="felhasználói név" name="felhasznaloinev" id="felhasznaloinev" required>
 
             <label for="email"><b>Email</b></label>
             <input type="text" placeholder="email cím" name="email" id="email" required>
 
-            <label for="psw"><b>Jelszó</b></label>
-            <input type="password" placeholder="jelszó" name="psw" id="psw" required>
+            <label for="jelszo"><b>Jelszó</b></label>
+            <input type="password" placeholder="jelszó" name="jelszo" id="jelszo" required>
 
-            <label for="psw-repeat"><b>Jelszó</b></label>
-            <input type="password" placeholder="Jelszó még egyszer" name="psw-repeat" id="psw-repeat" required>
+            <label for="jelszo_ujra"><b>Jelszó</b></label>
+            <input type="text" placeholder="Jelszó még egyszer" name="jelszo_ujra" id="jelszo_ujra" required>
             <button type="submit" class="registerbtn">REGISZTRÁCIÓ</button>
         </div>
         </form>

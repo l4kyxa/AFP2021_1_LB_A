@@ -40,14 +40,14 @@
         <div class="container">
             <form action="#">
 
-                <label for="name"><b>Név</b></label>
-                <input type="text" placeholder="név" name="name" id="name" required>
+                <label for="felhasznaloinev"><b>Név</b></label>
+                <input type="text" placeholder="név" name="felhasznaloinev" id="felhasznaloinev" required>
 
                 <label for="email"><b>Email</b></label>
                 <input type="text" placeholder="email cím" name="email" id="email" required>
 
-                <label for="subject">Üzenet</label>
-                <textarea id="subject" name="subject" placeholder="ide írhatja üzenetét"
+                <label for="uzenet">Üzenet</label>
+                <textarea id="uzenet" name="uzenet" placeholder="ide írhatja üzenetét"
                           style="height:200px"></textarea>
                 <!-- <input type="submit" value="Submit">-->
                 <button type="submit" class="registerbtn">Küldés</button>
