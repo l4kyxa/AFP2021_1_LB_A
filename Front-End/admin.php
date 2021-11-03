@@ -72,9 +72,6 @@
             <button type="submit" class="button" type="button">Listáz</button>
         </div>
         </form>
-
-
-    </div>
     </div>
 <div id="box_1">
     <h2>Termék Kezelés</h2>
