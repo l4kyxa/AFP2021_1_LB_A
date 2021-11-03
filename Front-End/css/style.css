@@ -230,7 +230,7 @@ div#box_1 h2, div#box_2 h2, div#box_3 h2{
 	text-align: center;
 	/*text-decoration: none;*/
 	/*font-size: 22px;*/
-	font-size:1vw;
+	font-size:3vw;
 	padding: 10px;
 	color: #fcfcfc;
 	font-size: 40px;
@@ -240,9 +240,11 @@ div#box_1 p, div#box_2 p, div#box_3 p{
 	/*text-align: center;*/
 	/*text-decoration: none;*/
 	/*font-size: 22px;*/
-	font-size:1vw;
+	font-size:3vw;
 	padding: 10px;
 	color: #fcfcfc;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	/*text-shadow: 5px 5px 5px #0e0e0e;*/
 	/*font-size: 40px;*/
 	/*text-shadow: 15px 10px 5px #030303, 0 0 25px rgb(3, 3, 3), 0 0 10px rgb(3, 3, 3);*/
 }
