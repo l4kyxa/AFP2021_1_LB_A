@@ -38,27 +38,26 @@
     <div id="box_2">
         <h2>Üzenőfal</h2>
         <div class="container">
-            <img src="/images/avatar3.png" alt="Avatar">
+            <img src="images/avatar3.png" alt="Avatar">
             <p>A Rendelésem megérkezett, minden flottul zajlott. Pista Bácsi!</p>
             <span class="time-right">11:00</span>
         </div>
 
         <div class="container darker">
-            <img src="/images/avatar2.png" alt="Avatar" class="right">
+            <img src="images/avatar2.png" alt="Avatar" class="right">
             <p>DB_01_text</p>
             <span class="time-left">DB_01_time</span>
         </div>
 
 
         <div class="container">
-            <img src="/images/avatar3.png" alt="Avatar">
+            <img src="images/avatar3.png" alt="Avatar">
             <p>DB_02_text</p>
-            <span class="time-left">DB_02_time</span>
+            <span class="time-right">DB_02_time</span>
         </div>
 
-
         <div class="container darker">
-            <img src="/images/avatar2.png" alt="Avatar" class="right">
+            <img src="images/avatar2.png" alt="Avatar" class="right">
             <p>DB_03_text</p>
             <span class="time-left">DB_03_time</span>
         </div>
@@ -82,6 +81,7 @@
                 <label for="subject">Üzenet</label>
                 <textarea id="subject" name="subject" placeholder="ide írhatja üzenetét" style="height:200px"></textarea>
                 <!-- <input type="submit" value="Submit">-->
+
                 <button type="submit" class="registerbtn">Küldés</button>
             </form>
         </div>

@@ -40,7 +40,6 @@
         <h2>Bejelentkezés</h2>
     </div>
     <div id="box_1">
-        <br>
       <hr>
     </div>
 

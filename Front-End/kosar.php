@@ -40,7 +40,6 @@
    <h2>Kosár</h2>
 </div>
     <div id="box_1">
-        <br>
         <hr>
     </div>
     <div id="box_2">
