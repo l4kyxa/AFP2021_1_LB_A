@@ -294,7 +294,7 @@
 <div class="wrapper">
     <img src="#" alt="">
     <div class="content">
-                <header>FIGYELEM</header>
+                <h1>FIGYELEM</h1>
         <hr>
                 <p>Tájékoztatjuk, hogy az oldal „cookie”-kat (sütiket) használ. Fontos azonban tudni,
                     hogy ezek semmilyen adatot nem tárolnak illetve küldenek a látogatóról vagy böngészési szokásairól, csak is az oldal használatát segítik.
