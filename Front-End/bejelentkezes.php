@@ -50,11 +50,11 @@
             </div>
 
             <div class="container">
-                <label for="uname"><b>Felhasználói név</b></label>
-                <input type="text" placeholder="adja meg a felhasználói nevét" name="uname" required>
+                <label for="felhasznaloinev"><b>Felhasználói név</b></label>
+                <input type="text" placeholder="adja meg a felhasználói nevét" name="felhasznaloinev" required>
 
-                <label for="psw"><b>Jelszó</b></label>
-                <input type="password" placeholder="adja meg a jelszavát" name="psw" required>
+                <label for="jelszo"><b>Jelszó</b></label>
+                <input type="password" placeholder="adja meg a jelszavát" name="jelszo" required>
                 <button type="submit" class="registerbtn">BEJELENTKEZÉS</button>
                 <label>
                     <br>
