@@ -55,21 +55,28 @@
 
                 <label for="jelszo"><b>Jelszó</b></label>
                 <input type="password" placeholder="adja meg a jelszavát" name="jelszo" required>
-                <button type="submit" class="registerbtn">BEJELENTKEZÉS</button>
+                <div class="btncontainer">
+                    <div class="btnvertical-center">
+                        <button type="submit" class="registerbtn">BEJELENTKEZÉS</button>
+                    </div>
+                </div>
+
                 <label>
                     <br>
-                    <br>
-                    <br>
+
                     <input type="checkbox" checked="checked" name="remember"> emlékezz Rám
                 </label>
             </div>
             <br>
             <div class="container">
-                <button onclick="document.location.href='kezdolap.php'" type="button" class="cancelbtn">mégsem</button>
-                <span class="psw">elfelejtette <a href="#">jelszavát?</a></span>
+                <div class="btncontainer">
+                    <div class="btnvertical-center">
+                <a href="regisztracio.php">regisztráció</a>
+                    </div>
+                </div>
             </div>
         </form>
-      <a href="regisztracio.php">regisztráció</a>
+
     </div>
     </div>
     <!-- -->

@@ -50,7 +50,11 @@
                 <textarea id="uzenet" name="uzenet" placeholder="ide írhatja üzenetét"
                           style="height:200px"></textarea>
                 <!-- <input type="submit" value="Submit">-->
+                <div class="btncontainer">
+                    <div class="btnvertical-center">
                 <button type="submit" class="registerbtn">Küldés</button>
+                    </div>
+                </div>
             </form>
         </div>
     </div>
