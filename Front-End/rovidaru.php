@@ -33,24 +33,25 @@
 </div>
 <!---->
 <div id="content">
+
     <div id="box_2">
         <h2>Termékek/Rövidáru</h2>
     </div>
-
+    <!---->
     <div id="box_1">
         <div class="btncontainer">
             <div class="btnvertical-center">
-                <form class="example" action="/action_page.php">
+                <form class="example" action="#">
                     <input type="text" placeholder="keresés" name="search">
                     <button id="keres" type="submit"><i class="fa fa-search"></i></button>
                 </form>
             </div>
         </div>
     </div>
-
+    <!---->
     <div id="box_2">
         <div class="col-container">
-            <div class="col-30">
+            <div class="col-25">
                 <div class="sidenav">
                     <button class="dropdown-btn">Szalagok <i class="fa fa-caret-down"></i></button>
                     <div class="dropdown-container">
@@ -144,15 +145,11 @@
                         <a href="#"> ➤ Varrógép tű</a>
                         <a href="#"> ➤ Varrógép orsó</a>
                     </div>
-
                 </div>
             </div>
-
-            <div class="col-10">
-            </div>
-
-            <div class="col-70">
-.
+            <!---->
+            <div class="col-75">
+                <h2>Termékek</h2>
                 <div class="flex-container">
                     <div class="flex-item">
                         <div class="card">
@@ -182,34 +179,29 @@
                             <p><button>kosárba rak</button></p>
                         </div>
                     </div>
-
-                    <div class="flex-item">
-                        <div class="card">
-                            <img src="images\P_00.jpg" style="width:100%">
-                            <h1>db_name_4</h1>
-                            <p>db_price_4</p>
-                            <input type="number" value="1">
-                            <p><button>kosárba rak</button></p>
-                        </div>
-                    </div>
+                </div>
+                <div class="pagination">
+                    <a href="#">&laquo;</a>
+                    <a href="#">1</a>
+                    <a class="active" href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">&raquo;</a>
                 </div>
             </div>
         </div>
-<br>
-<hr>
+        <!---->
+        <hr>
         <div class="flex-container">
-
             <div class="flex-item">
                     <h3>Rövidáru</h3>
                     <p> A szó a német Kurzware tükörfordítása. Vélhetőleg a méteráru (a méterszámra árult szövetek és egyéb
                         kelmék) ellenpárjaként alakult ki ez az elnevezés. A rövidáruk körébe a ruházati és lakástextil
                         termékek gyártásában nélkülözhetetlen kiegészítő anyagokat sorolják, mind a nagyipari, mind a kézmű-
                         vagy háziipari feldolgozáshoz.
-                        A rövidárukat két csoportra osztják:</p>
-
+                        A rövidárukat két csoportra osztják:
+                    </p>
                     <h3> Puha rövidáruk:</h3>
-
-                <p>varrócérnák</p>
+                    <p>varrócérnák</p>
                     <p>kézimunkafonalak (kézikötő-, horgoló- és hímzőfonalak, háziszőttesekhez készült fonalak),</p>
                     <p> különféle szalagok,</p>
                     <p> hevederek,</p>
@@ -228,6 +220,7 @@
                     <p> stoppolófa</p>
                     <br>
             </div>
+        </div>
     </div>
 </div>
 <!---->
