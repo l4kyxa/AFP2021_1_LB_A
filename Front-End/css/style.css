@@ -250,23 +250,22 @@ div#box_1 p, div#box_2 p, div#box_3 p{
 
 /**************************************************************/
 
-/*OLDALMENÜ*/
+/*CONT*/
 .col-container {
 	display: table;
 	width: 100%;
 }
 
-.col-25 {
+.col-1 {
 	display: table-cell;
-	padding: 10px;
+	padding: 16px;
 	width: 30%;
 	border-radius: 15px;
 
 }
-
-.col-75 {
+.col-2 {
 	display: table-cell;
-	padding: 10px;
+	padding: 16px;
 	width: 70%;
 	border-radius: 15px;
 }
@@ -598,21 +597,29 @@ button#keres{
 	color: #f1f1f1;
 }
 
+.sidenav .main {
+	margin-left: 200px;
+	font-size: 20px;
+	padding: 0px 10px;
+}
+
 .sidenav .active {
 	background-color: rgba(3, 3, 3, 0.47);
 	color: white;
 }
 
 
+
 .sidenav .dropdown-container {
 	display: none;
-	padding-left: 10px;
+	padding-left: 8px;
 }
 
 .sidenav .fa-caret-down {
 	float: right;
-	padding-right: 15px;
+	padding-right: 8px;
 }
+
 
 
 /**************************************************************/
