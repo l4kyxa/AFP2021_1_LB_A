@@ -49,7 +49,7 @@
                 <img src="images\P_00.jpg" style="width:100%">
                 <h1>db_name_1</h1>
                 <p>db_price_1</p>
-                <p><button>töröl</button></p>
+                <p><button onclick="button_click()">töröl</button></p>
             </div>
         </div>
 
@@ -58,7 +58,7 @@
                 <img src="images\P_00.jpg" style="width:100%">
                 <h1>db_name_1</h1>
                 <p>db_price_1</p>
-                <p><button>töröl</button></p>
+                <p><button onclick="button_click()">töröl</button></p>
             </div>
         </div>
 
@@ -67,13 +67,13 @@
                 <img src="images\P_00.jpg" style="width:100%">
                 <h1>db_name_3</h1>
                 <p>db_price_3</p>
-                <p><button>töröl</button></p>
+                <p><button onclick="button_click()">töröl</button></p>
             </div>
         </div>
 
         <div class="btncontainer">
             <div class="btnvertical-center">
-                <button class="button" type="button" onclick="document.location.href='kosar.php'">Rendelés
+                <button class="button" type="button" onclick="button_click()">Rendelés
                 </button>
             </div>
         </div>
@@ -122,6 +122,7 @@
 <script src="script/regisztracio.js"></script>
 <script src="script/lapteteje.js"></script>
 <script src="script/menugomb.js"></script>
+<script src="script/button_funk.js"></script>
 
 
 </body>

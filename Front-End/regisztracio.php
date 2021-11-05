@@ -58,7 +58,7 @@
             <input type="text" placeholder="Jelszó még egyszer" name="jelszo_ujra" id="jelszo_ujra" required>
             <div class="btncontainer">
                 <div class="btnvertical-center">
-            <button type="submit" class="registerbtn">KÜLDÉS</button>
+            <button type="submit" class="registerbtn" onclick="button_click()">KÜLDÉS</button>
                 </div>
             </div>
         </div>
@@ -109,6 +109,7 @@
 <script src="script/regisztracio.js"></script>
 <script src="script/lapteteje.js"></script>
 <script src="script/menugomb.js"></script>
+<script src="script/button_funk.js"></script>
 
 
 </body>

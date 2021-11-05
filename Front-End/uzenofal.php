@@ -83,7 +83,7 @@
                 <!-- <input type="submit" value="Submit">-->
                 <div class="btncontainer">
                     <div class="btnvertical-center">
-                <button type="submit" class="registerbtn">Küldés</button>
+                <button type="submit" class="registerbtn" onclick="button_click()">Küldés</button>
                     </div>
                 </div>
             </form>
@@ -129,5 +129,6 @@
 <!-- -->
 <script src="script/lapteteje.js"></script>
 <script src="script/menugomb.js"></script>
+<script src="script/button_funk.js"></script>
 </body>
 </html>

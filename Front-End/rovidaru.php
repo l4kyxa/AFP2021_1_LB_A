@@ -43,7 +43,7 @@
             <div class="btnvertical-center">
                 <form class="example" action="#">
                     <input type="text" placeholder="keresés" name="search">
-                    <button id="keres" type="submit"><i class="fa fa-search"></i></button>
+                    <button id="keres" type="submit"onclick="button_click()"><i class="fa fa-search"></i></button>
                 </form>
             </div>
         </div>
@@ -55,95 +55,95 @@
                 <div class="sidenav">
                     <button class="dropdown-btn">Szalagok <i class="fa fa-caret-down"></i></button>
                     <div class="dropdown-container">
-                        <a href="#"> ➤ Szatén szalag</a>
-                        <a href="#"> ➤ Ripsz szalag</a>
-                        <a href="#"> ➤ Nemzeti színű szalag</a>
-                        <a href="#"> ➤ Koptató szalag</a>
-                        <a href="#"> ➤ Függönybehúzó szalag</a>
-                        <a href="#"> ➤ Danubia szalag</a>
-                        <a href="#"> ➤ Heveder</a>
-                        <a href="#"> ➤ Köpper szalag</a>
-                        <a href="#"> ➤ Babpertli</a>
-                        <a href="#"> ➤ Vetex</a>
-                        <a href="#"> ➤ Mérőszalag</a>
-                        <a href="#"> ➤ Függönybehúzó szalag</a>
+                        <a href="#" onclick="button_click()"> ➤ Szatén szalag</a>
+                        <a href="#" onclick="button_click()"> ➤ Ripsz szalag</a>
+                        <a href="#" onclick="button_click()"> ➤ Nemzeti színű szalag</a>
+                        <a href="#" onclick="button_click()"> ➤ Koptató szalag</a>
+                        <a href="#" onclick="button_click()"> ➤ Függönybehúzó szalag</a>
+                        <a href="#" onclick="button_click()"> ➤ Danubia szalag</a>
+                        <a href="#" onclick="button_click()"> ➤ Heveder</a>
+                        <a href="#" onclick="button_click()"> ➤ Köpper szalag</a>
+                        <a href="#" onclick="button_click()"> ➤ Babpertli</a>
+                        <a href="#" onclick="button_click()"> ➤ Vetex</a>
+                        <a href="#" onclick="button_click()"> ➤ Mérőszalag</a>
+                        <a href="#" onclick="button_click()"> ➤ Függönybehúzó szalag</a>
                         <button class="dropdown-btn">Ferdepánt<i class="fa fa-caret-down"></i></button>
                         <div class="dropdown-container">
-                            <a href="#"> ➤ Pamut ferdepánt</a>
-                            <a href="#"> ➤ Szatén ferdepánt</a>
+                            <a href="#" onclick="button_click()"> ➤ Pamut ferdepánt</a>
+                            <a href="#" onclick="button_click()"> ➤ Szatén ferdepánt</a>
                         </div>
                     </div>
 
                     <button class="dropdown-btn">Gumiszalag<i class="fa fa-caret-down"></i></button>
                     <div class="dropdown-container">
-                        <a href="#"> ➤ Csőgumi</a>
-                        <a href="#"> ➤ Szövött gumi</a>
-                        <a href="#"> ➤ Kötött gumi</a>
-                        <a href="#"> ➤ Gomblyukas gumi</a>
-                        <a href="#"> ➤ Ált. célú - szájmaszkhoz</a>
+                        <a href="#" onclick="button_click()"> ➤ Csőgumi</a>
+                        <a href="#" onclick="button_click()"> ➤ Szövött gumi</a>
+                        <a href="#" onclick="button_click()"> ➤ Kötött gumi</a>
+                        <a href="#" onclick="button_click()"> ➤ Gomblyukas gumi</a>
+                        <a href="#" onclick="button_click()"> ➤ Ált. célú - szájmaszkhoz</a>
                     </div>
 
                     <button class="dropdown-btn">Zsinór<i class="fa fa-caret-down"></i></button>
                     <div class="dropdown-container">
-                        <a href="#"> ➤ reluxa zsinór</a>
-                        <a href="#"> ➤ Műszálas zsinór</a>
+                        <a href="#" onclick="button_click()"> ➤ reluxa zsinór</a>
+                        <a href="#" onclick="button_click()"> ➤ Műszálas zsinór</a>
                     </div>
 
                     <button class="dropdown-btn">Cérna<i class="fa fa-caret-down"></i></button>
                     <div class="dropdown-container">
-                        <a href="#"> ➤ Ált. varrócérna Moon- 120</a>
-                        <a href="#"> ➤ DOR-TAK, sárga orsós 80</a>
-                        <a href="#"> ➤ Gépselyem cérna</a>
+                        <a href="#" onclick="button_click()"> ➤ Ált. varrócérna Moon- 120</a>
+                        <a href="#" onclick="button_click()"> ➤ DOR-TAK, sárga orsós 80</a>
+                        <a href="#" onclick="button_click()"> ➤ Gépselyem cérna</a>
                         <button class="dropdown-btn">Bőrvarró cérna<i class="fa fa-caret-down"></i></button>
                         <div class="dropdown-container">
-                            <a href="#"> ➤ TYTAN 60, 120 m</a>
+                            <a href="#" onclick="button_click()"> ➤ TYTAN 60, 120 m</a>
                         </div>
                     </div>
 
                     <button class="dropdown-btn">Hímzőfonal<i class="fa fa-caret-down"></i></button>
                     <div class="dropdown-container">
-                        <a href="#"> ➤ Puppets perlé pamut</a>
-                        <a href="#"> ➤ Puppets mouliné osztott</a>
+                        <a href="#" onclick="button_click()"> ➤ Puppets perlé pamut</a>
+                        <a href="#" onclick="button_click()"> ➤ Puppets mouliné osztott</a>
                     </div>
 
                     <button class="dropdown-btn">Varrótű<i class="fa fa-caret-down"></i></button>
                     <div class="dropdown-container">
-                        <a href="#"> ➤ Horgolótű</a>
-                        <a href="#"> ➤ Kötőtű</a>
-                        <a href="#"> ➤ Kárpitostű</a>
-                        <a href="#"> ➤ Zsákvarrótű</a>
-                        <a href="#"> ➤ Bőrvarrótű</a>
+                        <a href="#" onclick="button_click()"> ➤ Horgolótű</a>
+                        <a href="#" onclick="button_click()"> ➤ Kötőtű</a>
+                        <a href="#" onclick="button_click()"> ➤ Kárpitostű</a>
+                        <a href="#" onclick="button_click()"> ➤ Zsákvarrótű</a>
+                        <a href="#" onclick="button_click()"> ➤ Bőrvarrótű</a>
                     </div>
 
                     <button class="dropdown-btn">Gombostű</button>
 
                     <button class="dropdown-btn">Tűbehúzó<i class="fa fa-caret-down"></i></button>
                     <div class="dropdown-container">
-                        <a href="#"> ➤ Fém tűbehúzó</a>
-                        <a href="#"> ➤ Műanyag tűbehúzó</a>
+                        <a href="#" onclick="button_click()"> ➤ Fém tűbehúzó</a>
+                        <a href="#" onclick="button_click()"> ➤ Műanyag tűbehúzó</a>
                     </div>
 
                     <button class="dropdown-btn">Ruházati kiegészítők<i class="fa fa-caret-down"></i></button>
                     <div class="dropdown-container">
                         <button class="dropdown-btn"> ➤ Csatok<i class="fa fa-caret-down"></i></button>
                         <div class="dropdown-container">
-                            <a href="#"> ➤ Övcsat</a>
-                            <a href="#"> ➤ Táska csat</a>
+                            <a href="#" onclick="button_click()"> ➤ Övcsat</a>
+                            <a href="#" onclick="button_click()"> ➤ Táska csat</a>
                         </div>
-                        <a href="#"> ➤ Biztosítótű</a>
-                        <a href="#"> ➤ Párizsi kapocs</a>
-                        <a href="#"> ➤ Cipzár</a>
-                        <a href="#"> ➤ Cipőfűzők</a>
-                        <a href="#"> ➤ Tépőzár</a>
-                        <a href="#"> ➤ Nadrágtartó kiegészííők</a>
-                        <a href="#"> ➤ Folt cimkék</a>
-                        <a href="#"> ➤ Ovis jelek</a>
+                        <a href="#" onclick="button_click()"> ➤ Biztosítótű</a>
+                        <a href="#" onclick="button_click()"> ➤ Párizsi kapocs</a>
+                        <a href="#" onclick="button_click()"> ➤ Cipzár</a>
+                        <a href="#" onclick="button_click()"> ➤ Cipőfűzők</a>
+                        <a href="#" onclick="button_click()"> ➤ Tépőzár</a>
+                        <a href="#" onclick="button_click()"> ➤ Nadrágtartó kiegészííők</a>
+                        <a href="#" onclick="button_click()"> ➤ Folt cimkék</a>
+                        <a href="#" onclick="button_click()"> ➤ Ovis jelek</a>
                     </div>
 
                     <button class="dropdown-btn">Varrógép kiegészítők<i class="fa fa-caret-down"></i></button>
                     <div class="dropdown-container">
-                        <a href="#"> ➤ Varrógép tű</a>
-                        <a href="#"> ➤ Varrógép orsó</a>
+                        <a href="#" onclick="button_click()"> ➤ Varrógép tű</a>
+                        <a href="#" onclick="button_click()"> ➤ Varrógép orsó</a>
                     </div>
                 </div>
             </div>
@@ -156,7 +156,7 @@
                             <h1>db_name_1</h1>
                             <p>db_price_1</p>
                             <input type="number" value="1">
-                            <p><button>kosárba rak</button></p>
+                            <p><button onclick="button_click()">kosárba rak</button></p>
                         </div>
                     </div>
                     <div class="flex-item">
@@ -165,7 +165,7 @@
                             <h1>db_name_2</h1>
                             <p>db_price_2</p>
                             <input type="number" value="1">
-                            <p><button>kosárba rak</button></p>
+                            <p><button onclick="button_click()">kosárba rak</button></p>
                         </div>
                     </div>
 
@@ -175,16 +175,16 @@
                             <h1>db_name_3</h1>
                             <p>db_price_3</p>
                             <input type="number" value="1">
-                            <p><button>kosárba rak</button></p>
+                            <p><button onclick="button_click()">kosárba rak</button></p>
                         </div>
                     </div>
                 </div>
                 <div class="pagination">
-                    <a href="#">&laquo;</a>
-                    <a href="#">1</a>
-                    <a class="active" href="#">2</a>
-                    <a href="#">3</a>
-                    <a href="#">&raquo;</a>
+                    <a href="#" onclick="button_click()">&laquo;</a>
+                    <a href="#" onclick="button_click()">1</a>
+                    <a class="active" href="#" onclick="button_click()">2</a>
+                    <a href="#" onclick="button_click()">3</a>
+                    <a href="#" onclick="button_click()">&raquo;</a>
                 </div>
             </div>
         </div>
@@ -262,5 +262,6 @@
 <script src="script/lapteteje.js"></script>
 <script src="script/menugomb.js"></script>
 <script src="script/menu.js"></script>
+<script src="script/button_funk.js"></script>
 </body>
 </html>

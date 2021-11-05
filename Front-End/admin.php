@@ -47,7 +47,7 @@
             <div class="btnvertical-center">
                 <form class="example" action="#">
                     <input type="text" placeholder="keresés" name="search">
-                    <button id="keres" type="submit" onclick="myFunction()"><i class="fa fa-search"></i></button>
+                    <button id="keres" type="submit" onclick="button_click()"><i class="fa fa-search"></i></button>
                 </form>
             </div>
         </div>
@@ -69,10 +69,10 @@
             <label for="statusz"><b>Státusz</b></label>
             <input type="text" placeholder="státusz" name="statusz" id="statusz" required>
 
-            <button type="submit" class="button" type="button" onclick="myFunction()">Létrehoz</button>
-            <button type="submit" class="button" type="button" onclick="myFunction()">Módosít</button>
-            <button type="submit" class="button" type="button" onclick="myFunction()">Töröl</button>
-            <button type="submit" class="button" type="button" onclick="myFunction()">Listáz</button>
+            <button type="submit" class="button" type="button" onclick="button_click()">Létrehoz</button>
+            <button type="submit" class="button" type="button" onclick="button_click()">Módosít</button>
+            <button type="submit" class="button" type="button" onclick="button_click()">Töröl</button>
+            <button type="submit" class="button" type="button" onclick="button_click()">Listáz</button>
         </div>
         </form>
     </div>
@@ -84,7 +84,7 @@
             <div class="btnvertical-center">
                 <form class="example" action="#">
                     <input type="text" placeholder="keresés" name="search">
-                    <button id="keres" type="submit"><i class="fa fa-search" onclick="myFunction()"></i></button>
+                    <button id="keres" type="submit"><i class="fa fa-search" onclick="button_click()"></i></button>
                 </form>
             </div>
         </div>
@@ -112,10 +112,10 @@
             <label for="kep"><b>Kép</b></label>
             <input type="text" placeholder="kép" name="kep" id="kep" required>
 
-            <button type="submit" class="button" type="button" onclick="myFunction()">Létrehoz</button>
-            <button type="submit" class="button" type="button" onclick="myFunction()">Módosít</button>
-            <button type="submit" class="button" type="button" onclick="myFunction()">Töröl</button>
-            <button type="submit" class="button" type="button" onclick="myFunction()">Listáz</button>
+            <button type="submit" class="button" type="button" onclick="button_click()">Létrehoz</button>
+            <button type="submit" class="button" type="button" onclick="button_click()">Módosít</button>
+            <button type="submit" class="button" type="button" onclick="button_click()">Töröl</button>
+            <button type="submit" class="button" type="button" onclick="button_click()">Listáz</button>
         </div>
         </form>
     </div>
@@ -130,7 +130,7 @@
             <div class="btnvertical-center">
                 <form class="example" action="#">
                     <input type="text" placeholder="keresés" name="search">
-                    <button id="keres" type="submit"><i class="fa fa-search" onclick="myFunction()"></i></button>
+                    <button id="keres" type="submit"><i class="fa fa-search" onclick="button_click()"></i></button>
                 </form>
             </div>
         </div>
@@ -152,10 +152,10 @@
             <label for="datum"><b>Dátum</b></label>
             <input type="text" placeholder="dátum" name="datum" id="datum" required>
 
-            <button type="submit" class="button" type="button" onclick="myFunction()">Létrehoz</button>
-            <button type="submit" class="button" type="button" onclick="myFunction()">Módosít</button>
-            <button type="submit" class="button" type="button" onclick="myFunction()">Töröl</button>
-            <button type="submit" class="button" type="button" onclick="myFunction()">Listáz</button>
+            <button type="submit" class="button" type="button" onclick="button_click()">Létrehoz</button>
+            <button type="submit" class="button" type="button" onclick="button_click()">Módosít</button>
+            <button type="submit" class="button" type="button" onclick="button_click()">Töröl</button>
+            <button type="submit" class="button" type="button" onclick="button_click()">Listáz</button>
         </div>
         </form>
     </div>

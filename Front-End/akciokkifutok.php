@@ -45,7 +45,7 @@
             <div class="btnvertical-center">
                 <form class="example" action="#">
                     <input type="text" placeholder="keresés" name="search">
-                    <button id="keres" type="submit"><i class="fa fa-search" onclick="myFunction()"></i></button>
+                    <button id="keres" type="submit"><i class="fa fa-search" onclick="button_click()"></i></button>
                 </form>
             </div>
         </div>
@@ -61,7 +61,7 @@
                     <p>db_name_1</p>
                     <p>db_price_1</p>
                     <input type="number" value="1">
-                    <p><button onclick="myFunction()">kosárba rak</button></p>
+                    <p><button onclick="button_click()">kosárba rak</button></p>
                 </div>
             </div>
 
@@ -71,7 +71,7 @@
                     <p>db_name_2</p>
                     <p>db_price_2</p>
                     <input type="number" value="1">
-                    <p><button onclick="myFunction()">kosárba rak</button></p>
+                    <p><button onclick="button_click()">kosárba rak</button></p>
                 </div>
             </div>
 
@@ -81,7 +81,7 @@
                     <p>db_name_3</p>
                     <p>db_price_3</p>
                     <input type="number" value="1">
-                    <p><button onclick="myFunction()">kosárba rak</button></p>
+                    <p><button onclick="button_click()">kosárba rak</button></p>
                 </div>
             </div>
         </div>
@@ -96,7 +96,7 @@
                     <p>db_name_5</p>
                     <p>db_price_5</p>
                     <input type="number" value="1">
-                    <p><button onclick="myFunction()">kosárba rak</button></p>
+                    <p><button onclick="button_click()">kosárba rak</button></p>
                 </div>
             </div>
 
@@ -106,7 +106,7 @@
                     <p>db_name_6</p>
                     <p>db_price_6</p>
                     <input type="number" value="1">
-                    <p><button onclick="myFunction()">kosárba rak</button></p>
+                    <p><button onclick="button_click()">kosárba rak</button></p>
                 </div>
             </div>
 
@@ -116,7 +116,7 @@
                     <p>db_name_7</p>
                     <p>db_price_7</p>
                     <input type="number" value="1">
-                    <p><button onclick="myFunction()">kosárba rak</button></p>
+                    <p><button onclick="button_click()">kosárba rak</button></p>
                 </div>
             </div>
         </div>
