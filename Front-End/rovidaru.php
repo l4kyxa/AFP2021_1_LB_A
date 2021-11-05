@@ -263,7 +263,5 @@
 <script src="script/lapteteje.js"></script>
 <script src="script/menugomb.js"></script>
 <script src="script/menu.js"></script>
-<script src="script/acc.js"></script>
-
 </body>
 </html>

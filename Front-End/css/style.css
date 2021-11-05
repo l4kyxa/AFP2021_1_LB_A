@@ -1,6 +1,5 @@
 body, html {
 	/*height: 100%;*/
-	font-family: "Inconsolata", sans-serif;
 	background-image:url('../images/img00.jpg');
 	padding: 0px;
 	margin: 0px;
@@ -260,11 +259,13 @@ border-color: #fcfcfc;
 .col-container {
 	display: table;
 	width: 100%;
+	margin: 0px;
+	padding: 10px;
 }
 
 .col-1 {
 	display: table-cell;
-	padding: 16px;
+	padding: 10px;
 	width: 30%;
 	border-radius: 0px;
 	border-right: 1px solid #fcfcfc;
@@ -272,8 +273,8 @@ border-color: #fcfcfc;
 }
 .col-2 {
 	display: table-cell;
-	padding: 16px;
-	width: 70%;
+	padding: 0px;
+	width: 60%;
 	border-radius: 15px;
 }
 
