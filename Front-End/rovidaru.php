@@ -49,6 +49,7 @@
         </div>
     </div>
     <!---->
+
     <div id="box_2">
         <div class="flex-container">
             <div class="flex-item-1">
@@ -178,13 +179,6 @@
                             <p><button onclick="button_click()">kosárba rak</button></p>
                         </div>
                     </div>
-                </div>
-                <div class="pagination">
-                    <a href="#" onclick="button_click()">&laquo;</a>
-                    <a href="#" onclick="button_click()">1</a>
-                    <a class="active" href="#" onclick="button_click()">2</a>
-                    <a href="#" onclick="button_click()">3</a>
-                    <a href="#" onclick="button_click()">&raquo;</a>
                 </div>
             </div>
         </div>

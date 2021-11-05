@@ -53,27 +53,22 @@
                 <div class="flex-container">
 
                     <div class="flex-item">
-                        <div id="box">
                             <img src="images\P_00.jpg" style="width:100%">
-                            <p>db_name_1</p>
+                            <h1>db_name_1</h1>
                             <p>db_price_1</p>
-                        </div>
                     </div>
 
                     <div class="flex-item">
-                        <div id="box">
                             <img src="images\P_00.jpg" style="width:100%">
-                            <p>db_name_2</p>
+                            <h1>db_name_2</h1>
                             <p>db_price_2</p>
-                        </div>
+
                     </div>
 
                     <div class="flex-item">
-                        <div id="box">
                             <img src="images\P_00.jpg" style="width:100%">
-                            <p>db_name_3</p>
+                            <h1>db_name_3</h1>
                             <p>db_price_3</p>
-                        </div>
                     </div>
                 </div>
 
@@ -87,28 +82,22 @@
                 <div class="flex-container">
 
                     <div class="flex-item">
-                        <div id="box">
                             <img src="images\P_00.jpg" style="width:100%">
-                            <p>db_name_1</p>
+                            <h1>db_name_1</h1>
                             <p>db_price<_1</p>
-                        </div>
                     </div>
 
                     <div class="flex-item">
-                        <div id="box">
                             <img src="images\P_00.jpg" style="width:100%">
-                            <p>db_name_2</p>
+                            <h1>db_name_2</h1>
                             <p>db_price_2</p>
-                        </div>
                     </div>
 
 
                     <div class="flex-item">
-                        <div id="box">
                             <img src="images\P_00.jpg" style="width:100%">
-                            <p>db_name_3</p>
+                            <h1>db_name_3</h1>
                             <p>db_price_3</p>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -121,28 +110,22 @@
                 <div class="flex-container">
 
                     <div class="flex-item">
-                        <div id="box">
                             <img src="images\P_00.jpg" style="width:100%">
-                            <p>db_name_1</p>
+                            <h1>db_name_1</h1>
                             <p>db_price_1</p>
-                        </div>
                     </div>
 
                     <div class="flex-item">
-                        <div id="box">
                             <img src="images\P_00.jpg" style="width:100%">
-                            <p>db_name_2</p>
+                            <h1>db_name_2</h1>
                             <p>db_price_2</p>
-                        </div>
                     </div>
 
 
                     <div class="flex-item">
-                        <div id="box">
                             <img src="images\P_00.jpg" style="width:100%">
-                            <p>db_name_3</p>
+                            <h1>db_name_3</h1>
                             <p>db_price_3</p>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -177,19 +160,19 @@
 
             <div class="flex-item">
                     <img src="images\P_00.jpg" style="width:100%">
-                    <p>db_name_1</p>
+                    <h1>db_name_1</h1>
                     <p>db_price_1</p>
             </div>
 
             <div class="flex-item">
                     <img src="images\P_00.jpg" style="width:100%">
-                    <p>db_name_2</p>
+                    <h1>db_name_2</h1>
                     <p>db_price_2</p>
             </div>
 
             <div class="flex-item">
                     <img src="images\P_00.jpg" style="width:100%">
-                    <p>db_name_3</p>
+                    <h1>db_name_3</h1>
                     <p>db_price_3</p>
             </div>
         </div>
@@ -210,19 +193,19 @@
 
             <div class="flex-item">
                     <img src="images\P_00.jpg" style="width:100%">
-                    <p>db_name_1</p>
+                    <h1>db_name_1</h1>
                     <p>db_price_1</p>
             </div>
 
             <div class="flex-item">
                     <img src="images\P_00.jpg" style="width:100%">
-                    <p>db_name_2</p>
+                    <h1>db_name_2</h1>
                     <p>db_price_2</p>
             </div>
 
             <div class="flex-item">
                     <img src="images\P_00.jpg" style="width:100%">
-                    <p>db_name_3</p>
+                    <h1>db_name_3</h1>
                     <p>db_price_3</p>
             </div>
         </div>

@@ -64,7 +64,6 @@
 
             <div class="flex-item-2">
                     <div class="flex-container">
-
                         <div class="flex-item">
                             <div class="card">
                                 <img src="images\P_00.jpg" style="width:100%">
@@ -96,14 +95,17 @@
                             </div>
                         </div>
 
-                    </div>
-                            <div class="pagination">
-                                <a href="#"onclick="button_click()">&laquo;</a>
-                                <a href="#"onclick="button_click()">1</a>
-                                <a class="active" href="#"onclick="button_click()">2</a>
-                                <a href="#"onclick="button_click()">3</a>
-                                <a href="#"onclick="button_click()">&raquo;</a>
+
+                        <div class="flex-item">
+                            <div class="card">
+                                <img src="images\P_00.jpg" style="width:100%">
+                                <h1>db_name_1</h1>
+                                <p>db_price_1</p>
+                                <input type="number" value="1">
+                                <p><button onclick="button_click()">kosárba rak</button></p>
                             </div>
+                        </div>
+                    </div>
             </div>
         </div>
     </div>
