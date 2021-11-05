@@ -57,7 +57,7 @@
                 <input type="password" placeholder="adja meg a jelszavát" name="jelszo" required>
                 <div class="btncontainer">
                     <div class="btnvertical-center">
-                        <button type="submit" class="registerbtn">BELÉP</button>
+                        <button type="submit" class="registerbtn" onclick="myFunction()">BELÉP</button>
                     </div>
                 </div>
 
@@ -124,6 +124,7 @@
 <script src="script/regisztracio.js"></script>
 <script src="script/lapteteje.js"></script>
 <script src="script/menugomb.js"></script>
+<script src="script/button_funk.js"></script>
 
 </body>
 </html>

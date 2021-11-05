@@ -42,72 +42,11 @@
             <div class="btnvertical-center">
                 <form class="example" action="#">
                     <input type="text" placeholder="keresés" name="search">
-                    <button id="keres" type="submit"><i class="fa fa-search"></i></button>
+                    <button id="keres" type="submit" onclick="button_click()"><i class="fa fa-search" ></i></button>
                 </form>
             </div>
         </div>
     </div>
-    <!---->
-    <!--
-    <div id="box_2">
-        <div class="col-container">
-            <div class="col-1">
-                <div class="sidenav">
-                    <button class="dropdown-btn">Gombok <i class="fa fa-caret-down"></i></button>
-                    <div class="dropdown-container">
-                        <a href="#"> ➤ Egy lyukú</a>
-                        <a href="#"> ➤ Két lyukú</a>
-                        <a href="#"> ➤ Három lyukú</a>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col-2">
-                <h2>Termékek</h2>
-                <div class="flex-container">
-                    <div class="flex-item">
-                        <div class="card">
-                            <img src="images\P_00.jpg" style="width:100%">
-                            <h1>db_name_1</h1>
-                            <p>db_price_1</p>
-                            <input type="number" value="1">
-                            <p><button>kosárba rak</button></p>
-                        </div>
-                    </div>
-                    <div class="flex-item">
-                        <div class="card">
-                            <img src="images\P_00.jpg" style="width:100%">
-                            <h1>db_name_2</h1>
-                            <p>db_price_2</p>
-                            <input type="number" value="1">
-                            <p><button>kosárba rak</button></p>
-                        </div>
-                    </div>
-
-                    <div class="flex-item">
-                        <div class="card">
-                            <img src="images\P_00.jpg" style="width:100%">
-                            <h1>db_name_3</h1>
-                            <p>db_price_3</p>
-                            <input type="number" value="1">
-                            <p><button>kosárba rak</button></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="pagination">
-                    <a href="#">&laquo;</a>
-                    <a href="#">1</a>
-                    <a class="active" href="#">2</a>
-                    <a href="#">3</a>
-                    <a href="#">&raquo;</a>
-                </div>
-            </div>
-        </div>
-
-        </div>
-    </div>
-    -->
 
     <div id="box_2">
         <div class="flex-container">
@@ -116,9 +55,9 @@
                 <div class="sidenav">
                     <button class="dropdown-btn">Gombok <i class="fa fa-caret-down"></i></button>
                     <div class="dropdown-container">
-                        <a href="#"> ➤ Egy lyukú</a>
-                        <a href="#"> ➤ Két lyukú</a>
-                        <a href="#"> ➤ Három lyukú</a>
+                        <a href="#" onclick="button_click()"> ➤ Egy lyukú</a>
+                        <a href="#" onclick="button_click()"> ➤ Két lyukú</a>
+                        <a href="#" onclick="button_click()"> ➤ Három lyukú</a>
                     </div>
                 </div>
             </div>
@@ -132,7 +71,7 @@
                                 <h1>db_name_1</h1>
                                 <p>db_price_1</p>
                                 <input type="number" value="1">
-                                <p><button>kosárba rak</button></p>
+                                <p><button onclick="button_click()">kosárba rak</button></p>
                             </div>
                         </div>
 
@@ -142,7 +81,7 @@
                                     <h1>db_name_1</h1>
                                     <p>db_price_1</p>
                                     <input type="number" value="1">
-                                    <p><button>kosárba rak</button></p>
+                                    <p><button onclick="button_click()">kosárba rak</button></p>
                                 </div>
                              </div>
 
@@ -153,17 +92,17 @@
                                 <h1>db_name_1</h1>
                                 <p>db_price_1</p>
                                 <input type="number" value="1">
-                                <p><button>kosárba rak</button></p>
+                                <p><button onclick="button_click()">kosárba rak</button></p>
                             </div>
                         </div>
 
                     </div>
                             <div class="pagination">
-                                <a href="#">&laquo;</a>
-                                <a href="#">1</a>
-                                <a class="active" href="#">2</a>
-                                <a href="#">3</a>
-                                <a href="#">&raquo;</a>
+                                <a href="#"onclick="button_click()">&laquo;</a>
+                                <a href="#"onclick="button_click()">1</a>
+                                <a class="active" href="#"onclick="button_click()">2</a>
+                                <a href="#"onclick="button_click()">3</a>
+                                <a href="#"onclick="button_click()">&raquo;</a>
                             </div>
             </div>
         </div>
@@ -217,5 +156,6 @@
 <script src="script/lapteteje.js"></script>
 <script src="script/menugomb.js"></script>
 <script src="script/menu.js"></script>
+<script src="script/button_funk.js"></script>
 </body>
 </html>
