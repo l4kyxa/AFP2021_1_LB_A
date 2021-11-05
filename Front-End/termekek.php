@@ -209,32 +209,40 @@
     <div id="box_2">
         <div class="flex-container">
             <div class="flex-item">
-                    <h3>Rövidáru</h3>
-                    <p> A szó a német Kurzware tükörfordítása. Vélhetőleg a méteráru (a méterszámra árult szövetek és egyéb
-                        kelmék) ellenpárjaként alakult ki ez az elnevezés. A rövidáruk körébe a ruházati és lakástextil
-                        termékek gyártásában nélkülözhetetlen kiegészítő anyagokat sorolják, mind a nagyipari, mind a kézmű-
-                        vagy háziipari feldolgozáshoz.
-                        A rövidárukat két csoportra osztják:
-                    </p>
-                    <h3> Puha rövidáruk:</h3>
-                    <p>varrócérnák</p>
-                    <p>kézimunkafonalak (kézikötő-, horgoló- és hímzőfonalak, háziszőttesekhez készült fonalak),</p>
-                    <p> különféle szalagok,</p>
-                    <p> hevederek,</p>
-                    <p> fonatolt és kötött zsinórok, cipőfűzők,</p>
-                    <p>paszományok,</p>
-                    <p> csipkék és hímzések,</p>
-                    <p>díszítő kellékek (bojtok, díszzsinórok, rojtok, sujtások stb.),</p>
-                    <p> vállpárnák,</p>
-                    <p> ízlapok (a ruhák hónaljában az izzadság felfogására)</p>
-                    <br>
-                    <h3> Kemény rövidáruk: </h3>
-                    <p> ruhazáró kellékek (gombok, cipzárak, tépőzárak, nyomókapcsok és egyéb kapcsok, csatok)</p>
-                    <p>varrótűk, gombostűk, biztosítótűk, hímzőtűk, fűzőtűk,</p>
-                    <p>gyűszűk,</p>
-                    <p> (kézi)kötő- és horgolótűk,</p>
-                    <p> stoppolófa</p>
-                    <br>
+                    <h3>A Keresés Eredménye</h3>
+
+
+                <div class="flex-container">
+                    <div class="flex-item">
+                        <div class="card">
+                            <img src="images\P_00.jpg" style="width:100%">
+                            <h1>db_name_1</h1>
+                            <p>db_price_1</p>
+                            <input type="number" value="1">
+                            <p><button onclick="button_click()">kosárba rak</button></p>
+                        </div>
+                    </div>
+                    <div class="flex-item">
+                        <div class="card">
+                            <img src="images\P_00.jpg" style="width:100%">
+                            <h1>db_name_2</h1>
+                            <p>db_price_2</p>
+                            <input type="number" value="1">
+                            <p><button onclick="button_click()">kosárba rak</button></p>
+                        </div>
+                    </div>
+
+                    <div class="flex-item">
+                        <div class="card">
+                            <img src="images\P_00.jpg" style="width:100%">
+                            <h1>db_name_3</h1>
+                            <p>db_price_3</p>
+                            <input type="number" value="1">
+                            <p><button onclick="button_click()">kosárba rak</button></p>
+                        </div>
+                    </div>
+
+
             </div>
         </div>
     </div>
