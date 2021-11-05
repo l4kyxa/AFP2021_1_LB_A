@@ -138,13 +138,13 @@
 
             <hr>
             <br><br>
-            <div class="container">
+
                 <div class="btncontainer">
                     <div class="btnvertical-center">
-                        <a href="#">Keresés</a>
+                        <button class="button" type="button" onclick="button_click()">Keresés </button>
                     </div>
                 </div>
-            </div>
+
         </div>
 
 
@@ -194,13 +194,13 @@
 
                 <hr>
                 <br><br>
-                <div class="container">
+
                     <div class="btncontainer">
                         <div class="btnvertical-center">
-                            <a href="#">Keresés</a>
+                            <button class="button" type="button" onclick="button_click()">Keresés </button>
                         </div>
                     </div>
-                </div>
+
             </div>
             </div>
 
@@ -238,7 +238,7 @@
                             <h1>db_name_3</h1>
                             <p>db_price_3</p>
                             <input type="number" value="1">
-                            <p><button onclick="button_click()">kosárba rak</button></p>
+                            <p><button onclick="button_click()" onclick="button_click()">kosárba rak</button></p>
                         </div>
                     </div>
 
@@ -287,29 +287,8 @@
 <script src="script/lapteteje.js"></script>
 <script src="script/menugomb.js"></script>
 <script src="script/button_funk.js"></script>
+<script src="script/termekek.js"></script>
 
-<script>
-    function openC(evt, cityName) {
-        // Declare all variables
-        var i, tabcontent, tablinks;
-
-        // Get all elements with class="tabcontent" and hide them
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-
-        // Get all elements with class="tablinks" and remove the class "active"
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-
-        // Show the current tab, and add an "active" class to the link that opened the tab
-        document.getElementById(cityName).style.display = "block";
-        evt.currentTarget.className += " active";
-    }
-</script>
 
 
 
