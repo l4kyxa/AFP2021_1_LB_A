@@ -28,7 +28,7 @@
 <div id="content">
 
     <div id="box_2">
-        <h2>Termékek/Rövidáru</h2>
+        <h2>Termékek</h2>
     </div>
     <!---->
     <div id="box_1_no_padd">
