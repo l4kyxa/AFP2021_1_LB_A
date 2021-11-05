@@ -57,7 +57,7 @@
                 <input type="password" placeholder="adja meg a jelszavát" name="jelszo" required>
                 <div class="btncontainer">
                     <div class="btnvertical-center">
-                        <button type="submit" class="registerbtn">BEJELENTKEZÉS</button>
+                        <button type="submit" class="registerbtn">BELÉP</button>
                     </div>
                 </div>
 

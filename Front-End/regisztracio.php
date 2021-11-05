@@ -58,7 +58,7 @@
             <input type="text" placeholder="Jelszó még egyszer" name="jelszo_ujra" id="jelszo_ujra" required>
             <div class="btncontainer">
                 <div class="btnvertical-center">
-            <button type="submit" class="registerbtn">REGISZTRÁCIÓ</button>
+            <button type="submit" class="registerbtn">KÜLDÉS</button>
                 </div>
             </div>
         </div>
