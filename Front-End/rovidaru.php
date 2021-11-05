@@ -50,8 +50,8 @@
     </div>
     <!---->
     <div id="box_2">
-        <div class="col-container">
-            <div class="col-1">
+        <div class="flex-container">
+            <div class="flex-item-1">
                 <div class="sidenav">
                     <button class="dropdown-btn">Szalagok <i class="fa fa-caret-down"></i></button>
                     <div class="dropdown-container">
@@ -148,8 +148,7 @@
                 </div>
             </div>
             <!---->
-            <div class="col-2">
-                <h2>Termékek</h2>
+            <div class="flex-item-2">
                 <div class="flex-container">
                     <div class="flex-item">
                         <div class="card">

@@ -84,15 +84,6 @@
                     <p><button>kosárba rak</button></p>
                 </div>
             </div>
-            <div class="flex-item">
-                <div class="card">
-                    <img src="images\P_00.jpg" style="width:100%">
-                    <p>db_name_4</p>
-                    <p>db_price_4</p>
-                    <input type="number" value="1">
-                    <p><button>kosárba rak</button></p>
-                </div>
-            </div>
         </div>
 
         <hr>
@@ -124,15 +115,6 @@
                     <img src="images\P_00.jpg" style="width:100%">
                     <p>db_name_7</p>
                     <p>db_price_7</p>
-                    <input type="number" value="1">
-                    <p><button>kosárba rak</button></p>
-                </div>
-            </div>
-            <div class="flex-item">
-                <div class="card">
-                    <img src="images\P_00.jpg" style="width:100%">
-                    <p>db_name_8</p>
-                    <p>db_price_8</p>
                     <input type="number" value="1">
                     <p><button>kosárba rak</button></p>
                 </div>

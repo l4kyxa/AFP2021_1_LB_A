@@ -48,6 +48,7 @@
         </div>
     </div>
     <!---->
+    <!--
     <div id="box_2">
         <div class="col-container">
             <div class="col-1">
@@ -61,7 +62,7 @@
 
                 </div>
             </div>
-            <!---->
+
             <div class="col-2">
                 <h2>Termékek</h2>
                 <div class="flex-container">
@@ -103,10 +104,79 @@
                 </div>
             </div>
         </div>
-        <!---->
+
         </div>
     </div>
+    -->
+
+    <div id="box_2">
+        <div class="flex-container">
+
+            <div class="flex-item-1">
+                <div class="sidenav">
+                    <button class="dropdown-btn">Gombok <i class="fa fa-caret-down"></i></button>
+                    <div class="dropdown-container">
+                        <a href="#"> ➤ Egy lyukú</a>
+                        <a href="#"> ➤ Két lyukú</a>
+                        <a href="#"> ➤ Három lyukú</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-item-2">
+                    <div class="flex-container">
+
+                        <div class="flex-item">
+                            <div class="card">
+                                <img src="images\P_00.jpg" style="width:100%">
+                                <h1>db_name_1</h1>
+                                <p>db_price_1</p>
+                                <input type="number" value="1">
+                                <p><button>kosárba rak</button></p>
+                            </div>
+                        </div>
+
+                            <div class="flex-item">
+                                <div class="card">
+                                    <img src="images\P_00.jpg" style="width:100%">
+                                    <h1>db_name_1</h1>
+                                    <p>db_price_1</p>
+                                    <input type="number" value="1">
+                                    <p><button>kosárba rak</button></p>
+                                </div>
+                             </div>
+
+
+                        <div class="flex-item">
+                            <div class="card">
+                                <img src="images\P_00.jpg" style="width:100%">
+                                <h1>db_name_1</h1>
+                                <p>db_price_1</p>
+                                <input type="number" value="1">
+                                <p><button>kosárba rak</button></p>
+                            </div>
+                        </div>
+
+                    </div>
+                            <div class="pagination">
+                                <a href="#">&laquo;</a>
+                                <a href="#">1</a>
+                                <a class="active" href="#">2</a>
+                                <a href="#">3</a>
+                                <a href="#">&raquo;</a>
+                            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
 </div>
+
 <!---->
 <div id="footer">
     <div id="box_1">
