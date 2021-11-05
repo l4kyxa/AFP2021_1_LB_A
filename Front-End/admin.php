@@ -45,9 +45,9 @@
     <div id="box_2">
         <div class="btncontainer">
             <div class="btnvertical-center">
-                <form class="example" action="/action_page.php">
+                <form class="example" action="#">
                     <input type="text" placeholder="keresés" name="search">
-                    <button id="keres" type="submit"><i class="fa fa-search"></i></button>
+                    <button id="keres" type="submit" onclick="myFunction()"><i class="fa fa-search"></i></button>
                 </form>
             </div>
         </div>
@@ -93,6 +93,9 @@
         <div class="container">
             <label for="id"><b>ID</b></label>
             <input type="text" placeholder="ID" name="id" id="id" required>
+
+            <label for="termek"><b>Termék</b></label>
+            <input type="text" placeholder="termék" name="termek" id="termek" required>
 
             <label for="termeknev"><b>Terméknév</b></label>
             <input type="text" placeholder="terméknév" name="termeknev" id="termeknev" required>
@@ -202,6 +205,8 @@
 <script src="script/regisztracio.js"></script>
 <script src="script/lapteteje.js"></script>
 <script src="script/menugomb.js"></script>
+<script src="script/button_funk.js"></script>
+
 
 
 </body>
