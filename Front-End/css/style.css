@@ -269,7 +269,7 @@ hr{
 
 .flex-item-1 {
 	flex: 20%;
-	border-right: 1px solid #ffffff;
+	/*border-right: 1px solid #ffffff;*/
 	min-width: 20%;
 }
 
@@ -302,7 +302,6 @@ hr{
 		flex: 100%;
 	}
 }
-
 
 /**************************************************************/
 /* Pagination */
