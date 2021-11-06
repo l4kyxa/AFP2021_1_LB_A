@@ -59,7 +59,7 @@
             <div class="flex-item">
                 <a><i class="fa fa-phone" style="font-size:60px;color:white;text-shadow:2px 2px 4px #000000;"></i></a>
                 <h3>Telefon</h3>
-                <h4 >+36-30 /... - .. - ..</h4>
+                <h4 >+36-30 /123 - 45 - 67</h4>
             </div>
 
             <div class="flex-item">
