@@ -16,7 +16,7 @@
         <a class="logo" href="kezdolap.php"><i class="fa fa-dot-circle-o" aria-hidden="true"></i></a>
         <a href="kezdolap.php"><i class="fa fa-fw fa-home"></i> Kezdőlap</a>
         <a href="rolunk.php"><i class="fa fa-fw fa-user-circle-o"></i> RÓLUNK</a>
-        <a class="active" href="termekek.php"><i class="fa fa-fw fa-hand-o-down"></i> TERMÉKEK</a>
+        <a class="active" href="termekek.php"><i class="fa fa-fw fa-slack"></i> TERMÉKEK</a>
         <a href="uzenofal.php"><i class="fa fa-fw fa-commenting-o"></i> ÜZENŐFAL</a>
         <a href="kapcsolat.php"><i class="fa fa-fw fa-vcard-o"></i> KAPCSOLAT</a>
         <a href="bejelentkezes.php"><i class="fa fa-fw fa-sign-in"></i> BEJELENTKEZÉS</a>

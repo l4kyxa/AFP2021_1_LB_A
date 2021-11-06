@@ -17,7 +17,7 @@
         <a class="logo" href="kezdolap.php"><i class="fa fa-dot-circle-o" aria-hidden="true"></i></a>
         <a class="active" href="kezdolap.php"><i class="fa fa-fw fa-home"></i> Kezdőlap</a>
         <a href="rolunk.php"><i class="fa fa-fw fa-user-circle-o"></i> RÓLUNK</a>
-        <a href="termekek.php"><i class="fa fa-fw fa-hand-o-down"></i> TERMÉKEK</a>
+        <a href="termekek.php"><i class="fa fa-fw fa-slack"></i> TERMÉKEK</a>
         <a href="uzenofal.php"><i class="fa fa-fw fa-commenting-o"></i> ÜZENŐFAL</a>
         <a href="kapcsolat.php"><i class="fa fa-fw fa-vcard-o"></i> KAPCSOLAT</a>
         <a href="bejelentkezes.php"><i class="fa fa-fw fa-sign-in"></i> BEJELENTKEZÉS</a>
@@ -46,9 +46,11 @@
                 <div class="flex-container">
 
                     <div class="flex-item">
+
                             <img src="images\P_00.jpg" style="width:100%">
                             <h1>db_name_1</h1>
                             <p>db_price_1</p>
+
                     </div>
 
                     <div class="flex-item">
