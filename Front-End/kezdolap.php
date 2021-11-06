@@ -15,7 +15,7 @@
 <div id="header_kezdolap">
     <div class="topnav" id="myTopnav">
         <a class="logo" href="kezdolap.php"><i class="fa fa-dot-circle-o" aria-hidden="true"></i></a>
-        <a class="active" href="kezdolap.php"><i class="fa fa-fw fa-home"></i> Kezdőlap</a>
+        <a class="active" href="kezdolap.php"><i class="fa fa-fw fa-home"></i> KEZDŐLAP</a>
         <a href="rolunk.php"><i class="fa fa-fw fa-user-circle-o"></i> RÓLUNK</a>
         <a href="termekek.php"><i class="fa fa-fw fa-slack"></i> TERMÉKEK</a>
         <a href="uzenofal.php"><i class="fa fa-fw fa-commenting-o"></i> ÜZENŐFAL</a>
@@ -140,7 +140,7 @@
 
         <div class="btncontainer">
             <div class="btnvertical-center">
-                <button class="button" type="button" onclick="document.location.href='akciokkifutok.php'">ÖSSZES AKCIÓ
+                <button class="button" type="button" onclick="document.location.href='termekek.php'">ÖSSZES AKCIÓ
                     MEGJELENÍTÉSE
                 </button>
             </div>
@@ -174,7 +174,7 @@
 
         <div class="btncontainer">
             <div class="btnvertical-center">
-                <button class="button" type="button" onclick="document.location.href='akciokkifutok.php'">ÖSSZES TERMÉK
+                <button class="button" type="button" onclick="document.location.href='termekek.php'">ÖSSZES TERMÉK
                     MEGJELENÍTÉSE
                 </button>
             </div>
@@ -207,7 +207,7 @@
 
         <div class="btncontainer">
             <div class="btnvertical-center">
-                <button class="button" type="button" onclick="document.location.href='akciokkifutok.php'">ÖSSZES TERMÉK
+                <button class="button" type="button" onclick="document.location.href='termekek.php'">ÖSSZES TERMÉK
                     MEGJELENÍTÉSE
                 </button>
             </div>

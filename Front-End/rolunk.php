@@ -14,7 +14,7 @@
 <div id="header">
     <div class="topnav" id="myTopnav">
         <a class="logo" href="kezdolap.php"><i class="fa fa-dot-circle-o" aria-hidden="true"></i></a>
-        <a href="kezdolap.php"><i class="fa fa-fw fa-home"></i> Kezdőlap</a>
+        <a href="kezdolap.php"><i class="fa fa-fw fa-home"></i> KEZDŐLAP</a>
         <a class="active" href="rolunk.php"><i class="fa fa-fw fa-user-circle-o"></i> RÓLUNK</a>
         <a href="termekek.php"><i class="fa fa-fw fa-slack"></i> TERMÉKEK</a>
         <a href="uzenofal.php"><i class="fa fa-fw fa-commenting-o"></i> ÜZENŐFAL</a>
