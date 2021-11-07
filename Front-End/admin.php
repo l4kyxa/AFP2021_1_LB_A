@@ -58,6 +58,9 @@
             <label for="jelszo"><b>Jelszó</b></label>
             <input type="password" placeholder="jelszó" name="jelszo" id="jelszo" required>
 
+            <label for="bejelentkezve"><b>Bejelentkezve</b></label>
+            <input type="text" placeholder="bejelentkezve" name="bejelentkezve" id="bejelentkezve" required>
+
             <label for="statusz"><b>Státusz</b></label>
             <input type="text" placeholder="státusz" name="statusz" id="statusz" required>
 
@@ -89,20 +92,32 @@
             <label for="termek"><b>Termék</b></label>
             <input type="text" placeholder="termék" name="termek" id="termek" required>
 
-            <label for="termeknev"><b>Terméknév</b></label>
-            <input type="text" placeholder="terméknév" name="termeknev" id="termeknev" required>
+            <label for="fokategoria"><b>Alkategória</b></label>
+            <input type="text" placeholder="alkategória" name="fokategoria" id="fokategoria" required>
 
-            <label for="termekleiras"><b>Termékleírás</b></label>
-            <input type="text" placeholder="termékleírás" name="termekleíras" id="termekleiras" required>
+            <label for="alkategoria"><b>Főkategória</b></label>
+            <input type="text" placeholder="főkategória" name="fokategoria" id="fokategoria" required>
 
-            <label for="name"><b>Ár</b></label>
-            <input type="text" placeholder="ár" name="ar" id="ar" required>
+            <label for="gyarto"><b>Gyártó</b></label>
+            <input type="text" placeholder="gyártó" name="gyarto" id="gyarto" required>
+
+            <label for="szin"><b>Szín</b></label>
+            <input type="text" placeholder="szín" name="szin" id="szin" required>
+
+            <label for="meret"><b>Méret</b></label>
+            <input type="text" placeholder="méret" name="meret" id="meret" required>
+
+            <label for="mennyiseg"><b>Mennyiség</b></label>
+            <input type="text" placeholder="mennyiség" name="mennyiseg" id="mennyiseg" required>
 
             <label for="megjegyzes"><b>Megjegyzés</b></label>
             <input type="text" placeholder="megjegyzés" name="megjegyzes" id="megjegyzes" required>
 
             <label for="kep"><b>Kép</b></label>
             <input type="text" placeholder="kép" name="kep" id="kep" required>
+
+            <label for="name"><b>Ár</b></label>
+            <input type="text" placeholder="ár" name="ar" id="ar" required>
 
             <button type="submit" class="button" type="button" onclick="button_click()">Létrehoz</button>
             <button type="submit" class="button" type="button" onclick="button_click()">Módosít</button>
