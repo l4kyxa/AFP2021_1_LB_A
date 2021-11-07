@@ -50,6 +50,8 @@
             <br><br>
             <hr>
 
+
+            <!--GOMB PANEL-->
             <div class="flex-container">
 
                 <div class="flex-item">
@@ -83,7 +85,7 @@
 
                 <div class="flex-item">
                     <form action="#">
-                        <label for="A">Szín:</label>
+                        <label for="A">Gyártó:</label>
                         <select name="A" id="B">
                             <option value="1">összes</option>
                             <option value="2">2</option>
@@ -95,7 +97,7 @@
 
                 <div class="flex-item">
                     <form action="#">
-                        <label for="A">Méret/Szélesség:</label>
+                        <label for="A">Szín:</label>
                         <select name="A" id="B">
                             <option value="1">összes</option>
                             <option value="2">2</option>
@@ -112,7 +114,7 @@
 
                 <div class="flex-item">
                     <form action="#">
-                        <label for="A">Gyártó:</label>
+                        <label for="A">Méret/Szélesség:</label>
                         <select name="A" id="B">
                             <option value="1">összes</option>
                             <option value="2">2</option>
@@ -147,11 +149,9 @@
 
         </div>
 
+        <!--GOMB PANEL VÉGE-->
 
-
-
-
-
+        <!--RÖVIDÁRU PANEL-->
             <div id="BB" class="tabcontent">
                 <div class="btncontainer">
                     <div class="btnvertical-center">
@@ -164,33 +164,91 @@
                 <br><br>
                 <hr>
 
+                <div class="flex-container">
 
-        <div class="flex-container">
+                    <div class="flex-item">
+                        <form action="#">
+                            <label for="A">Főkategória:</label>
+                            <select name="A" id="B">
+                                <option value="1">összes</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </form>
+                    </div>
 
-            <div class="flex-item">
-                <form action="#">
-                    <label for="A">Főkategória:</label>
-                    <select name="A" id="B">
-                        <option value="1">összes</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                    </select>
-                </form>
-            </div>
+                    <div class="flex-item">
+                        <form action="#">
+                            <label for="A">Alkategória:</label>
+                            <select name="A" id="B">
+                                <option value="1">összes</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </form>
+                    </div>
 
-            <div class="flex-item">
-                <form action="#">
-                    <label for="A">Alkategória:</label>
-                    <select name="A" id="B">
-                        <option value="1">összes</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                    </select>
-                </form>
-            </div>
-        </div>
+                </div>
+
+
+                <div class="flex-container">
+
+                    <div class="flex-item">
+                        <form action="#">
+                            <label for="A">Gyártó:</label>
+                            <select name="A" id="B">
+                                <option value="1">összes</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </form>
+                    </div>
+
+                    <div class="flex-item">
+                        <form action="#">
+                            <label for="A">Szín:</label>
+                            <select name="A" id="B">
+                                <option value="1">összes</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </form>
+                    </div>
+
+                </div>
+
+
+                <div class="flex-container">
+
+                    <div class="flex-item">
+                        <form action="#">
+                            <label for="A">Méret/Szélesség:</label>
+                            <select name="A" id="B">
+                                <option value="1">összes</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </form>
+                    </div>
+
+                    <div class="flex-item">
+                        <form action="#">
+                            <label for="A">Mennyiség:</label>
+                            <select name="A" id="B">
+                                <option value="1">összes</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </form>
+                    </div>
+
+                </div>
 
                 <hr>
                 <br><br>
@@ -200,10 +258,10 @@
                             <button class="button" type="button" onclick="button_click()">Keresés </button>
                         </div>
                     </div>
-
-            </div>
             </div>
 
+        <!--RÖVIDÁRU PANEL VÉGE-->
+        </div>
     </div>
         <!---->
     <div id="box_2">
