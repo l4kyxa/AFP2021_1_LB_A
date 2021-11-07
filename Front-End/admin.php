@@ -116,8 +116,11 @@
             <label for="kep"><b>Kép</b></label>
             <input type="text" placeholder="kép" name="kep" id="kep" required>
 
-            <label for="name"><b>Ár</b></label>
+            <label for="ar"><b>Ár</b></label>
             <input type="text" placeholder="ár" name="ar" id="ar" required>
+
+            <label for="status"><b>Státusz</b></label>
+            <input type="text" placeholder="státusz" name="status" id="status" required>
 
             <button type="submit" class="button" type="button" onclick="button_click()">Létrehoz</button>
             <button type="submit" class="button" type="button" onclick="button_click()">Módosít</button>
