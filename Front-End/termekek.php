@@ -135,21 +135,33 @@
                         </select>
                     </form>
                 </div>
-
             </div>
 
-            <hr>
-            <br><br>
-
-                <div class="btncontainer">
-                    <div class="btnvertical-center">
-                        <button class="button" type="button" onclick="button_click()">Keresés </button>
-                    </div>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider"></span>
+                    </label>
+                    <label>mutassa a készleten nem megtalálható termékeket is.</label>
                 </div>
+                <div class="flex-item">
+                </div>
+            </div>
 
-        </div>
 
-        <!--GOMB PANEL VÉGE-->
+             <hr>
+             <br><br>
+
+                 <div class="btncontainer">
+                     <div class="btnvertical-center">
+                         <button class="button" type="button" onclick="button_click()">Keresés </button>
+                     </div>
+                 </div>
+
+         </div>
+
+         <!--GOMB PANEL VÉGE-->
 
         <!--RÖVIDÁRU PANEL-->
             <div id="BB" class="tabcontent">
@@ -249,7 +261,17 @@
                     </div>
 
                 </div>
-
+                <div class="flex-container">
+                    <div class="flex-item">
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                        <label>mutassa a készleten nem megtalálható termékeket is.</label>
+                    </div>
+                    <div class="flex-item">
+                    </div>
+                </div>
                 <hr>
                 <br><br>
 
