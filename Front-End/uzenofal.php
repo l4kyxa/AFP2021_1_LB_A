@@ -63,7 +63,7 @@
     <div id="box_2">
         <h2>Üzenet</h2>
         <div class="container">
-            <form action="#">
+            <form action="php\00_uzenofal.php" method="post">
 
                 <label for="felhasznaloinev"><b>Név</b></label>
                 <input type="text" placeholder="név" name="felhasznaloinev" id="felhasznaloinev" required>
@@ -76,7 +76,7 @@
                 <!-- <input type="submit" value="Submit">-->
                 <div class="btncontainer">
                     <div class="btnvertical-center">
-                <button type="submit" class="registerbtn" onclick="button_click()">Küldés</button>
+                <button type="submit" class="registerbtn" >Küldés</button>
                     </div>
                 </div>
             </form>

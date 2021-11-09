@@ -37,14 +37,14 @@
     <div id="box_2">
         <div class="btncontainer">
             <div class="btnvertical-center">
-                <form class="example" action="#">
+                <form class="example" action="php\00_admin_felhasznalo.php" method="post">
                     <input type="text" placeholder="keresés" name="search">
-                    <button id="keres" type="submit" onclick="button_click()"><i class="fa fa-search"></i></button>
+                    <button id="keres" type="submit" name="felhasznalo_keres"><i class="fa fa-search"></i></button>
                 </form>
             </div>
         </div>
 
-        <form action="#"
+        <form action="php\00_admin_felhasznalo.php" method="post">
         <div class="container">
             <label for="id"><b>ID</b></label>
             <input type="text" placeholder="ID" name="id" id="id" required>
@@ -64,10 +64,10 @@
             <label for="statusz"><b>Státusz</b></label>
             <input type="text" placeholder="státusz" name="statusz" id="statusz" required>
 
-            <button type="submit" class="button" type="button" onclick="button_click()">Létrehoz</button>
-            <button type="submit" class="button" type="button" onclick="button_click()">Módosít</button>
-            <button type="submit" class="button" type="button" onclick="button_click()">Töröl</button>
-            <button type="submit" class="button" type="button" onclick="button_click()">Listáz</button>
+            <button type="submit" class="button" type="button" name="felhasznalo_letrehoz" >Létrehoz</button>
+            <button type="submit" class="button" type="button" name="felhasznalo_modosit" >Módosít</button>
+            <button type="submit" class="button" type="button" name="felhasznalo_torol">Töröl</button>
+            <button type="submit" class="button" type="button" name="felhasznalo_listaz">Listáz</button>
         </div>
         </form>
     </div>

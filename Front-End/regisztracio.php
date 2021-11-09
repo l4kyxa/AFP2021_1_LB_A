@@ -35,7 +35,7 @@
         <hr>
     </div>
     <div id="box_2">
-        <form action="#"
+        <form action="php\00_regisztracio.php" method="post">
         <div class="container">
             <label for="felhasznaloinev"><b>Név</b></label>
             <input type="text" placeholder="felhasználói név" name="felhasznaloinev" id="felhasznaloinev" required>
@@ -50,7 +50,7 @@
             <input type="text" placeholder="Jelszó még egyszer" name="jelszo_ujra" id="jelszo_ujra" required>
             <div class="btncontainer">
                 <div class="btnvertical-center">
-            <button type="submit" class="registerbtn" onclick="button_click()">KÜLDÉS</button>
+            <button type="submit" class="registerbtn" >KÜLDÉS</button>
                 </div>
             </div>
         </div>

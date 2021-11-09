@@ -41,7 +41,9 @@
                 <img src="images\P_00.jpg" style="width:100%">
                 <h1>db_name_1</h1>
                 <p>db_price_1</p>
-                <p><button onclick="button_click()">töröl</button></p>
+                <form action="php\00_kosar_torol.php" method="post">
+                    <p><button type="submit">töröl</button></p>
+                </form>
             </div>
         </div>
 
@@ -50,7 +52,9 @@
                 <img src="images\P_00.jpg" style="width:100%">
                 <h1>db_name_1</h1>
                 <p>db_price_1</p>
-                <p><button onclick="button_click()">töröl</button></p>
+                <form action="php\00_kosar_torol.php" method="post">
+                    <p><button type="submit">töröl</button></p>
+                </form>
             </div>
         </div>
 
@@ -59,16 +63,19 @@
                 <img src="images\P_00.jpg" style="width:100%">
                 <h1>db_name_3</h1>
                 <p>db_price_3</p>
-                <p><button onclick="button_click()">töröl</button></p>
+                <form action="php\00_kosar_torol.php" method="post">
+                <p><button type="submit">töröl</button></p>
+                </form>
             </div>
         </div>
-
+        <form action="php\00_kosar_rendel.php" method="post">
         <div class="btncontainer">
             <div class="btnvertical-center">
-                <button class="button" type="button" onclick="button_click()">Rendelés
+                <button class="button" type="submit" >Rendelés
                 </button>
             </div>
         </div>
+        </form>
     </div>
 </div>
 </div>
