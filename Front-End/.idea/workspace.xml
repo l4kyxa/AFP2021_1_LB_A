@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3649bbb2-a88a-4da3-acfd-d76d4a908f8f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bejelentkezes.php" beforeDir="false" afterPath="$PROJECT_DIR$/bejelentkezes.php" afterDir="false" />
-    </list>
+    <list default="true" id="3649bbb2-a88a-4da3-acfd-d76d4a908f8f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
       <path value="$APPLICATION_HOME_DIR$" />
     </include_path>
@@ -49,6 +46,7 @@
       <workItem from="1636361472190" duration="2104000" />
       <workItem from="1636364167383" duration="3714000" />
       <workItem from="1636447934335" duration="6762000" />
+      <workItem from="1636475661071" duration="572000" />
     </task>
     <servers />
   </component>
