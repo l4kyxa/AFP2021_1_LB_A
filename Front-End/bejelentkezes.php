@@ -36,20 +36,22 @@
     </div>
 
     <div id="box_2">
-    <form action="#" method="#">
             <div class="imgcontainer">
                 <!--    <img src="images\avatar.png" alt="Avatar" class="avatar">  -->
             </div>
 
+
+
+        <form action="Beck-End\00.php" method="post">
             <div class="container">
                 <label for="felhasznaloinev"><b>Felhasználói név</b></label>
-                <input type="text" placeholder="adja meg a felhasználói nevét" name="felhasznaloinev" required>
+                <input type="text" placeholder="adja meg a felhasználói nevét" name="felhasznaloinev">
 
                 <label for="jelszo"><b>Jelszó</b></label>
-                <input type="password" placeholder="adja meg a jelszavát" name="jelszo" required>
+                <input type="password" placeholder="adja meg a jelszavát" name="jelszo" >
                 <div class="btncontainer">
                     <div class="btnvertical-center">
-                        <button type="submit" class="registerbtn" onclick="button_click()">BELÉP</button>
+                        <button type="submit" class="registerbtn" >BELÉP</button>
                     </div>
                 </div>
 
@@ -59,6 +61,7 @@
                     <input type="checkbox" checked="checked" name="remember"> emlékezz Rám
                 </label>
             </div>
+        </form>
             <br>
             <div class="container">
                 <div class="btncontainer">
@@ -67,7 +70,7 @@
                     </div>
                 </div>
             </div>
-        </form>
+
 
     </div>
     </div>
