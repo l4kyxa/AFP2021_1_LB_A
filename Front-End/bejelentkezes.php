@@ -55,13 +55,15 @@
                     </div>
                 </div>
 
-                <label>
+
                     <br>
 
-                    <input type="checkbox" checked="checked" name="remember"> emlékezz Rám
-                </label>
+
+                    <input type="checkbox" checked="" name="remember">
+                <label for="remember">  emlékezz rám</label><br>
             </div>
         </form>
+
             <br>
             <div class="container">
                 <div class="btncontainer">
