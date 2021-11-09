@@ -37,7 +37,6 @@ if(isset($_POST["felhasznalo_torol"]))
     echo "Jelszó.:" .$_POST["jelszo"]."<br>";
     echo "Bejelentkezve.:" .$_POST["bejelentkezve"]."<br>";
     echo "Státusz.:" .$_POST["statusz"]."<br>";
-
 }
 
 
@@ -49,7 +48,8 @@ if(isset($_POST["felhasznalo_listaz"]))
 }
 if(isset($_POST["felhasznalo_keres"]))
 {
-    echo "FELHASZNÁLÓK keresése<br>";
+    echo "KERESÉS alábbi paraméterrel:<br>";
+    echo $_POST["felhasznalo_kereses"]."<br>";
 
 
 }

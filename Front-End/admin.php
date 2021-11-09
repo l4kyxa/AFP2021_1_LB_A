@@ -38,7 +38,7 @@
         <div class="btncontainer">
             <div class="btnvertical-center">
                 <form class="example" action="php\00_admin_felhasznalo.php" method="post">
-                    <input type="text" placeholder="keresés" name="search">
+                    <input type="text" placeholder="keresés" name="felhasznalo_kereses">
                     <button id="keres" type="submit" name="felhasznalo_keres"><i class="fa fa-search"></i></button>
                 </form>
             </div>
@@ -77,14 +77,14 @@
     <div id="box_2">
         <div class="btncontainer">
             <div class="btnvertical-center">
-                <form class="example" action="#">
-                    <input type="text" placeholder="keresés" name="search">
-                    <button id="keres" type="submit"><i class="fa fa-search" onclick="button_click()"></i></button>
+                <form class="example" action="php\00_admin_termek.php" method="post">
+                    <input type="text" placeholder="keresés" name="temek_kereses">
+                    <button id="keres" type="submit"  name="termek_keres"><i class="fa fa-search" ></i></button>
                 </form>
             </div>
         </div>
 
-        <form action="#"
+        <form action="php\00_admin_termek.php" method="post">
         <div class="container">
             <label for="id"><b>ID</b></label>
             <input type="text" placeholder="ID" name="id" id="id" required>
@@ -92,11 +92,11 @@
             <label for="termek"><b>Termék</b></label>
             <input type="text" placeholder="termék" name="termek" id="termek" required>
 
-            <label for="fokategoria"><b>Alkategória</b></label>
-            <input type="text" placeholder="alkategória" name="fokategoria" id="fokategoria" required>
+            <label for="fokategoria"><b>Főkategória</b></label>
+            <input type="text" placeholder="fokategoria" name="fokategoria" id="fokategoria" required>
 
             <label for="alkategoria"><b>Főkategória</b></label>
-            <input type="text" placeholder="főkategória" name="fokategoria" id="fokategoria" required>
+            <input type="text" placeholder="alkategória" name="alkategoria" id="alkategoria" required>
 
             <label for="gyarto"><b>Gyártó</b></label>
             <input type="text" placeholder="gyártó" name="gyarto" id="gyarto" required>
@@ -122,10 +122,10 @@
             <label for="status"><b>Státusz</b></label>
             <input type="text" placeholder="státusz" name="status" id="status" required>
 
-            <button type="submit" class="button" type="button" onclick="button_click()">Létrehoz</button>
-            <button type="submit" class="button" type="button" onclick="button_click()">Módosít</button>
-            <button type="submit" class="button" type="button" onclick="button_click()">Töröl</button>
-            <button type="submit" class="button" type="button" onclick="button_click()">Listáz</button>
+            <button type="submit" class="button" type="button" name="termek_letrehoz" >Létrehoz</button>
+            <button type="submit" class="button" type="button" name="termek_modosit" >Módosít</button>
+            <button type="submit" class="button" type="button" name="termek_torol">Töröl</button>
+            <button type="submit" class="button" type="button" name="termek_listaz">Listáz</button>
         </div>
         </form>
     </div>
@@ -138,14 +138,14 @@
     <div id="box_2">
         <div class="btncontainer">
             <div class="btnvertical-center">
-                <form class="example" action="#">
-                    <input type="text" placeholder="keresés" name="search">
-                    <button id="keres" type="submit"><i class="fa fa-search" onclick="button_click()"></i></button>
+                <form class="example" action="php\00_admin_bejegyzes.php" method="post">
+                    <input type="text" placeholder="keresés" name="bejegyzes_kereses">
+                    <button id="keres" type="submit"  name="bejegyzes_keres"><i class="fa fa-search" ></i></button>
                 </form>
             </div>
         </div>
 
-        <form action="#"
+        <form action="php\00_admin_bejegyzes.php" method="post">
         <div class="container">
             <label for="id"><b>ID</b></label>
             <input type="text" placeholder="ID" name="id" id="id" required>
@@ -162,10 +162,13 @@
             <label for="datum"><b>Dátum</b></label>
             <input type="text" placeholder="dátum" name="datum" id="datum" required>
 
-            <button type="submit" class="button" type="button" onclick="button_click()">Létrehoz</button>
-            <button type="submit" class="button" type="button" onclick="button_click()">Módosít</button>
-            <button type="submit" class="button" type="button" onclick="button_click()">Töröl</button>
-            <button type="submit" class="button" type="button" onclick="button_click()">Listáz</button>
+            <label for="status"><b>Státusz</b></label>
+            <input type="text" placeholder="státusz" name="status" id="status" required>
+
+            <button type="submit" class="button" type="button" name="bejegyzes_letrehoz" >Létrehoz</button>
+            <button type="submit" class="button" type="button" name="bejegyzes_modosit" >Módosít</button>
+            <button type="submit" class="button" type="button" name="bejegyzes_torol">Töröl</button>
+            <button type="submit" class="button" type="button" name="bejegyzes_listaz">Listáz</button>
         </div>
         </form>
     </div>
