@@ -42,7 +42,7 @@
 
 
 
-        <form action="Beck-End\00.php" method="post">
+        <form action="php\00_bejelentkezes.php" method="post">
             <div class="container">
                 <label for="felhasznaloinev"><b>Felhasználói név</b></label>
                 <input type="text" placeholder="adja meg a felhasználói nevét" name="felhasznaloinev">
