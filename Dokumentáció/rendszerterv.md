@@ -169,7 +169,7 @@ A státuszt az adminisztrátor választja (2:admin, 1: aktív felhasználó, 2: 
 
 * Termék tábla 1.
 
-| ID  | termek |
+| TermekazonositoID  | KategoriaNev |
 | :-:   | :-: | 
 | 01 | Gomb |
 | :-:   | :-: |
@@ -182,15 +182,15 @@ Az ID 1:N kapcsolatba van Termék tábla 2. ID-jával.
 
 * Termék tábla 2.
 
-| ID  | fokategoria | alkategoria | gyarto | szin | meret | mennyiseg | megjegyzes | kep | ar | statusz |
-| :-:   | :-: | :-: | :-: | :-: | :-: |  :-: |  :-: |  :-: |  :-: | :-: | 
-| 01 | Kerek | 2 lyukas | Moon | piros | 30*30 | 10 db/csomag | heti akciós| 01.png | 1000ft/csomag | 1 |
-| :-:   | :-: | :-: | :-: | :-: | :-: | :-: |  :-: |  :-: |  :-: |  :-: | :-: | 
-| 01 | Kerek | 2 lyukas | Moon | fehér | 30*30 | 10 db/csomag | heti akciós| 02.png | 1000ft/csomag | 0 |
-| :-:   | :-: | :-: | :-: | :-: | :-: |  :-: |  :-: |  :-: |  :-: | :-: | 
-| 03 | Terítő | Vászon| Len | fehér | 120*5000 | 1 henger | * | 03.png | 1000ft/méter | 1 | 
-| :-:   | :-: | :-: | :-: | :-: | :-: |  :-: |  :-: |  :-: |  :-: | :-: | 
-| 04 | Terítő | Vászon| Len | színes | 120*5000 | 1 henger | * | 04.png | 1000ft/méter | 0 | 
+| TermekazonositoID  | AlkategoriaID | alkategoria | gyarto | szin | meret | mennyiseg | megjegyzes | kep | ar | statusz |
+| :-:   | :-: | :-: | :-: | :-: | :-: |  :-: |  :-: |  :-: |  :-: | :-: | :-: |
+| 01 | 01 | Kerek | Moon | piros | 30*30 | 10 db/csomag | heti akciós| 01.png | 1000ft/csomag | 1 |
+| :-:   | :-: | :-: | :-: | :-: | :-: | :-: |  :-: |  :-: |  :-: |  :-: | :-: | :-: |
+| 02 | 02 | Kerek | Moon | fehér | 30*30 | 10 db/csomag | heti akciós| 02.png | 1000ft/csomag | 0 |
+| :-:   | :-: | :-: | :-: | :-: | :-: |  :-: |  :-: |  :-: |  :-: | :-: | :-: | 
+| 03 | 03 | Terítő | Vászon| Len | fehér | 120*5000 | 1 henger | * | 03.png | 1000ft/méter | 1 | 
+| :-:   | :-: | :-: | :-: | :-: | :-: |  :-: |  :-: |  :-: |  :-: | :-: | :-: | 
+| 04 | 04 | Terítő | Vászon| Len | színes | 120*5000 | 1 henger | * | 04.png | 1000ft/méter | 0 | 
 ||||||||||||
 
 ```
