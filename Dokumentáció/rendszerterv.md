@@ -167,17 +167,27 @@ A státuszt az adminisztrátor választja (2:admin, 1: aktív felhasználó, 2: 
 ```
 
 
-* Termék tábla
+* Termék tábla 1.
 
-| ID  | termek | fokategoria | alkategoria | gyarto | szin | meret | mennyiseg | megjegyzes | kep | ar | statusz |
+| ID  | termek |
+| :-:   | :-: | 
+| 01 | Gomb |
+| :-:   | :-: |
+| 02 | Rovidaru |
+| :-:   | :-: |
+||||||||||||
+
+* Termék tábla 2.
+
+| ID  | fokategoria | alkategoria | gyarto | szin | meret | mennyiseg | megjegyzes | kep | ar | statusz |
+| :-:   | :-: | :-: | :-: | :-: | :-: |  :-: |  :-: |  :-: |  :-: | :-: | 
+| 01 | Kerek | 2 lyukas | Moon | piros | 30*30 | 10 db/csomag | heti akciós| 01.png | 1000ft/csomag | 1 |
 | :-:   | :-: | :-: | :-: | :-: | :-: | :-: |  :-: |  :-: |  :-: |  :-: | :-: | 
-| 01 | Gomb | Kerek | 2 lyukas | Moon | piros | 30*30 | 10 db/csomag | heti akciós| 01.png | 1000ft/csomag | 1 |
-| :-:   | :-: | :-: | :-: | :-: | :-: | :-: |  :-: |  :-: |  :-: |  :-: | :-: | 
-| 01 | Gomb | Kerek | 2 lyukas | Moon | fehér | 30*30 | 10 db/csomag | heti akciós| 02.png | 1000ft/csomag | 0 |
-| :-:   | :-: | :-: | :-: | :-: | :-: | :-: |  :-: |  :-: |  :-: |  :-: | :-: | 
-| 03 | Rövidáru | Terítő | Vászon| Len | fehér | 120*5000 | 1 henger | * | 03.png | 1000ft/méter | 1 | 
-| :-:   | :-: | :-: | :-: | :-: | :-: | :-: |  :-: |  :-: |  :-: |  :-: | :-: | 
-| 04 | Rövidáru | Terítő | Vászon| Len | színes | 120*5000 | 1 henger | * | 04.png | 1000ft/méter | 0 | 
+| 01 | Kerek | 2 lyukas | Moon | fehér | 30*30 | 10 db/csomag | heti akciós| 02.png | 1000ft/csomag | 0 |
+| :-:   | :-: | :-: | :-: | :-: | :-: |  :-: |  :-: |  :-: |  :-: | :-: | 
+| 03 | Terítő | Vászon| Len | fehér | 120*5000 | 1 henger | * | 03.png | 1000ft/méter | 1 | 
+| :-:   | :-: | :-: | :-: | :-: | :-: |  :-: |  :-: |  :-: |  :-: | :-: | 
+| 04 | Terítő | Vászon| Len | színes | 120*5000 | 1 henger | * | 04.png | 1000ft/méter | 0 | 
 ||||||||||||
 
 ```
