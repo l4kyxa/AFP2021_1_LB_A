@@ -177,6 +177,9 @@ A státuszt az adminisztrátor választja (2:admin, 1: aktív felhasználó, 2: 
 | :-:   | :-: |
 ||||||||||||
 
+Külön táblába helyeztem a cég termékkínálatának két alapkategóriáját. Nevezhetjük termék profil választó táblának is: Gomb vagy rövidáru a két alapkategória.
+Az ID 1:N kapcsolatba van Termék tábla 2. ID-jával. 
+
 * Termék tábla 2.
 
 | ID  | fokategoria | alkategoria | gyarto | szin | meret | mennyiseg | megjegyzes | kep | ar | statusz |
