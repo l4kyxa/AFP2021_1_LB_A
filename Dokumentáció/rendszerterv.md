@@ -223,11 +223,11 @@ A státusz mutatja, hogy a rendelés megtörtént, a kosár üres(0), vagy a fel
 
 * Bejegyzés tábla
 
-| ID  | felhasznalo_id  | uzenet | datum |  status | ar |
-| :-:   | :-: | :-: |  :-: | :-: | :-: | 
-| 01 | 01 | Első bejegyzés | 2021-11-01 18:00 | 0 | 1000 |
-| :-:   | :-: | :-: | :-: | :-: | :-: | 
-| 02 | 02|  Második bejegyzés | 2021-11-01 18:05 | 1 | 1000 |
+| ID  | felhasznalo_id  | uzenet | datum |  status |
+| :-:   | :-: | :-: |  :-: | :-: |
+| 01 | 01 | Első bejegyzés | 2021-11-01 18:00 | 0 |
+| :-:   | :-: | :-: | :-: | :-: |
+| 02 | 02|  Második bejegyzés | 2021-11-01 18:05 | 1 |
 ||||||
 
 ```
