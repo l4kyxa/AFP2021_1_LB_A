@@ -1,4 +1,15 @@
-<html>
+<?php
+
+if (isset($_POST["submit"])) 
+{
+	echo "Működik";
+}
+else {
+	header ("location: ../signup.php");
+
+
+>
+/*<html>
 <body>
 
 Back-End felé küldött adatok<br><br>
@@ -11,4 +22,4 @@ Jelszó újra: <?php echo $_POST["jelszo_ujra"]; ?><br>
 <?php header( 'Refresh: 10; URL=..\index.php');?>
 
 </body>
-</html>
+</html>*/
