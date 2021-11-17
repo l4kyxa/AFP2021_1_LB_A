@@ -15,7 +15,7 @@ if (isset($_POST["submit"]))
 		header ("location: ../regisztracio.php?error=emptyinput");
 		exit();
 	}
-	if (invalidUid($felhasznaloinev) !== false)
+	if (invalidUid($username) !== false)
 	{
 		header ("location: ../regisztracio.php?error=invaliduid");
 		exit();
@@ -30,13 +30,13 @@ if (isset($_POST["submit"]))
 		header ("location: ../regisztracio.php?error=passwordsdontmatch");
 		exit();
 	}
-	if (uidExists($conn, $username) !== false)
+	if (uidExists($conn, $username, $email) !== false)
 	{
-		header ("location: ../regisztracio.php?error=usernametaken");
+		header ("location: ../regisztracio.php?error=usernameoremailtaken");
 		exit();
 	}
 
-	createUser($conn, $username, $email, $pwd);
+	createUser($conn, $email, $username, $pwd);
 
 }
 else 

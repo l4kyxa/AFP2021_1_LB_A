@@ -1,12 +1,14 @@
 <?php
 
-$serverName = "https://www.rackhost.hu/pma/19/index.php";
-$dbUsername = "c22578keret";
-$dBPassword = "c22578keret";
-$dBName = "c22578DB";
+$serverName = "localhost";
+$dbUsername = "root";
+$dbPassword = "";
+$dBName = "teszteles";
 
-$conn = mysqli_connect($serverName, $dBUsername, $dbPassword, $dBName);
+$conn = mysqli_connect($serverName, $dbUsername, $dbPassword, $dBName);
 
 if (!$conn) {
 	die("Connection failed: " . mysqli_connect_error());
 }
+echo "Connected successfully";
+?>
