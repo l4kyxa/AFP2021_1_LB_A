@@ -205,11 +205,11 @@ A státusz adja meg, hogy a termék aktiv vagy passzív.
 
 * Kosár tábla
 
-| ID  | felhasznalo_id  |  termek_id | tetel | datum |  status  |
+| VasaroltTermekazonositoID  | Felhasznalo_id  |  Termekazonositoid | Mennyiseg/db | Ar | VasarlasDatum |  Teljesitve  |
 | :-:   | :-: | :-: | :-: | :-: | :-: | 
-| 01 | admin| 01 | 2 | 2021-11-01 18:00 | 1 |
+| 01 | admin| 01 | 2 | 1000 | 2021-11-01 18:00 | 1 |
 | :-:   | :-: | :-: | :-: | :-: | 
-| 02 | user| 02 | 5 | 2021-11-01 18:00 |  0 |
+| 02 | user| 02 | 5 | 1000 | 2021-11-01 18:00 |  0 |
 |||||||
 
 ```
