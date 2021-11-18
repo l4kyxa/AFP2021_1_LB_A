@@ -148,7 +148,7 @@ Menü-hierarchiák:
 
 * Felhasznalok tábla
 
-| UserID | Username | Email | Jelszo | Bejelentkezve | statusz | 
+| Felhasznalo_id | Felhasznalonev | Email | Jelszo | Bejelentkezve | Statusz | 
 | :-: | :-: | :-: | :-: | :-: | :-: | 
 | 01 | admin | admin@admin.hu | admin | 1 | 2 | 
 | :-:   | :-: | :-: |  :-: | :-: | :-: | 
@@ -182,7 +182,7 @@ Az ID 1:N kapcsolatba van Termék tábla 2. ID-jával.
 
 * Termék tábla 2.
 
-| TermekazonositoID  | AlkategoriaID | alkategoria | gyarto | szin | meret | mennyiseg | megjegyzes | kep | ar | statusz |
+| TermekazonositoID  | AlkategoriaID | TermekNev | GyartoNev | Szin | Meret | Mennyiseg | Megjegyzes | Kep | Ar | Statusz |
 | :-:   | :-: | :-: | :-: | :-: | :-: |  :-: |  :-: |  :-: |  :-: | :-: |
 | 01 | 01 | Kerek | Moon | piros | 30*30 | 10 db/csomag | heti akciós| 01.png | 1000ft/csomag | 1 |
 | :-:   | :-: | :-: | :-: | :-: | :-: | :-: |  :-: |  :-: |  :-: |  :-: |
@@ -223,7 +223,7 @@ A státusz mutatja, hogy a rendelés megtörtént, a kosár üres(0), vagy a fel
 
 * Bejegyzés tábla
 
-| ID  | felhasznalo_id  | uzenet | datum |  status |
+| ID  | Felhasznalo_id  | Uzenet | Datum |  Status |
 | :-:   | :-: | :-: |  :-: | :-: |
 | 01 | 01 | Első bejegyzés | 2021-11-01 18:00 | 0 |
 | :-:   | :-: | :-: | :-: | :-: |
