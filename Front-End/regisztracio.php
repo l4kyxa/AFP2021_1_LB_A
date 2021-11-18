@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html>
+<title>www.gombrovidaru.hu</title>
+<meta charset="UTF-8">
+<link href="images/favicon.png" rel="icon">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+<!--  <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <body>
 <!---->
@@ -36,16 +46,47 @@
             <label for="jelszo"><b>Jelszó</b></label>
             <input type="password" placeholder="jelszó" name="jelszo" id="jelszo" required>
 
-            <label for="jelszo_ujra"><b>Jelszó</b></label>
-            <input type="text" placeholder="Jelszó még egyszer" name="jelszo_ujra" id="jelszo_ujra" required>
+            <label for="jelszo_ujra"><b>Jelszó újra</b></label>
+            <input type="password" placeholder="Jelszó még egyszer" name="jelszo_ujra" id="jelszo_ujra" required>
             <div class="btncontainer">
                 <div class="btnvertical-center">
-            <button type="submit" class="registerbtn" >KÜLDÉS</button>
+            <button type="submit" class="registerbtn" name="submit">KÜLDÉS</button>
                 </div>
             </div>
         </div>
         </form>
     </div>
+
+    <?php
+    if(isset($_GET["error"]))
+    {
+        if ($_GET["error"] == "invaliduid")
+        {
+            echo "<p>Felhasználónév nem megfelelő!</p>";
+        }
+        else if ($_GET["error"] == "invalidemail")
+        {
+            echo "<p>E-mail cím nem megfelelő!</p>";
+        }
+        else if ($_GET["error"] == "passwordsdontmatch")
+        {
+            echo "<p>Jelszavak nem egyeznek meg!</p>";
+        }
+        else if ($_GET["error"] == "stmtfailed")
+        {
+            echo "<p>Valami nem stimmel, kérlek próbáld újra!</p>";
+        }
+        else if ($_GET["error"] == "usernameoremailtaken")
+        {
+            echo "<p>Felhasználónév foglalt!</p>";
+        }
+        else if ($_GET["error"] == "none")
+        {
+            echo "<p>Sikeres regisztráció!</p>";
+        }
+    }
+    ?>
+
 </div>
 </div>
 <!---->
@@ -95,4 +136,5 @@
 
 
 </body>
+
 </html>
