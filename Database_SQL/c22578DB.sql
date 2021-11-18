@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: localhost
--- Létrehozás ideje: 2021. Nov 14. 12:58
+-- Létrehozás ideje: 2021. Nov 18. 12:15
 -- Kiszolgáló verziója: 10.3.31-MariaDB-0+deb10u1
 -- PHP verzió: 7.3.31-1~deb10u1
 
@@ -24,16 +24,46 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Tábla szerkezet ehhez a táblához `Bejegyzes`
+--
+
+CREATE TABLE `Bejegyzes` (
+  `ID` int(11) NOT NULL,
+  `Felhasznalo_id` int(11) NOT NULL,
+  `Uzenet` varchar(1000) NOT NULL,
+  `Datum` date NOT NULL,
+  `Status` tinyint(1) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
 -- Tábla szerkezet ehhez a táblához `Felhasznalok`
 --
 
 CREATE TABLE `Felhasznalok` (
-  `UserID` int(11) NOT NULL,
+  `Felhasznalo_id` int(11) NOT NULL,
+  `Felhasznalonev` varchar(20) NOT NULL,
   `Email` text NOT NULL,
-  `Username` varchar(20) NOT NULL,
-  `Password` text NOT NULL,
-  `statusz` int(11) NOT NULL,
-  `Bejelentkezve` tinyint(1) NOT NULL
+  `Jelszo` text NOT NULL,
+  `Bejelentkezve` tinyint(1) NOT NULL,
+  `Statusz` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Tábla szerkezet ehhez a táblához `Kosar`
+--
+
+CREATE TABLE `Kosar` (
+  `VasaroltTermekazonositoID` int(11) NOT NULL,
+  `Felhasznalo_ID` int(11) NOT NULL,
+  `TermekazonositoID` int(11) NOT NULL,
+  `Mennyiseg/db` int(10) NOT NULL,
+  `Ar` int(10) NOT NULL,
+  `VasarlasDatum` date NOT NULL,
+  `Teljesitve` tinyint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -60,23 +90,11 @@ CREATE TABLE `TermekTabla2` (
   `GyartoNev` int(11) DEFAULT NULL,
   `Szin` varchar(60) DEFAULT NULL,
   `Meret` int(11) DEFAULT NULL,
-  `Ar` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
--- --------------------------------------------------------
-
---
--- Tábla szerkezet ehhez a táblához `Vasarlok`
---
-
-CREATE TABLE `Vasarlok` (
-  `VasaroltTermekazonositoID` int(11) NOT NULL,
-  `TermekazonositoID` int(11) NOT NULL,
-  `UserID` int(11) NOT NULL,
-  `Mennyiseg/db` int(10) NOT NULL,
-  `Ar` int(10) NOT NULL,
-  `VasarlasDatum` date NOT NULL,
-  `Teljesitve` tinyint(1) NOT NULL
+  `Mernyiseg` varchar(20) NOT NULL,
+  `Megjegyzes` varchar(250) NOT NULL,
+  `Kep` varchar(60) NOT NULL COMMENT 'Képfájl',
+  `Ar` int(11) NOT NULL,
+  `Statusz` tinyint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
@@ -84,10 +102,25 @@ CREATE TABLE `Vasarlok` (
 --
 
 --
+-- A tábla indexei `Bejegyzes`
+--
+ALTER TABLE `Bejegyzes`
+  ADD PRIMARY KEY (`ID`),
+  ADD KEY `Felhasznalo_id` (`Felhasznalo_id`);
+
+--
 -- A tábla indexei `Felhasznalok`
 --
 ALTER TABLE `Felhasznalok`
-  ADD PRIMARY KEY (`UserID`);
+  ADD PRIMARY KEY (`Felhasznalo_id`);
+
+--
+-- A tábla indexei `Kosar`
+--
+ALTER TABLE `Kosar`
+  ADD PRIMARY KEY (`VasaroltTermekazonositoID`),
+  ADD KEY `TermekazonositoID` (`TermekazonositoID`),
+  ADD KEY `UserID` (`Felhasznalo_ID`);
 
 --
 -- A tábla indexei `TermekTabla1`
@@ -102,22 +135,20 @@ ALTER TABLE `TermekTabla2`
   ADD PRIMARY KEY (`TermekazonositoID`);
 
 --
--- A tábla indexei `Vasarlok`
---
-ALTER TABLE `Vasarlok`
-  ADD PRIMARY KEY (`VasaroltTermekazonositoID`),
-  ADD KEY `TermekazonositoID` (`TermekazonositoID`),
-  ADD KEY `UserID` (`UserID`);
-
---
 -- A kiírt táblák AUTO_INCREMENT értéke
 --
+
+--
+-- AUTO_INCREMENT a táblához `Bejegyzes`
+--
+ALTER TABLE `Bejegyzes`
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT a táblához `Felhasznalok`
 --
 ALTER TABLE `Felhasznalok`
-  MODIFY `UserID` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `Felhasznalo_id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT a táblához `TermekTabla1`
@@ -136,17 +167,23 @@ ALTER TABLE `TermekTabla2`
 --
 
 --
+-- Megkötések a táblához `Bejegyzes`
+--
+ALTER TABLE `Bejegyzes`
+  ADD CONSTRAINT `Bejegyzes_ibfk_1` FOREIGN KEY (`Felhasznalo_id`) REFERENCES `Felhasznalok` (`Felhasznalo_id`);
+
+--
+-- Megkötések a táblához `Kosar`
+--
+ALTER TABLE `Kosar`
+  ADD CONSTRAINT `Kosar_ibfk_1` FOREIGN KEY (`TermekazonositoID`) REFERENCES `TermekTabla2` (`TermekazonositoID`),
+  ADD CONSTRAINT `Kosar_ibfk_2` FOREIGN KEY (`Felhasznalo_ID`) REFERENCES `Felhasznalok` (`Felhasznalo_id`);
+
+--
 -- Megkötések a táblához `TermekTabla2`
 --
 ALTER TABLE `TermekTabla2`
   ADD CONSTRAINT `TermekTabla2_ibfk_1` FOREIGN KEY (`TermekazonositoID`) REFERENCES `TermekTabla1` (`TermekazonositoID`);
-
---
--- Megkötések a táblához `Vasarlok`
---
-ALTER TABLE `Vasarlok`
-  ADD CONSTRAINT `Vasarlok_ibfk_1` FOREIGN KEY (`TermekazonositoID`) REFERENCES `TermekTabla2` (`TermekazonositoID`),
-  ADD CONSTRAINT `Vasarlok_ibfk_2` FOREIGN KEY (`UserID`) REFERENCES `Felhasznalok` (`UserID`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
