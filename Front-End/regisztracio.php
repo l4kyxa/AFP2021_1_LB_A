@@ -82,7 +82,7 @@
         }
         else if ($_GET["error"] == "none")
         {
-            echo "<p>Sikeres regisztráció!</p>";
+            echo "<p>Sikeres regisztráció, ezzel együtt az Általános szerződési feltételek automatikusan elfogadásra kerültek!</p>";
         }
     }
     ?>
