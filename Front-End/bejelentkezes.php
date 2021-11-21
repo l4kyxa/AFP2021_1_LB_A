@@ -51,7 +51,7 @@
                 <input type="password" placeholder="adja meg a jelszavát" name="jelszo" >
                 <div class="btncontainer">
                     <div class="btnvertical-center">
-                        <button type="submit" class="registerbtn" >BELÉP</button>
+                        <button type="submit" class="registerbtn" name="submit2" >BELÉP</button>
                     </div>
                 </div>
 
@@ -75,6 +75,15 @@
 
 
     </div>
+    <?php
+    if(isset($_GET["error"]))
+    {
+        if ($_GET["error"] == "wronglogin")
+        {
+            echo "<p>Helytelen bejelentkezési adatok!</p>";
+        }
+    }
+    ?>
     </div>
     <!-- -->
 </div>
