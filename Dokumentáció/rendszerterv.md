@@ -148,13 +148,13 @@ Menü-hierarchiák:
 
 * Felhasznalok tábla
 
-| Felhasznalo_id | Felhasznalonev | Email | Jelszo | Bejelentkezve | Statusz | 
-| :-: | :-: | :-: | :-: | :-: | :-: | 
-| 01 | admin | admin@admin.hu | admin | 1 | 2 | 
+| Felhasznalo_ID | Felhasznalonev | Email | Jelszo | Aszf | Bejelentkezve | Statusz | 
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
+| 01 | admin | admin@admin.hu | admin | 1 | 1 | 2 | 
 | :-:   | :-: | :-: |  :-: | :-: | :-: | 
-| 02 | aktiv  | aktiv@email.hu  | aktiv01  | 1 | 1 | 
+| 02 | aktiv  | aktiv@email.hu  | aktiv01  | 1 | 1 | 1 | 
 | :-:   |  :-: | :-: |  :-: | :-: | :-: | 
-| 03 | paszív | passziv@email.hu | passziv01 | 0 | 0 | 
+| 03 | paszív | passziv@email.hu | passziv01 | 1 | 0 | 0 | 
 |||||||
 
 ```
@@ -162,6 +162,7 @@ A felhasznáók adatait tároló tábla, személyes adatot nem tárol.
 Regisztrációkor: a felhasználó automatikusan kap egy ID-t.
 A felhasználó megadja a vezeték és keresztnevét.
 A Username-t, az email címet és a hozzá tartozó jelszót a felhasználó adja meg.
+Az ÁSZF oszlop segítségével jogilag igazolva van a hatóság felé, hogy a felhasználó elfogadta az ÁSZF-et a regisztfáció során, vagyis többek közt a weboldal és webshop felhasználási feltételeit.
 A bejelntkezve mező tárolja az aktuális felhasználó jelenlegi állapotát.
 A státuszt az adminisztrátor választja (2:admin, 1: aktív felhasználó, 2: passzív felhasználó).
 ```
