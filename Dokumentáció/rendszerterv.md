@@ -168,9 +168,9 @@ A státuszt az adminisztrátor választja (2:admin, 1: aktív felhasználó, 2: 
 ```
 
 
-* Termék tábla 1.
+* Termekek tábla
 
-| TermekazonositoID  | KategoriaNev |
+| Termekazonosito_ID  | KategoriaNev |
 | :-:   | :-: | 
 | 01 | Gomb |
 | :-:   | :-: |
@@ -179,11 +179,11 @@ A státuszt az adminisztrátor választja (2:admin, 1: aktív felhasználó, 2: 
 ||||||||||||
 
 Külön táblába helyeztem a cég termékkínálatának két alapkategóriáját. Nevezhetjük termék profil választó táblának is: Gomb vagy rövidáru a két alapkategória.
-Az ID 1:N kapcsolatba van Termék tábla 2. ID-jával. 
+A Termekazonosito_ID 1:N kapcsolatba van az Aruk tábla Termekazonosito_ID-jával. 
 
-* Termék tábla 2.
+* Aruk tábla
 
-| TermekazonositoID  | AlkategoriaID | TermekNev | GyartoNev | Szin | Meret | Mennyiseg | Megjegyzes | Kep | Ar | Statusz |
+| Aru_ID  | Termekazonosito_ID | TermekNev | GyartoNev | Szin | Meret | Mennyiseg | Megjegyzes | Kep | Ar | Statusz |
 | :-:   | :-: | :-: | :-: | :-: | :-: |  :-: |  :-: |  :-: |  :-: | :-: |
 | 01 | 01 | Kerek | Moon | piros | 30*30 | 10 db/csomag | heti akciós| 01.png | 1000ft/csomag | 1 |
 | :-:   | :-: | :-: | :-: | :-: | :-: | :-: |  :-: |  :-: |  :-: |  :-: |
@@ -195,9 +195,9 @@ Az ID 1:N kapcsolatba van Termék tábla 2. ID-jával.
 ||||||||||||
 
 ```
-A termékek rögzítése/módosítása/törlése csak admin számára lehetséges.
-Regisztráláskor autamitikusan kap a termék egy ID-t.
-A termék/főkategória/alkategória/gyártó/szín/méret/mennyiség/megjegyzés/kép/ár/státusz megadása a rögzítő feladata.
+Az áruk rögzítése/módosítása/törlése csak admin számára lehetséges.
+Regisztráláskor autamitikusan kap a termék egy ID-t. Ez az Aru_ID.
+A Termekazonosito_ID/TermekNev/GyartoNev/Szín/Meret/Mennyiseg/Ar megadása a rögzítő feladata, amely egyértelműen meghatározza az árut.
 A megjegyzés tárolja az akció státuszát vagy egyéb információt a termékről.
 A kép tarolja az elérési utat.
 A státusz adja meg, hogy a termék aktiv vagy passzív.
