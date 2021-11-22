@@ -1,20 +1,23 @@
-<html>
-<body>
-
-Back-End felé küldött adatok<br><br>
-Felhasználói név:<?php echo $_POST["felhasznaloinev"]; ?><br>
-Jelszó: <?php echo $_POST["jelszo"]; ?><br>
-Emlékezz rám:
 <?php
-if (!empty($_POST["remember"])) {
-    echo "igen";
-} else {
-    echo "nem";
-}
-?>
-<br><br>
-10 mp múlva átirányítjuk a kezdőlapra
-<?php header( 'Refresh: 10; URL=..\index.php');?>
 
-</body>
-</html>
+if (isset($_POST["submit2"]))
+{
+    $username = $_POST["felhasznaloinev"];
+    $pwd = $_POST["jelszo"];
+
+    require_once 'dbhandler.php';
+    require_once 'functions.php';
+
+    if (emptyInputLogin($username, $pwd) !== false)
+	{
+		header ("location: ../regisztracio.php?error=emptyinput");
+		exit();
+	}
+
+    loginUser($conn, $username, $pwd);
+}
+else
+{
+    header("location: ../bejelentkezes.php");
+    exit();
+}

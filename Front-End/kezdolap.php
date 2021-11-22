@@ -1,3 +1,6 @@
+<?php
+    session_start();
+    ?>
 <!DOCTYPE html>
 <html>
 <title>www.gombrovidaru.hu</title>
@@ -23,6 +26,16 @@
         <a href="bejelentkezes.php"><i class="fa fa-fw fa-sign-in"></i> BEJELENTKEZÉS</a>
         <a href="kosar.php"><i class="fa fa-fw fa-shopping-cart"></i> KOSÁR</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <?php
+            if (isset($_SESSION["useruid"]))
+            {
+                echo "<a href='profile.php'>Profile page</a>";
+            }
+            else
+            {
+                echo "<a href='notprofile.php'>Not profile</a>";
+            }
+        ?>
     </div>
     <div class="pic">
         <div class="centered">

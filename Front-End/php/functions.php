@@ -54,7 +54,7 @@ function pwdMatch($pwd, $pwdrepeat)
 }
 function uidExists($conn, $username, $email)
 {
-	$sql = "SELECT * FROM felhasznalok WHERE Username = ? OR Email = ?;";
+	$sql = "SELECT * FROM felhasznalok WHERE Felhasznalonev = ? OR Email = ?;";
 	$stmt = mysqli_stmt_init($conn);
 	if (!mysqli_stmt_prepare($stmt, $sql))
 	{
@@ -81,7 +81,7 @@ function uidExists($conn, $username, $email)
 }
 function createUser($conn, $email, $username, $pwd)
 {
-	$sql = "INSERT INTO felhasznalok (Email, Username, Password) VALUES (?, ?, ?) ;";
+	$sql = "INSERT INTO felhasznalok (Email, Felhasznalonev, Jelszo, Aszf, Bejelentkezve, Statusz) VALUES (?, ?, ?, '1', '0', '0') ;";
 	$stmt = mysqli_stmt_init($conn);
 	if (!mysqli_stmt_prepare($stmt, $sql))
 	{
@@ -96,4 +96,46 @@ function createUser($conn, $email, $username, $pwd)
 	mysqli_stmt_close($stmt);
 	header ("location: ../regisztracio.php?error=none");
 	exit();
+}
+
+function emptyInputLogin($username, $pwd)
+{
+	$result;
+	if (empty($username) || empty($pwd))
+	{
+		$result = true;
+	}
+	else
+	{
+		$result = false;
+	}
+	return $result;
+}
+
+function loginUser($conn, $username, $pwd)
+{
+	$uidExists = uidExists($conn, $username, $username);
+
+	if ($uidExists === false)
+	{
+		header ("location: ../login.php;error=wrongloginusername");
+		exit();
+	}
+
+	$pwdHashed = $uidExists["Jelszo"];
+	$checkPwd = password_verify($pwd, $pwdHashed);
+
+	if ($checkPwd === false)
+	{
+		header("location: ../login.php?error=wrongloginpwd");
+		exit();
+	}
+	else if ($checkPwd === true)
+	{
+		session_start();
+		$_SESSION["userid"] = $uidExists["Felhasznalo_ID"];
+		$_SESSION["useruid"] = $uidExists["Felhasznalonev"];
+		header("location: ../index.php");
+		exit();
+	}
 }
