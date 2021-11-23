@@ -225,7 +225,7 @@ A Lakcím és a Szállítási cím megadása kötelező. A vásárlás során a 
 
 * Bejegyzés tábla
 
-| ID  | Felhasznalo_id  | Uzenet | Datum |  Status |
+| Bejegyzes_ID  | Felhasznalo_ID  | Uzenet | Datum |  Status |
 | :-:   | :-: | :-: |  :-: | :-: |
 | 01 | 01 | Első bejegyzés | 2021-11-01 18:00 | 0 |
 | :-:   | :-: | :-: | :-: | :-: |
@@ -233,11 +233,8 @@ A Lakcím és a Szállítási cím megadása kötelező. A vásárlás során a 
 ||||||
 
 
-A bejegyzés a felhasználó és az admin számára biztosítva van
-Az adatbázis tárolja a felhasználó ID-jét, A felhasználó által megírt üzenetet,
- a megírás dátumát és az üzenet státuszát(0:passzív, 1:aktív).
-
-
+A bejegyzés a felhasználó és az admin számára biztosítva van.
+Az adatbázis tárolja a bejegyzés ID-jét, a felhasználó ID-jét, a felhasználó által megírt üzenetet, a megírás dátumát és az üzenet státuszát(0:passzív, 1:aktív).
 
 
 ## IX. Fizikai környezet
