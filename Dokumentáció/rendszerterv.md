@@ -204,23 +204,24 @@ A státusz adja meg, hogy a termék aktiv vagy passzív.
 ```
 
 
-* Kosár tábla
+* Kosar tábla
 
-| VasaroltTermekazonositoID  | Felhasznalo_id  |  Termekazonositoid | Mennyiseg/db | Ar | VasarlasDatum |  Teljesitve  |
-| :-:   | :-: | :-: | :-: | :-: | :-: | 
-| 01 | admin| 01 | 2 | 1000 | 2021-11-01 18:00 | 1 |
-| :-:   | :-: | :-: | :-: | :-: | 
-| 02 | user| 02 | 5 | 1000 | 2021-11-01 18:00 |  0 |
+| Vasarlas_ID  | Felhasznalo_ID  |  Termekazonosito_ID | Mennyiseg/db | Ar | VasarlasDatum |  Teljesitve  | Lakcim_Irszam | Lakcím_Helyiseg | Lakcim_Utca | Lakcim_Hsz | Szallcim_Irszam | Szallcim_Helyiseg | Szallcim_Utca | Szallcim_Hsz |
+| :-:   | :-: | :-: | :-: | :-: | :-: |  :-: |  :-: |  :-: |  :-: |  :-: |  :-: |  :-: |  :-: |  :-: |
+| 01 | admin| 01 | 2 | 1000 | 2021-11-01 18:00 | 1 | 2120 | Dunakeszi | Pihenő utca | 27 | 2120 | Dunakeszi | Pihenő utca | 27 |
+| :-:   | :-: | :-: | :-: | :-: | :-:   | :-: | :-: | :-: | :-: | :-:   | :-: | :-: | :-: | :-: | 
+| 02 | user| 02 | 5 | 1000 | 2021-11-01 18:00 |  0 | 2120 | Dunakeszi | Pihenő utca | 27 | 2120 | Dunakeszi | Pihenő utca | 27 |
 |||||||
 
-```
+
 A kosár adatbázis a megrendelni kívánt elemeket tárolja.
-Az elem kosárba tételekor kap egy automatikus ID-t.
-Az adatbázishoz hozárendelődik az aktuális felhasználó ID-je, és a termék ID-je.
-A tétel kiválasztásakor a felhasználó megadja a darabszámot(alapesetben:1).
+Az elem kosárba tételekor kap egy automatikus Vasarlas_ID-t.
+Az adatbázishoz hozzárendelődik az aktuális felhasználó ID-je, és a termék ID-je (Termekazonosito_ID).
+A tétel kiválasztásakor a felhasználó megadja a mennyiséget/darabszámot(alapesetben:1).
 A dátum automatikusan kerül rögzítéser.
-A státusz mutatja, hogy a rendelés megtörtént, a kosár üres(0), vagy a felhasználó még nem adta le a rendelését(1).
-```
+A Teljesítve mutatja, hogy a rendelés megtörtént, a kosár üres(0), vagy a felhasználó még nem adta le a rendelését(1).
+A Lakcím és a Szállítási cím megadása kötelező. A vásárlás során a lakcím másolható a szállítási címbe, ha a vásárló tesz egy pipát a "Lakcím megegyezik a szállítási címmel" előtti jelölőnégyzetbe.
+
 
 * Bejegyzés tábla
 
@@ -231,11 +232,11 @@ A státusz mutatja, hogy a rendelés megtörtént, a kosár üres(0), vagy a fel
 | 02 | 02|  Második bejegyzés | 2021-11-01 18:05 | 1 |
 ||||||
 
-```
+
 A bejegyzés a felhasználó és az admin számára biztosítva van
 Az adatbázis tárolja a felhasználó ID-jét, A felhasználó által megírt üzenetet,
  a megírás dátumát és az üzenet státuszát(0:passzív, 1:aktív).
-```
+
 
 
 
