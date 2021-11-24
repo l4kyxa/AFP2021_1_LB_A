@@ -23,7 +23,7 @@
             echo '<a href=""><i class="fa fa-fw fa-user-times"></i>';
         }
         ?>
-        
+
 
         <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
 
