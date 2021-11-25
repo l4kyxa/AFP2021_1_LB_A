@@ -120,7 +120,7 @@
 
                 <div class="vertical-menu">
                     <h3>Online vásárlás</h3>
-                    <a href="rovidaru.php">Termékek</a>
+                    <a href="termekek.php">Termékek</a>
                     <a href="bejelentkezes.php">Regisztráció</a>
                     <a href="kapcsolat.php">Kapcsolat</a>
                 </div>
