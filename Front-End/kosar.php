@@ -35,27 +35,47 @@
             </div>
         </div>
 
-        <div class="flex-item">
-            <div class="card">
-                <img src="images\P_00.jpg" style="width:100%">
-                <h1>db_name_1</h1>
-                <p>db_price_1</p>
-                <form action="php\00_kosar_torol.php" method="post">
-                    <p><button type="submit">töröl</button></p>
-                </form>
-            </div>
-        </div>
+        <form action="#" method="post">
+            <div class="container">
 
-        <div class="flex-item">
-            <div class="card">
-                <img src="images\P_00.jpg" style="width:100%">
-                <h1>db_name_3</h1>
-                <p>db_price_3</p>
-                <form action="php\00_kosar_torol.php" method="post">
-                <p><button type="submit">töröl</button></p>
-                </form>
+                <div id="box_2">
+                    <h2>Lakcím</h2>
+                </div>
+
+                <label for="Lakcim_Irszam"><b>Irányítószám</b></label>
+                <input type="text" placeholder="lakcím-irányítószám" name="Lakcim_Irszam" id="Lakcim_Irszam" required>
+
+                <label for="Lakcim_Helyiseg"><b>Helyiség</b></label>
+                <input type="text" placeholder="lakcím-helyiség" name="Lakcim_Helyiseg" id="Lakcim_Helyiseg" required>
+
+                <label for="Lakcim_Utca"><b>Utca</b></label>
+                <input type="text" placeholder="lakcím-utca" name="Lakcim_Utca" id="Lakcim_Utca" required>
+
+                <label for="Lakcim_Hsz"><b>Házszám</b></label>
+                <input type="text" placeholder="lakcím-házszám" name="Lakcim_Hsz" id="Lakcim_Hsz" required>
+
+
+                <div id="box_2">
+                    <h2>Szállítási cím</h2>
+                </div>
+
+                <label for="Szallcim_Irszam"><b>Irányítószám</b></label>
+                <input type="text" placeholder="szállítási cím-irányítószám" name="Szallcim_Irszam" id="Szallcim_Irszam" required>
+
+                <label for="Szallcim_Helyiseg"><b>Helyiség</b></label>
+                <input type="text" placeholder="szállítási cím-helyiség" name="Szallcim_Helyiseg" id="Szallcim_Helyiseg" required>
+
+                <label for="Szallcim_Utca"><b>Utca</b></label>
+                <input type="text" placeholder="szállítási cím-utca" name="Szallcim_Utca" id="Szallcim_Utca" required>
+
+                <label for="Szallcim_Hsz"><b>Házszám</b></label>
+                <input type="text" placeholder="szállítási cím-házszám" name="Szallcim_Hsz" id="Szallim_Hsz" required>
+
             </div>
-        </div>
+        </form>
+
+
+
         <form action="php\00_kosar_rendel.php" method="post">
         <div class="btncontainer">
             <div class="btnvertical-center">

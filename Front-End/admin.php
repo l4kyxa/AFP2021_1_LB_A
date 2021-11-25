@@ -45,6 +45,9 @@
             <label for="jelszo"><b>Jelszó</b></label>
             <input type="password" placeholder="jelszó" name="jelszo" id="jelszo" required>
 
+            <label for="aszf"><b>ASZF</b></label>
+            <input type="text" placeholder="aszf" name="aszf" id="aszf" required>
+
             <label for="bejelentkezve"><b>Bejelentkezve</b></label>
             <input type="text" placeholder="bejelentkezve" name="bejelentkezve" id="bejelentkezve" required>
 
@@ -73,17 +76,17 @@
 
         <form action="php\00_admin_termek.php" method="post">
         <div class="container">
+
+
+
             <label for="id"><b>ID</b></label>
             <input type="text" placeholder="ID" name="id" id="id" required>
 
+            <label for="kategorianev"><b>Kategória név</b></label>
+            <input type="text" placeholder="gomb/rövidáru" name="kategorianev" id="kategorianev" required>
+
             <label for="termek"><b>Termék</b></label>
             <input type="text" placeholder="termék" name="termek" id="termek" required>
-
-            <label for="fokategoria"><b>Főkategória</b></label>
-            <input type="text" placeholder="fokategoria" name="fokategoria" id="fokategoria" required>
-
-            <label for="alkategoria"><b>Főkategória</b></label>
-            <input type="text" placeholder="alkategória" name="alkategoria" id="alkategoria" required>
 
             <label for="gyarto"><b>Gyártó</b></label>
             <input type="text" placeholder="gyártó" name="gyarto" id="gyarto" required>
@@ -137,7 +140,7 @@
             <label for="id"><b>ID</b></label>
             <input type="text" placeholder="ID" name="id" id="id" required>
 
-            <label for="name"><b>Név</b></label>
+            <label for="name"><b>Felhasználó</b></label>
             <input type="text" placeholder="felhasználói név" name="name" id="name" required>
 
             <label for="email"><b>Email</b></label>
