@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 
 <div id="header_kezdolap">
     <div class="topnav" id="myTopnav">
@@ -6,20 +9,19 @@
         <a href="rolunk.php"><i class="fa fa-fw fa-user-circle-o"></i> RÓLUNK</a>
         <a href="termekek.php"><i class="fa fa-fw fa-slack"></i> TERMÉKEK</a>
         <a href="uzenofal.php"><i class="fa fa-fw fa-commenting-o"></i> ÜZENŐFAL</a>
-        <a href="kapcsolat.php"><i class="fa fa-fw fa-vcard-o"></i> KAPCSOLAT</a>
-        <a href="bejelentkezes.php"><i class="fa fa-fw fa-sign-in"></i> BEJELENTKEZÉS</a>
+        <a href="kapcsolat.php"><i class="fa fa-fw fa-vcard-o"></i> KAPCSOLAT</a>      
         <a href="kosar.php"><i class="fa fa-fw fa-shopping-cart"></i> KOSÁR</a>
 
 
         <?php
         if (isset($_SESSION["useruid"]))
         {
-            //echo "<a href='profile.php'>Profile page</a>";
             echo '<a href=""><i class="fa fa-fw fa-user"></i>';
+            echo '<a href="php/00_kijelentkezes.php"><i class="fa fa-fw fa-sign-in"></i> KIJELENTKEZÉS</a>';
         }
         else
         {
-           // echo "<a href='notprofile.php'>Not profile</a>";
+            echo '<a href="bejelentkezes.php"><i class="fa fa-fw fa-sign-in"></i> BEJELENTKEZÉS</a>';
             echo '<a href=""><i class="fa fa-fw fa-user-times"></i>';
         }
         ?>

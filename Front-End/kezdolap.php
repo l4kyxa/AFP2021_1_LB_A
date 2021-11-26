@@ -1,6 +1,3 @@
-<?php
-    session_start();
-    ?>
 <!DOCTYPE html>
 <html>
 <title>www.gombrovidaru.hu</title>
