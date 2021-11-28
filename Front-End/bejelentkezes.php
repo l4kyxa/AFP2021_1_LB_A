@@ -31,8 +31,8 @@
 
         <form action="php\00_bejelentkezes.php" method="post">
             <div class="container">
-                <label for="felhasznaloinev"><b>Felhasználói név</b></label>
-                <input type="text" placeholder="adja meg a felhasználói nevét" name="felhasznaloinev">
+                <label for="felhasznaloinev"><b>Felhasználói név vagy E-mail cím<main></main></b></label>
+                <input type="text" placeholder="adja meg a felhasználói nevét vagy e-mail címét" name="felhasznaloinev">
 
                 <label for="jelszo"><b>Jelszó</b></label>
                 <input type="password" placeholder="adja meg a jelszavát" name="jelszo" >

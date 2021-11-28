@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <title>www.gombrovidaru.hu</title>
 <meta charset="UTF-8">
 <link href="images/favicon.png" rel="icon">
