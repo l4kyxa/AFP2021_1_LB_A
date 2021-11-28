@@ -1,3 +1,7 @@
+<?php
+    date_default_timezone_set('Europe/Budapest');
+?>
+
 <!DOCTYPE html>
 <html>
 <title>www.gombrovidaru.hu</title>
@@ -15,60 +19,77 @@
 <!---->
 <div id="content">
     <!---->
+
     <div id="box_2">
         <h2>Üzenőfal</h2>
-        <div class="container">
-            <img src="images/avatar3.png" alt="Avatar">
-            <p>A Rendelésem megérkezett, minden flottul zajlott. Pista Bácsi!</p>
-            <span class="time-right">11:00</span>
-        </div>
 
-        <div class="container darker">
-            <img src="images/avatar2.png" alt="Avatar" class="right">
-            <p class="right">DB_01_text</p>
-            <span class="time-left">DB_01_time</span>
-        </div>
+            <?php
 
+            require_once 'php/dbhandler.php';
+            
+            $sql = "SELECT Uzenet, Datum, Neve FROM bejegyzes";
+            $result = $conn->query($sql);
+            
+            if ($result->num_rows > 0) {
+              while($row = $result->fetch_assoc()) {
+                echo '<div class="container darker">'.
+                '<img src="images/avatar2.png" alt="Avatar" class="left">'.
+                '<p class="left">'."Megjegyzés :". $row["Uzenet"].'</p>'.
+                '<p class="left">'. "Felhasználó: ". $row["Neve"].'</p>'.
+                '<span class="time-left">'. $row["Datum"]. '</span>'.
+                '</div>'; 
+              }
+            } else {
+              echo "Nincsenek üzenetek";
+            }
+            $conn->close();      
+            ?>
 
-        <div class="container">
-            <img src="images/avatar3.png" alt="Avatar">
-            <p>DB_02_text</p>
-            <span class="time-right">DB_02_time</span>
-        </div>
-
-        <div class="container darker">
-            <img src="images/avatar2.png" alt="Avatar" class="right">
-            <p class="right">DB_03_text</p>
-            <span class="time-left">DB_03_time</span>
-        </div>
     </div>
+
     <div id="box_1">
         <hr>
     </div>
 
     <!---->
-    <div id="box_2">
-        <h2>Üzenet</h2>
-        <div class="container">
-            <form action="php\00_uzenofal.php" method="post">
-
-                <label for="felhasznaloinev"><b>Név</b></label>
-                <input type="text" placeholder="név" name="felhasznaloinev" id="felhasznaloinev" required>
-
-                <label for="email"><b>Email</b></label>
-                <input type="text" placeholder="email cím" name="email" id="email" required>
-
-                <label for="uzenet">Üzenet</label>
-                <textarea id="uzenet" name="uzenet" placeholder="ide írhatja üzenetét" style="height:200px"></textarea>
-                <!-- <input type="submit" value="Submit">-->
-                <div class="btncontainer">
-                    <div class="btnvertical-center">
-                <button type="submit" class="registerbtn" >Küldés</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
+    <?php
+    if (isset($_SESSION["useruid"]))
+    { echo
+    '<div id="box_2">'.
+        '<h2>Üzenet</h2>'.
+        '<div class="container">'.
+            '<form action="php\00_uzenofal.php" method="post">'.
+                "<input type='hidden' name='datum' value='".date('Y/m/d H:i:s')."'/>".
+                '<label for="uzenet">'.'Üzenet'.'</label>'.
+                '<textarea id="uzenet" name="uzenet" placeholder="ide írhatja üzenetét" style="height:200px"></textarea>'.
+                '<!-- <input type="submit" value="Submit">-->'.
+                '<div class="btncontainer">'.
+                    '<div class="btnvertical-center">'.
+                '<button type="submit" class="registerbtn" name="submit3" >Küldés</button>'.
+                    '</div>'.
+                '</div>'.
+            '</form>'.
+        '</div>'.
+    '</div>';
+    }
+    ?>
+    <?php
+    if(isset($_GET["error"]))
+    {
+        if ($_GET["error"] == "stmtfailed")
+        {
+            echo "<p>Valami nem stimmel!</p>";
+        }
+        if ($_GET["error"] == "wrongusername")
+        {
+            echo "<p>Felhasználónév nem megfelelő!</p>";
+        }
+        else if ($_GET["error"] == "wrongemail")
+        {
+            echo "<p>E-mail cím nem megfelelő!</p>";
+        }
+    }
+    ?>
 </div>
 <!---->
 <?php include "./footer.php" ?>
