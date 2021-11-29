@@ -26,13 +26,13 @@
         <form action="php\00_regisztracio.php" method="post">
         <div class="container">
             <label for="felhasznaloinev"><b>Név</b></label>
-            <input type="text" placeholder="felhasználói név" name="felhasznaloinev" id="felhasznaloinev" required>
+            <input type="text" placeholder="Felhasználói név" name="felhasznaloinev" id="felhasznaloinev" required>
 
-            <label for="email"><b>Email</b></label>
-            <input type="text" placeholder="email cím" name="email" id="email" required>
+            <label for="email"><b>E-mail cím</b></label>
+            <input type="text" placeholder="E-mail cím" name="email" id="email" required>
 
             <label for="jelszo"><b>Jelszó</b></label>
-            <input type="password" placeholder="jelszó" name="jelszo" id="jelszo" required>
+            <input type="password" placeholder="Jelszó" name="jelszo" id="jelszo" required>
 
             <label for="jelszo_ujra"><b>Jelszó újra</b></label>
             <input type="password" placeholder="Jelszó még egyszer" name="jelszo_ujra" id="jelszo_ujra" required>
@@ -66,7 +66,7 @@
         }
         else if ($_GET["error"] == "usernameoremailtaken")
         {
-            echo "<p>Felhasználónév foglalt!</p>";
+            echo "<p>Felhasználónév vagy e-mail cím foglalt!</p>";
         }
         else if ($_GET["error"] == "none")
         {

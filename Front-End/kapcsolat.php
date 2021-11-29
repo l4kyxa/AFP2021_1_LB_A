@@ -24,11 +24,11 @@
                 <label for="felhasznaloinev"><b>Név</b></label>
                 <input type="text" placeholder="név" name="felhasznaloinev" id="felhasznaloinev" required>
 
-                <label for="email"><b>Email</b></label>
-                <input type="text" placeholder="email cím" name="email" id="email" required>
-
                 <label for="targy"><b>Tárgy</b></label>
                 <input type="text" placeholder="tárgy" name="targy" id="targy" required>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="email cím" name="email" id="email" required>
 
                 <label for="uzenet">Üzenet</label>
                 <textarea id="uzenet" name="uzenet" placeholder="ide írhatja üzenetét"

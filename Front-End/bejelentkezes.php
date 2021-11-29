@@ -65,9 +65,19 @@
     <?php
     if(isset($_GET["error"]))
     {
-        if ($_GET["error"] == "wronglogin")
+        if ($_GET["error"] == "wrongloginusername")
         {
-            echo "<p>Helytelen bejelentkezési adatok!</p>";
+            echo "<p>Helytelen felhasználónév!</p>";
+        }
+
+        if ($_GET["error"] == "wrongloginpwd")
+        {
+            echo "<p>Helytelen jelszó!</p>";
+        }
+
+        if ($_GET["error"] == "emptyinput")
+        {
+            echo "<p>Hiányzó belépési adatok";
         }
     }
     ?>

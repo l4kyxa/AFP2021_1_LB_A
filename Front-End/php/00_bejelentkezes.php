@@ -10,7 +10,7 @@ if (isset($_POST["submit2"]))
 
     if (emptyInputLogin($username, $pwd) !== false)
 	{
-		header ("location: ../regisztracio.php?error=emptyinput");
+		header ("location: ../bejelentkezes.php?error=emptyinput");
 		exit();
 	}
 

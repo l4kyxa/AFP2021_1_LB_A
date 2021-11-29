@@ -52,7 +52,7 @@ function pwdMatch($pwd, $pwdrepeat)
 	}
 	return $result;
 }
-function uidExistss($conn, $username, $email)
+function uidExists($conn, $username, $email)
 {
 	$sql = "SELECT * FROM Felhasznalok WHERE Felhasznalonev = ? OR Email = ?;";
 	$stmt = mysqli_stmt_init($conn);
@@ -114,11 +114,11 @@ function emptyInputLogin($username, $pwd)
 
 function loginUser($conn, $username, $pwd)
 {
-	$uidExists = uidExistss($conn, $username, $username);
+	$uidExists = uidExists($conn, $username, $username);
 
 	if ($uidExists === false)
 	{
-		header ("location: ../login.php;error=wrongloginusername");
+		header ("location: ../bejelentkezes.php?error=wrongloginusername");
 		exit();
 	}
 
@@ -127,7 +127,7 @@ function loginUser($conn, $username, $pwd)
 
 	if ($checkPwd === false)
 	{
-		header("location: ../login.php?error=wrongloginpwd");
+		header("location: ../bejelentkezes.php?error=wrongloginpwd");
 		exit();
 	}
 	else if ($checkPwd === true)
