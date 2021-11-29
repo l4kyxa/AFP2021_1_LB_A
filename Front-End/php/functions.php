@@ -54,7 +54,7 @@ function pwdMatch($pwd, $pwdrepeat)
 }
 function uidExistss($conn, $username, $email)
 {
-	$sql = "SELECT * FROM felhasznalok WHERE Felhasznalonev = ? OR Email = ?;";
+	$sql = "SELECT * FROM Felhasznalok WHERE Felhasznalonev = ? OR Email = ?;";
 	$stmt = mysqli_stmt_init($conn);
 	if (!mysqli_stmt_prepare($stmt, $sql))
 	{
@@ -81,7 +81,7 @@ function uidExistss($conn, $username, $email)
 }
 function createUser($conn, $email, $username, $pwd)
 {
-	$sql = "INSERT INTO felhasznalok (Email, Felhasznalonev, Jelszo, Aszf, Bejelentkezve, Statusz) VALUES (?, ?, ?, '1', '0', '0') ;";
+	$sql = "INSERT INTO Felhasznalok (Email, Felhasznalonev, Jelszo, Aszf, Bejelentkezve, Statusz) VALUES (?, ?, ?, '1', '0', '0') ;";
 	$stmt = mysqli_stmt_init($conn);
 	if (!mysqli_stmt_prepare($stmt, $sql))
 	{
@@ -143,7 +143,7 @@ function loginUser($conn, $username, $pwd)
 
 function setComment($conn, $neve, $email, $uzenet, $datum)
 {
-	$sql = "INSERT INTO bejegyzes (Neve, Emailcim, Uzenet, Datum) VALUES (?, ?, ?, ?) ;";
+	$sql = "INSERT INTO Bejegyzes (Neve, Emailcim, Uzenet, Datum) VALUES (?, ?, ?, ?) ;";
 	$stmt = mysqli_stmt_init($conn);
 	if (!mysqli_stmt_prepare($stmt, $sql))
 	{
@@ -160,7 +160,7 @@ function setComment($conn, $neve, $email, $uzenet, $datum)
 
 function uidWrongUser($conn, $neve)
 {
-	$sql = "SELECT * FROM felhasznalok WHERE Felhasznalonev = ? ;";
+	$sql = "SELECT * FROM Felhasznalok WHERE Felhasznalonev = ? ;";
 	$stmt = mysqli_stmt_init($conn);
 	if (!mysqli_stmt_prepare($stmt, $sql))
 	{
@@ -189,7 +189,7 @@ function uidWrongUser($conn, $neve)
 
 function uidWrongEmail($conn, $email)
 {
-	$sql = "SELECT * FROM felhasznalok WHERE Email = ?;";
+	$sql = "SELECT * FROM Felhasznalok WHERE Email = ?;";
 	$stmt = mysqli_stmt_init($conn);
 	if (!mysqli_stmt_prepare($stmt, $sql))
 	{

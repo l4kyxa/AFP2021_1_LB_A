@@ -27,7 +27,7 @@
 
             require_once 'php/dbhandler.php';
             
-            $sql = "SELECT Uzenet, Datum, Neve FROM bejegyzes";
+            $sql = "SELECT Uzenet, Datum, Neve FROM Bejegyzes";
             $result = $conn->query($sql);
             
             if ($result->num_rows > 0) {
