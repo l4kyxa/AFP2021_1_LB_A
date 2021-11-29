@@ -1,13 +1,24 @@
 <html>
 <body>
 
-Back-End felé küldött adatok<br><br>
-Felhasználói név:<?php echo $_POST["felhasznaloinev"]; ?><br>
-Email: <?php echo $_POST["email"]; ?><br>
-Üzenet: <?php echo $_POST["uzenet"]; ?><br>
+<?php
+
+if (isset($_POST['submit4']))
+{
+    $name = $_POST['felhasznaloinev'];
+    $subject = $_POST['targy'];
+    $to = $_POST['email'];
+    $message = $_POST['uzenet'];
+
+    $headers = "From: ".$from;
+    $txt = "Kaptál egy e-mail-t tőle ".$name.".\n\n".$message;
+
+    mail($to, $subject, $txt);
+}
+?>
 
 <br><br>
-10 mp múlva átirányítjuk a kezdőlapra
+Sikerült, 10 mp múlva átirányítjuk a kezdőlapra
 <?php header( 'Refresh: 10; URL=..\index.php');?>
 
 </body>

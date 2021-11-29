@@ -27,13 +27,16 @@
                 <label for="email"><b>Email</b></label>
                 <input type="text" placeholder="email cím" name="email" id="email" required>
 
+                <label for="targy"><b>Tárgy</b></label>
+                <input type="text" placeholder="tárgy" name="targy" id="targy" required>
+
                 <label for="uzenet">Üzenet</label>
                 <textarea id="uzenet" name="uzenet" placeholder="ide írhatja üzenetét"
                           style="height:200px"></textarea>
                 <!-- <input type="submit" value="Submit">-->
                 <div class="btncontainer">
                     <div class="btnvertical-center">
-                <button type="submit" class="registerbtn">Küldés</button>
+                <button type="submit" class="registerbtn" name="submit4">Küldés</button>
                     </div>
                 </div>
             </form>
