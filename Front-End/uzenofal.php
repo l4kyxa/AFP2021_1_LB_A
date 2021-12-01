@@ -18,7 +18,7 @@
 <?php include "./header.php" ?>
 <!---->
 <div id="content">
-    <!---->
+    <!--m-->
 
     <div id="box_2">
         <h2>Üzenőfal</h2>
