@@ -46,13 +46,23 @@
             <input type="password" placeholder="jelszó" name="jelszo" id="jelszo" required>
 
             <label for="aszf"><b>ASZF</b></label>
-            <input type="text" placeholder="aszf" name="aszf" id="aszf" required>
+            <select type="text" placeholder="aszf" name="aszf" id="aszf" required>
+                <option value="1">igen</option>
+                <option value="2">nem</option>
+
+            </select>
 
             <label for="bejelentkezve"><b>Bejelentkezve</b></label>
-            <input type="text" placeholder="bejelentkezve" name="bejelentkezve" id="bejelentkezve" required>
+            <select type="text" placeholder="" name="bejelentkezve" id="bejelentkezve" required>
+                <option value="1">igen</option>
+                <option value="2">nem</option>
+            </select>
 
             <label for="statusz"><b>Státusz</b></label>
-            <input type="text" placeholder="státusz" name="statusz" id="statusz" required>
+            <select type="text" placeholder="" name="statusz" id="statusz" required>
+                <option value="1">aktiv</option>
+                <option value="2">passziv</option>
+            </select>
 
             <button type="submit" class="button" type="button" name="felhasznalo_letrehoz" >Létrehoz</button>
             <button type="submit" class="button" type="button" name="felhasznalo_modosit" >Módosít</button>
