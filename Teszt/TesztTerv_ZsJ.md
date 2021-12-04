@@ -123,6 +123,33 @@
 | 8. A | Megnyomjuk a tabulátor billentyűt, ezáltal a **Belép** gomb kerül kijelölésre, majd megnyomjuk az enter billentyűt |
 | 8. B | Manuálisan rákattintunk a Bejelentkezés gombra |
 | 9.    | Az adminisztrátori felület a(z) **.../admin.php** hivatkozással érhető el |
+| 10.   | Elnavigálunk a **Felhasználó Kezelés** részhez |
+| 11.   | Az **ID** mező kitöltése elhagyható új felhasználó esetén, mivel azt az adatbázis generálja|
+| 12.  |  A tabulátor bellentyű megnyomásával a **Név** mezőre lépünk |
+| 12. A |  Manuálisan rákattintunk **Név** mezőre |
+| 12. B | A mezőt kitöltjük a magyar ABC és számjegyek tetszőleges kombinációjával legalább 3 karakter hosszan |
+| 13.   | Megnyomva a tabulátor billentyűt, a következő mezőre ugrik a kurzor |
+| 13.  A | Manuálisan is átkattinthatunk a következő mezőre |
+| 13.  B | Kitöltjük az **E-mail** cím mezőt tetszőleges a következő formátumban: asdf@asdf.asdf, ahol a asdf kifejezés egy alfanumerikus (csak betűből és számjegyekből álló) karakterekből álló kifejezés |
+| 14.   | Megnyomva a tabulátor billentyűt, a következő mezőre ugrik a kurzor |
+| 14.  A| Manuálisan is átkattinthatunk a következő mezőre |
+| 14.   B| Kitöltjük a **Jelszó** mezőt tetszőleges karakterek kombinációjával, legalább 5 karakter hosszúságban |
+| 15.   | Megnyomjuk a tabulátor billentyűt, ezáltal a **ASZF** mező kerül kijelölésre |
+| 15.  A |  Manuálisan is átkattinthatunk a következő mezőre|
+| 15.  B| A legördülő menüből kiválaszthatjuk a megfelelő értéket|
+| 16.   | Megnyomjuk a tabulátor billentyűt, ezáltal a **Bejelentkezve** mező kerül kijelölésre |
+| 16.  A |  Manuálisan is átkattinthatunk a **Bejelentkezve** mezőre|
+| 16.  B| A legördülő menüből kiválaszthatjuk a megfelelő értéket|
+| 17.   | Megnyomjuk a tabulátor billentyűt, ezáltal a **Státusz** mező kerül kijelölésre |
+| 15.  A |  Manuálisan is átkattinthatunk a következő mezőre|
+| 15.  B| A legördülő menüből kiválaszthatjuk a megfelelő értéket|
+| 16.  |  A tabulátor bellentyű megnyomásával a **Létrehoz** mezőre lépünk |
+| 16. A |  Manuálisan rákattintunk **Létrehoz** mezőre |
+| 16. B | A **Létrehoz** gombot megnyomva az adatok bekerülnek az adatbáziba|
+
+
+
+
 
 ## 6. Bejegyzés hozzáadása ##
 | Lépés | Feladat |
