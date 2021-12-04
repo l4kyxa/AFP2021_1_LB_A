@@ -160,7 +160,7 @@
             <input type="text" placeholder="üzenet" name="uzenet" id="uzenet" required>
 
             <label for="datum"><b>Dátum</b></label>
-            <input type="date" name="datum" id="datum" required>
+            <input type="date" name="datum" id="datum" >
 
             <label for="status"><b>Státusz</b></label>
             <select type="text" placeholder="státusz" name="status" id="status" required>
