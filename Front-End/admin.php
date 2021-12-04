@@ -151,7 +151,7 @@
             <input type="text" placeholder="ID" name="id" id="id" required>
 
             <label for="name"><b>Felhasználó</b></label>
-            <input type="text" placeholder="felhasználói név" name="name" id="name" required>
+            <input type="text" placeholder="felhasználóinév" name="name" id="name" required>
 
             <label for="email"><b>Email</b></label>
             <input type="text" placeholder="email cím" name="email" id="email" required>
@@ -160,10 +160,13 @@
             <input type="text" placeholder="üzenet" name="uzenet" id="uzenet" required>
 
             <label for="datum"><b>Dátum</b></label>
-            <input type="text" placeholder="dátum" name="datum" id="datum" required>
+            <input type="date" name="datum" id="datum" required>
 
             <label for="status"><b>Státusz</b></label>
-            <input type="text" placeholder="státusz" name="status" id="status" required>
+            <select type="text" placeholder="státusz" name="status" id="status" required>
+                <option value="1">aktiv</option>
+                <option value="2">passziv</option>
+            </select>
 
             <button type="submit" class="button" type="button" name="bejegyzes_letrehoz" >Létrehoz</button>
             <button type="submit" class="button" type="button" name="bejegyzes_modosit" >Módosít</button>
