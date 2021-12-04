@@ -93,18 +93,18 @@
 | 17.  |  A tabulátor bellentyű megnyomásával a **Megjegyzés** mezőre lépünk |
 | 17. A |  Manuálisan rákattintunk **Megjegyzés** mezőre |
 | 17. B | Adhatunk meg a termékhez kapcsolódó megjegyzést|
-| 17.  |  A tabulátor bellentyű megnyomásával a **Képfájl** mezőre, a **Fájl kiválasztása** gombra lépünk |
-| 17. A |  Manuálisan rákattintunk **Képfájl** mezőre, a **Fájl kiválasztása** gombra |
-| 17. B | A gomb megnyomása után betallózhatjuk a feltölteni kívánt fájl-t|
-| 18.  |  A tabulátor bellentyű megnyomásával a **Ár (Ft)** mezőre lépünk |
-| 18. A |  Manuálisan rákattintunk **Ár (Ft)** mezőre |
-| 18. B | Megadjuk a termék árát, mely a csak numerikus karakterekből áll|
-| 19.  |  A tabulátor bellentyű megnyomásával a **Termék készleten van** mezőre lépünk |
-| 19. A |  Manuálisan rákattintunk **Termék készleten van** mezőre |
-| 19. B | Jelölőnégyzet segítségével kiválaszthatjuk, hogy a temék megtalálható a készleten vagy nem|
-| 20.  |  A tabulátor bellentyű megnyomásával a **Létrehoz** mezőre lépünk |
-| 20. A |  Manuálisan rákattintunk **Létrehoz** mezőre |
-| 20. B | A **Létrehoz** gombot megnyomva az adatok bekerülnek az adatbáziba|
+| 18.  |  A tabulátor bellentyű megnyomásával a **Képfájl** mezőre, a **Fájl kiválasztása** gombra lépünk |
+| 18. A |  Manuálisan rákattintunk **Képfájl** mezőre, a **Fájl kiválasztása** gombra |
+| 18. B | A gomb megnyomása után betallózhatjuk a feltölteni kívánt fájl-t|
+| 19.  |  A tabulátor bellentyű megnyomásával a **Ár (Ft)** mezőre lépünk |
+| 19. A |  Manuálisan rákattintunk **Ár (Ft)** mezőre |
+| 19. B | Megadjuk a termék árát, mely a csak numerikus karakterekből áll|
+| 20.  |  A tabulátor bellentyű megnyomásával a **Termék készleten van** mezőre lépünk |
+| 20. A |  Manuálisan rákattintunk **Termék készleten van** mezőre |
+| 20. B | Jelölőnégyzet segítségével kiválaszthatjuk, hogy a temék megtalálható a készleten vagy nem|
+| 21.  |  A tabulátor bellentyű megnyomásával a **Létrehoz** mezőre lépünk |
+| 21. A |  Manuálisan rákattintunk **Létrehoz** mezőre |
+| 21. B | A **Létrehoz** gombot megnyomva az adatok bekerülnek az adatbáziba|
 
 
 
@@ -141,13 +141,11 @@
 | 16.  A |  Manuálisan is átkattinthatunk a **Bejelentkezve** mezőre|
 | 16.  B| A legördülő menüből kiválaszthatjuk a megfelelő értéket|
 | 17.   | Megnyomjuk a tabulátor billentyűt, ezáltal a **Státusz** mező kerül kijelölésre |
-| 15.  A |  Manuálisan is átkattinthatunk a következő mezőre|
-| 15.  B| A legördülő menüből kiválaszthatjuk a megfelelő értéket|
-| 16.  |  A tabulátor bellentyű megnyomásával a **Létrehoz** mezőre lépünk |
-| 16. A |  Manuálisan rákattintunk **Létrehoz** mezőre |
-| 16. B | A **Létrehoz** gombot megnyomva az adatok bekerülnek az adatbáziba|
-
-
+| 17.  A |  Manuálisan is átkattinthatunk a következő mezőre|
+| 17.  B| A legördülő menüből kiválaszthatjuk a megfelelő értéket|
+| 18.  |  A tabulátor bellentyű megnyomásával a **Létrehoz** mezőre lépünk |
+| 18. A |  Manuálisan rákattintunk **Létrehoz** mezőre |
+| 18. B | A **Létrehoz** gombot megnyomva az adatok bekerülnek az adatbáziba|
 
 
 
@@ -165,3 +163,23 @@
 | 8. A | Megnyomjuk a tabulátor billentyűt, ezáltal a **Belép** gomb kerül kijelölésre, majd megnyomjuk az enter billentyűt |
 | 8. B | Manuálisan rákattintunk a Bejelentkezés gombra |
 | 9.    | Az adminisztrátori felület a(z) **.../admin.php** hivatkozással érhető el |
+| 10.   | Elnavigálunk a **Bejegyzés Kezelés** részhez |
+| 11.   | Az **ID** mező kitöltése elhagyható új felhasználó esetén, mivel azt az adatbázis generálja|
+| 12.  |  A tabulátor bellentyű megnyomásával a **Felhasználó** mezőre lépünk |
+| 12. A |  Manuálisan rákattintunk **Felhasználó** mezőre |
+| 12. B | A mezőt kitöltjük a magyar ABC és számjegyek tetszőleges kombinációjával legalább 3 karakter hosszan |
+| 13.   | Megnyomva a tabulátor billentyűt, a következő mezőre ugrik a kurzor |
+| 13.  A | Manuálisan is átkattinthatunk a következő mezőre |
+| 13.  B | Kitöltjük az **E-mail** cím mezőt tetszőleges a következő formátumban: asdf@asdf.asdf, ahol a asdf kifejezés egy alfanumerikus (csak betűből és számjegyekből álló) karakterekből álló kifejezés |
+| 14.   | Megnyomva a tabulátor billentyűt, a következő mezőre ugrik a kurzor |
+| 14.  A| Manuálisan is átkattinthatunk a következő mezőre |
+| 14.  B| Kitöltjük a **Üzenet** mezőt tetszőleges karakterek kombinációjával |
+| 15.   | Megnyomjuk a tabulátor billentyűt, ezáltal a **Dátum** mező kerül kijelölésre |
+| 15.  A|  Manuálisan is átkattinthatunk a következő mezőre|
+| 15.  B| A sorvégi ikon segítségével kiválaszthatjuk a megfelelő értéket|
+| 16.   | Megnyomjuk a tabulátor billentyűt, ezáltal a **Státusz** mező kerül kijelölésre |
+| 16.  A |  Manuálisan is átkattinthatunk a **Státusz** mezőre|
+| 16.  B| A legördülő menüből kiválaszthatjuk a megfelelő értéket||
+| 17.  |  A tabulátor bellentyű megnyomásával a **Létrehoz** mezőre lépünk |
+| 17. A |  Manuálisan rákattintunk **Létrehoz** mezőre |
+| 17. B | A **Létrehoz** gombot megnyomva az adatok bekerülnek az adatbáziba|
