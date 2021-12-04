@@ -19,7 +19,7 @@
 | 5.    | A mezőt kitöltjük a magyar ABC és számjegyek tetszőleges kombinációjával legalább 3 karakter hosszan |
 | 6.  A | Megnyomva a tabulátor billentyűt, a következő mezőre ugrik a kurzor |
 | 6.  B | Manuálisan is átkattinthatunk a következő mezőre |
-| 7.    | Kitöltjük az **E-mail** cím mezőt tetszőleges a következő formátumban: asdf@asdf.asdf, ahol a valami kifejezés egy alfanumerikus (csak betűből és számjegyekből álló) karakterekből álló kifejezés |
+| 7.    | Kitöltjük az **E-mail** cím mezőt tetszőleges a következő formátumban: asdf@asdf.asdf, ahol a asdf kifejezés egy alfanumerikus (csak betűből és számjegyekből álló) karakterekből álló kifejezés |
 | 8.  A | Megnyomva a tabulátor billentyűt, a következő mezőre ugrik a kurzor |
 | 8.  B | Manuálisan is átkattinthatunk a következő mezőre |
 | 9.    | Kitöltjük a **Jelszó** mezőt tetszőleges karakterek kombinációjával, legalább 5 karakter hosszúságban |
