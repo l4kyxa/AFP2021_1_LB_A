@@ -1,4 +1,5 @@
 # <div align="center">Követelmény specifikáció </div>
+<hr>
 
 ## I. Jelenlegi helyzet leírása
 
@@ -56,21 +57,48 @@ tudnak létrehozni.
 3. A vásárló kiválasztja/megrendeli a terméket (online). ->
 4. A vásárló kifizeti és megkapja a terméket. / A vásárló megkapja és kifizeti a terméket. 
 
-## VI. Követelménylista
+>## VI. Követelménylista
+1. **Megjelenés** 
+   - ***1/1 Átlátható felület***
+     - 1/1/1 Letisztult kinézet
+     - 1/1/2 Logikus és könnyen olvasható megjelenítés
+   - 1/2 Dinamikus megjelenítés
+     - 1/2/1 Reszponzív felület 
 
-| Modul | ID  | Név | Kifejtés |
-| ----- | --- | --- | -------- |
-| Funkció	| K1	| Adat-rögzítés			| Új adat rögzítése									|
-| Funkció	| K2	| Adat-módosítás		| Meglévő adat módosítása								|
-| Funkció	| K3	| Adat-keresés			| Keresés, kulcsszó alapján	 							|
-| Funkció 	| K4	| Adat-szűrés			| Szűrés paraméter alapján								|
-| Funkció 	| K5	| Rendelés			| Termék megrendelése									|
-| Funkció 	| K6	| Ötlet oldal			| Felhasználók ötleteinek megjelenítése							|
-| Megjelenés	| K7	| Átlátható felület		| Elvárás: letisztult kinézet valamint logikus és könnyen olvasható megjelenítés	|
-| Megjelenés	| K8	| Dinamikus megjelenítés	| Elvárás: Reszponzív felület								|
+2. **Funkcionalitás**
+   - ***2/1 Adat-rögzítés***
+     - 2/1/1 Új adat rögzítése
+       - 2/1/1/1 Legyen lehetőség termék rögzítésére
+       - 2/1/1/2 Legyen lehetőség felhasználó rögzítésére
+       - 2/1/1/3 Legyen lehetőség bejegyzés rögzítésére
+   - ***2/2 Adat-módosítás***
+        - 2/2/1 Meglévő adat szerkesztése
+          - 2/2/1/1 Legyen lehetőség termék szerkesztésére
+          - 2/2/1/2 Legyen lehetőség felhasználó szerkesztésére
+          - 2/2/1/3 Legyen lehetőség bejegyzés szerkesztésére
+   - ***2/3 Adat-keresés***
+        - 2/3/1 Meglévő adat keresése
+          - 2/3/1/1 Legyen lehetőség termék keresésére
+          - 2/3/1/2 Legyen lehetőség felhasználó keresésére
+          - 2/3/1/3 Legyen lehetőség bejegyzés keresésére
+   - ***2/4 Adat-szűrés***
+        - 2/3/1 Meglévő adatra történő szűrés
+          - 2/3/1/1 Legyen lehetőség termék szűrésére
+   - ***2/5 Rendelés***
+        - 2/5/1 Legyen lehetőség termék kiválasztására
+        - 2/5/2 Legyen lehetőség termék kosárba helyezésére
+        - 2/5/3 Legyen lehetőség termék megrendelésére
+   - ***2/6 Bejegyzés oldal***
+        - 2/6/1 Legyen lehetőség bejegyzés létrehozására
+        - 2/6/2 Legyen lehetőség bejegyzés megtekintésére
+   - ***2/7 Regisztráció***
+       - 2/7/1 Legyen lehetőség felhasználó regisztrációjára
+   - ***2/8 Bejelntkezés***
+        - 2//1 Legyen lehetőség regisztrált felhasználó bejelentkezésére
 
+<hr>
 
-## VII. Fogalomszótár
+>## VII. Fogalomszótár
 
 A „rövidáru” szó a német Kurzware tükörfordítása. Vélhetőleg a méteráru (a méterszámra árult szövetek és egyéb kelmék) ellenpárjaként alakult ki ez az elnevezés. A rövidáruk körébe a ruházati és lakástextil termékek gyártásában nélkülözhetetlen kiegészítő anyagokat sorolják, mind a nagyipari, mind a kézmű- vagy háziipari feldolgozáshoz.
 
@@ -126,3 +154,4 @@ A rövidárukat két csoportra osztják:
 	* cipőfűző: A cipőfűző vagy cipőpertli vagy cipőzsinór fűzős cipőbe való zsinór vagy szalag, a cipőfelsőrész nyílásának szoros összezárását , ezáltal a cipő megfelelő illeszkedését, lábról való leesésének meggátlását és a cipőben való járás nagyobb biztonságát és kényelmét szolgálja, valamint a fűző nélküli bebújós cipőkkel, mokaszinokkal, loafer-cipőkkel, papucsokkal szemben könnyebbé, habár egyesek számára bonyolultabbá teszi a lábbeli váltását, fel- és levételét. Különböző hosszúságokban, színben, esetleg mintázattal készül, jellegzetessége a mindkét végét megerősítő kemény csúcs („végezés”), ami megkönnyíti a befűzését a cipőfelsőrész megfelelő nyílásaiba és egyúttal meggátolja a cipőfűző esetleges felfejtődését vagy kirojtosodását. Fonatoló-, körkötő- vagy szalagszövőgépen készítik, a végek megerősítését az ún. "végezőgép" végzi.
 	* gomb: A gomb a ruházat összekapcsolására való eszköz. A legkülönbözőbb anyagból készül, fémekből, fából, csontból, bőrből, műanyagból, fás dióból stb.
 
+<hr>
