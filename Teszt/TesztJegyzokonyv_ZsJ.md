@@ -1,5 +1,7 @@
-># Tesztjegyzőkönyv
+
+# <div align="center">Tesztjegyzőkönyv </div>
 <hr>
+
 
 ## Tesztelést elvégezte
 |  | |
@@ -202,3 +204,4 @@
 
 <hr>
 *** az eredmény a tesztelés adott pontján nem megállapítható.
+<hr>

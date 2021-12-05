@@ -1,5 +1,4 @@
-># Tesztterv
-
+# <div align="center">Tesztterv </div>
 <hr>
 
 ## Tesztelendő feladatok:
