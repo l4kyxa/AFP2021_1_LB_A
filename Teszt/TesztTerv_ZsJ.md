@@ -1,5 +1,7 @@
 ># Tesztterv
 
+<hr>
+
 ## Tesztelendő feladatok:
 #### 1.	Regisztráció
 #### 2.	Bejelentkezés
@@ -8,6 +10,7 @@
 #### 5.	Felhasználó hozzáadása
 #### 6.	Bejegyzés hozzáadása
 
+<hr>
 
 ## 1. Regisztráció
 |Lépés| Feladat |
@@ -25,9 +28,11 @@
 | 9.    | Kitöltjük a **Jelszó** mezőt tetszőleges karakterek kombinációjával, legalább 5 karakter hosszúságban |
 | 10.  A | Megnyomjuk a tabulátor billentyűt, ezáltal a **Jelszó-újra** mező kerül kijelölésre |
 | 10.  B | Kitöltjük a **Jelszó-újra** mezőt az előzőleg megadott karakterek kombinációjával |
-| 11.  A | Megnyomjuk a tabulátor billentyűt, ezáltal a Regisztráció gomb kerül kijelölésre, majd megnyomjuk az enter billentyűt|
+| 11.  A | Megnyomjuk a tabulátor billentyűt, ezáltal a Regisztráció gomb kerül kijelölésre|
 | 11.  B | Manuálisan rákattintunk a Regisztráció gombra |
 | 12.    | A rendszer automatikusan átirányít egy rövid idő után |
+
+<hr>
 
 ## 2. Bejelentkezés
 | Lépés| Feladat |
@@ -45,6 +50,8 @@
 | 9.   | A rendszer automatikusan átirányít egy rövid idő után a felhasználó 'Kezdőlap' oldalára |
 | 10.  | A menüpontok között megjelenik a bejelentkezés meletti ikon megváltozik |
 
+<hr>
+
 ## 3. Kezdőlap
 | Lépés | Feladat |
 | ----- | --- |
@@ -57,6 +64,7 @@
 | 4. B  | Manuálisan rákattintunk a **ÖSSZES AKCIÓ MEGJELENÍTÉSE** vagy **ÖSSZES TERMÉK MEGJENÍTÉSE** gombra |
 | 5.    | A(z) **ÖSSZES AKCIÓ MEGJELENÍTÉSE** vagy **ÖSSZES TERMÉK MEGJENÍTÉSE** gombra kattintva megjelenik a **TERMÉKEK** oldala |
 
+<hr>
 
 ## 4. Termék hozzáadása ##
 | Lépés | Feladat |
@@ -106,8 +114,7 @@
 | 21. A |  Manuálisan rákattintunk **Létrehoz** mezőre |
 | 21. B | A **Létrehoz** gombot megnyomva az adatok bekerülnek az adatbáziba|
 
-
-
+<hr>
 
 ## 5. Felhasználó hozzáadása ##
 | Lépés | Feladat |
@@ -147,7 +154,7 @@
 | 18. A |  Manuálisan rákattintunk **Létrehoz** mezőre |
 | 18. B | A **Létrehoz** gombot megnyomva az adatok bekerülnek az adatbáziba|
 
-
+<hr>
 
 ## 6. Bejegyzés hozzáadása ##
 | Lépés | Feladat |
@@ -183,3 +190,5 @@
 | 17.  |  A tabulátor bellentyű megnyomásával a **Létrehoz** mezőre lépünk |
 | 17. A |  Manuálisan rákattintunk **Létrehoz** mezőre |
 | 17. B | A **Létrehoz** gombot megnyomva az adatok bekerülnek az adatbáziba|
+
+<hr>
