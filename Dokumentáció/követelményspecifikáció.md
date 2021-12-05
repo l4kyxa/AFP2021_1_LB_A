@@ -82,8 +82,8 @@ tudnak létrehozni.
           - 2/3/1/2 Legyen lehetőség felhasználó keresésére
           - 2/3/1/3 Legyen lehetőség bejegyzés keresésére
    - ***2/4 Adat-szűrés***
-        - 2/3/1 Meglévő adatra történő szűrés
-          - 2/3/1/1 Legyen lehetőség termék szűrésére
+        - 2/4/1 Meglévő adatra történő szűrés
+          - 2/4/1/1 Legyen lehetőség termék szűrésére
    - ***2/5 Rendelés***
         - 2/5/1 Legyen lehetőség termék kiválasztására
         - 2/5/2 Legyen lehetőség termék kosárba helyezésére
