@@ -4,7 +4,6 @@
     <list default="true" id="3649bbb2-a88a-4da3-acfd-d76d4a908f8f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/00_admin_felhasznalo.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/00_admin_felhasznalo.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0">
     <include_path>
       <path value="$APPLICATION_HOME_DIR$" />
     </include_path>
@@ -32,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -51,6 +50,14 @@
       <workItem from="1636364167383" duration="3714000" />
       <workItem from="1636447934335" duration="6762000" />
       <workItem from="1636475661071" duration="7410000" />
+      <workItem from="1638556710414" duration="25000" />
+      <workItem from="1638556823995" duration="43000" />
+      <workItem from="1638628781730" duration="456000" />
+      <workItem from="1638630773057" duration="392000" />
+      <workItem from="1638631233808" duration="656000" />
+      <workItem from="1638631985769" duration="371000" />
+      <workItem from="1638645386990" duration="15000" />
+      <workItem from="1638687287114" duration="640000" />
     </task>
     <servers />
   </component>
@@ -67,5 +74,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

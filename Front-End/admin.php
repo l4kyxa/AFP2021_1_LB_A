@@ -89,38 +89,47 @@
 
 
 
-            <label for="id"><b>ID</b></label>
-            <input type="text" placeholder="ID" name="id" id="id" required>
+            <label for="id"><b>Termékkatergória</b></label>
+            <select type="text" placeholder="ID" name="id" id="id" required>
+                <option value="1">gomb</option>
+                <option value="2">rövidáru</option>
+            </select>
 
-            <label for="kategorianev"><b>Kategória név</b></label>
-            <input type="text" placeholder="gomb/rövidáru" name="kategorianev" id="kategorianev" required>
 
-            <label for="termek"><b>Termék</b></label>
+            <label for="termek"><b>Név</b></label>
             <input type="text" placeholder="termék" name="termek" id="termek" required>
 
             <label for="gyarto"><b>Gyártó</b></label>
             <input type="text" placeholder="gyártó" name="gyarto" id="gyarto" required>
 
-            <label for="szin"><b>Szín</b></label>
+            <label for="szin"><b>Termék színe</b></label>
             <input type="text" placeholder="szín" name="szin" id="szin" required>
 
-            <label for="meret"><b>Méret</b></label>
+            <label for="meret"><b>Termék mérete</b></label>
             <input type="text" placeholder="méret" name="meret" id="meret" required>
 
-            <label for="mennyiseg"><b>Mennyiség</b></label>
+            <label for="mennyiseg"><b>Raktárkészlet mennyiség</b></label>
             <input type="text" placeholder="mennyiség" name="mennyiseg" id="mennyiseg" required>
 
             <label for="megjegyzes"><b>Megjegyzés</b></label>
             <input type="text" placeholder="megjegyzés" name="megjegyzes" id="megjegyzes" required>
 
             <label for="kep"><b>Kép</b></label>
-            <input type="text" placeholder="kép" name="kep" id="kep" required>
+            <input type="file" placeholder="kép" name="kep" id="kep" required>
 
             <label for="ar"><b>Ár</b></label>
             <input type="text" placeholder="ár" name="ar" id="ar" required>
 
             <label for="status"><b>Státusz</b></label>
-            <input type="text" placeholder="státusz" name="status" id="status" required>
+            <select type="text" placeholder="státusz" name="status" id="status" required>
+                <option value="1">aktiv</option>
+                <option value="2">passziv</option>
+            </select>
+            <label for="status"><b>Termék készleten van</b></label>
+            <select type="text" placeholder="státusz" name="status" id="status" required>
+                <option value="1">igen</option>
+                <option value="2">nem</option>
+            </select>
 
             <button type="submit" class="button" type="button" name="termek_letrehoz" >Létrehoz</button>
             <button type="submit" class="button" type="button" name="termek_modosit" >Módosít</button>
