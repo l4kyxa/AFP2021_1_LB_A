@@ -1,5 +1,7 @@
 ﻿# <div align="center"> Funkcionális specifikáció </div>
 
+<hr>
+
 ## I. Áttekintés
 Az általunk fejlesztett rendszer célja, hogy kollégánk rövidáru boltját korszerűsítsük azzal, hogy weboldalt és egyben webáruházat fejlesztünk hozzá, ezzel az ide betérő érdeklődők tájékozódhatnak a bolt teljes kínálatáról, rendelést adhatnak le, vagy foglalást adhatnak le nagyobb mennyiségű árumennyiségre. Rengeteg áru közül tudnak majd válogatni, véleményt írhatnak és olvashatják másokét, tájékozódhatnak. Bárki számára elérhető lesz, amellett, hogy ingyenes, számítógépen/mobilon/tableten is tudnak majd böngészni rajta. Teljes mértékben magyar nyelvű lesz.
 Egy konkrét vásárlás esetén kosárba lehet összeszedni az adott termékeket, rendelés leadás előtt megtekinthető a kosár, a szállítás ára és a várható kézbesítés is. Regisztráció után további kedvezmény vehető igénybe, például az első vásárláskor, vagy születésnapkor. Vásárlás után pedig véleményt tudnak írni a termékről, vagy akár újra is tudják rendelni azt.
@@ -125,18 +127,18 @@ tárolása és viszonylag gyors visszakereshetőségének biztosítása.
 
 * ADMIN
 	* Böngészés	-> Weboldal alap funkciója
-	* Rögzítés	-> K1-es funkció
-	* Módosítás	-> K2-es funkció
-	* Keresés	-> K3-as funkció
-	* Szűrés	-> K4-es funkció
-	* Ötlet		-> K6-os funkció
+	* Rögzítés	-> 2/1-es funkció
+	* Módosítás	-> 2/2-es funkció
+	* Keresés	-> 2/3/1/1/1-es funkció
+	* Szűrés	-> 2/4/1/1/1 -es funkció
+	* Bejegyzés		-> 2/6/1/1-es funkció
 
 * USER
 	* Böngészés	-> Weboldal alap funkciója
-	* Keresés	-> K3-as funkció
-	* Szűrés	-> K4-es funkció
-	* Rendelés	-> K5-ös funkció
-	* Ötlet		-> K6-os funkció
+	* Keresés	-> 2/3/1/1/2 -es funkció
+	* Szűrés	-> 2/4/1/1/2-es funkció
+	* Rendelés	-> 2/5 -ös funkció
+	* Bejegyzés		-> 2/6/1/2-es funkció
 
 ## VIII. "Képernyő" tervek
 A képernyőtervet Axure szoftverrel készítettem el, amelynek eredménye a https://zxb0g0.axshare.com/#id=v3dnyn&p=f_oldal linken találhatü. A főoldal ügy van kialakítva, hogy a teljes weboldal tartalmának lényeges részei ki legyenek emelve. Tehát a főoldalon jelennek meg a legfontosabb információk, melynek

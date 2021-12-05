@@ -1,3 +1,6 @@
+# <div align="center"> Rendszerterv </div>
+
+<hr>
 
 ## I. Rendszer céljai, és nem céljai
 A rendszer célja, a tulajdonos szempontjából a bolt digitalizálása, a marketing fejlesztése illetve a profitnövelés.
@@ -242,50 +245,122 @@ Az adatbázis tárolja a bejegyzés ID-jét, a felhasználó ID-jét, a felhaszn
 Webes alkalmazás révén minden platformon elérhető ami rendelkezik interneteléréssel ,illetve böngészővel.
 
 
-## X. Absztrakt domain modellje
-```
-Admin:
-* Adatrögzítés -> Bevitt adat ellenőrzése -> Rogzítés / Hibaüzenet.
-* Adatmódosítás -> Bevitt adat ellenőrzése -> Rögzítés / Hibaüzenet.
-* Keresés -> Bevitt adat ellenőrzése -> Listázás / Hibaüzenet.
-* Szűrés -> Bevitt adat ellenőrzése -> Listázás / Hibaüzenet.
-* Bejegyzés -> Bevitt adat ellenőrzése -> Rögzítés / Hibaüzenet. 
-* Rendelés -> Bevitt adat ellenőrzése -> Ertesítés / Hibaüzenet.
-```
-## XI. Architekturális terv
+>## X. Absztrakt domain modellje
 
-Backend:A felhasználók által elérhető felület kialakítása, amin keresztűl 
-	a backend által biztosított szolgáltatások igénybevételével elérhetőek 
-	a rendszerben a felhasználók rendelkezésére álló funkciók.
+**A megvalósítás nagyon magas szintű váza**
+* Adatrögzítés ->
+  - Bevitt adat ellenőrzése ->
+     - Rogzítés / Hibaüzenet
+* Adatmódosítás ->
+  - Bevitt adat ellenőrzése ->
+     - Rögzítés / Hibaüzenet
+* Keresés ->
+  - Bevitt adat ellenőrzése -> 
+    - Listázás / Hibaüzenet
+* Szűrés -> 
+  - Bevitt adat ellenőrzése -> 
+    - Listázás / Hibaüzenet.
+* Bejegyzés -> 
+  - Bevitt adat ellenőrzése -> 
+    - Rögzítés / Hibaüzenet. 
+* Rendelés -> 
+  - Bevitt adat ellenőrzése -> 
+    - Ertesítés / Hibaüzenet.
+* Regisztráció ->
+    - Bevitt adat ellenőrzése ->
+        - Rögzítés / Hibaüzenet.
+* Bejelentkezés ->
+  - Bevitt adat ellenőrzése ->
+      - Ertesítés / Hibaüzenet.
 
-Frontend:Az SQL szerver létrehozása, funkciók létrehozása, frontend kiszolgálása adatokkal.
+**Példa:**
+A felhasználó elöször a fronted oldallal találkozik.
+A böngészéshez és az alap funkciók használatához nincs szükség jogosultságra.
+A regisztrációval már a felhasunáló találkozik a backend oldallal is illetve azután 
+az adatbázissal
+is ahová az adatai bekerülnek a regisztrálás után.
+A regisztráció elvégzését követően van lehetőség a bejelentkezésre itt ismét a 
+frontend-backend-adatbázis 
+hármasa kapcsolódik össze.
+Bejelntkezésután a felhasználó számára rendelkezésre állnak plusz funkciók, ilyen a termék rendelése.
+A plusz funkciók ismét az frontend-backend-adatbázis hármsánnak közreműkodését használják, ahol 
+a felhasználó a rendelést rögziti és a munkamenet lezárul.
 
-## XII.Tesztterv
+<hr>
 
-A tesztelések célja a termék paramétereinek vizsgálat és funkcionalitásának ellenőrzése.
+>## XI. Architekturális terv
 
-- I.: Unit teszt:
-	Már a fejlesztési idő alatt is folyamatosan tesztelés történik, hogy a kódok, kódrészletek megfelelően működnek-e.
-	Egy kódot vagy annak részletét csak akkor tekinthetünk késznek, ha a tesztesetek hiba nélkül lefutnak.
+1. **Architekturális tervezési minta:** 3-rétegű alkalmazás.
 
-- II.: Alfa teszt:
-	A teszt elsődleges célja: a már meglévő funkciók megfelelő illetve (szándékos) hibás adatokkal történő tesztelése.
-	A tesztet a fejlesztők végzik.
-	A teszt akkor mondható sikeresnek ha a megfelelő adatbevitel után a megfelelő opció áll rendelkezésre a hibás adatok bevitele után pedig a hiba lekezelése megtörténik. A teszt időtartama ~egy hét.
+2. **Az Alkalmazás:**
+   - Fő komponensek:
+     - Frontend
+     - Backend
+     - Adatbázis
+   - Kapcsolatok:
+     - Frontend:A felhasználók által elérhető felület kialakítása
+     - Backend:A frontend kiszolgálása adatokkal
+     - Adatbázis: SQL szerver létrehozása a Backend kiszolgálása adatokkal
 
-- III.: Béta teszt:
-	Ezt a tesztet nem a fejlesztők végzik, hanem meghatározott számú a fejlesztők által kiválasztott külső tesztelő.
-	A teszt időtartama ~egy hét.
-	A tesztelés alatt a tesztelők dokumentálják a lépéseket.
-	A tesztek után a fejlesztők a lehető leghamarabb kijavítják az esetleges hibákat illetve a tesztelők észrevételei alapján módosításokat hajthatnak végre.
+3. **Változások kezelése:**
+     - A választott architektúrának köszönhetően a változások kezelése az ügyfél
+oldalról a lehetö legegyszerübb, 
+mivel lehetőség van a truktúra teljes bejárására megfelelő jogosultság birtokában.
 
-## XIII. Telepítési terv
+4. **Rendszer bővíthetősége:**
+    - a termék kialakításánál fontos figyelmett kapott a bővíthetőság
+és a továbbfejlesztés. A rendszer alkalmas az új elemek befogadására
+más modulik integrációjára.
 
-Telepítés nem szükséges. *(elérés:https://www.---.hu)*
+5. **Biztonsági funkciók**
+    - A biztonság érdekében felasználói óldalról a módositások 
+   végrerhajtása regisztrációjoz kötött. Az oldal illetve az adatbázis elérése
+   szigorú autentikáció után történik meg.
 
-## XIV. Karbantartási terv
+
+<hr>
+
+>## XII.Tesztterv
+
+***A tesztelések célja a termék paramétereinek vizsgálat és funkcionalitásának ellenőrzése.***
+
+- **I.: Unit teszt:**
+Már a fejlesztési idő alatt is folyamatosan tesztelés történik, 
+hogy a kódok, kódrészletek megfelelően működnek-e.
+Egy kódot vagy annak részletét csak akkor tekinthetünk késznek, 
+ha a tesztesetek hiba nélkül lefutnak.
+
+
+- **II.: Alfa teszt:**
+A teszt elsődleges célja: a már meglévő funkciók megfelelő illetve (szándékos) 
+hibás adatokkal történő tesztelése.
+A tesztet a fejlesztők végzik.
+A teszt akkor mondható sikeresnek ha 
+a megfelelő adatbevitel után a megfelelő funkció áll rendelkezésre. 
+A hibás adatok bevitele után pedig a hiba lekezelése megtörténik.
+(A teszt időtartama ~egy hét.)
+
+
+- **III.: Béta teszt:**
+A tesztet nem a fejlesztők végzik, 
+hanem meghatározott számú a fejlesztők által kiválasztott külső tesztelő.
+A teszt időtartama ~egy hét.
+A tesztelés alatt a tesztelők dokumentálják a lépéseket.
+A tesztek után a fejlesztők a lehető leghamarabb kijavítják az 
+esetleges hibákat illetve a tesztelők észrevételei alapján módosításokat hajthatnak végre.
+
+<hr>
+
+>## XIII. Telepítési terv
+
+Telepítés nem szükséges. *(elérés:https://www.gombrovidaru.hu)*
+
+<hr>
+
+>## XIV. Karbantartási terv
 
 A weboldalrendszer karbantartása
 magában foglalja az esetleges hibák elhárítását, a változó igények miatti
-módosításokat és korrigálásokat, valamint a felhasználók illetve az adminisztrátor által jelentett hibák kivizsgálását és kijavítása.
-
+módosításokat és korrigálásokat, valamint a felhasználók illetve az adminisztrátor 
+által jelentett hibák kivizsgálását és kijavítása.
+<hr>
