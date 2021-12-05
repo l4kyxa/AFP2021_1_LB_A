@@ -179,7 +179,7 @@
 | 8. A | Megnyomjuk a tabulátor billentyűt, ezáltal a **Belép** gomb kerül kijelölésre|Sikeres|
 | 8. B | Manuálisan rákattintunk a Bejelentkezés gombra |Sikeres|
 | 9.    | Az adminisztrátori felület a(z) **.../admin.php** hivatkozással érhető el |Sikeres|
-| 10.   | Elnavigálunk a **Bejegyzés Kezelés** részhez |****
+| 10.   | Elnavigálunk a **Bejegyzés Kezelés** részhez |***|
 | 11.   | Az **ID** mező kitöltése elhagyható új felhasználó esetén, mivel azt az adatbázis generálja|***|
 | 12.  |  A tabulátor bellentyű megnyomásával a **Felhasználó** mezőre lépünk |Sikeres|
 | 12. A |  Manuálisan rákattintunk **Felhasználó** mezőre |Sikeres|
