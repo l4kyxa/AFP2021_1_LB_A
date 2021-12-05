@@ -1,4 +1,4 @@
->#Tesztjegyzőkönyv
+># Tesztjegyzőkönyv
 <hr>
 
 ## Tesztelést elvégezte
