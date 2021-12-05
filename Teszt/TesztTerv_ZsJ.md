@@ -45,7 +45,7 @@
 | 6. A | Megnyomva a tabulátor billentyűt, a következő mezőre ugrik a kurzor |
 | 6. B | Manuálisan is átkattinthatunk a következő mezőre (**Jelszó**) |
 | 7.   | Kitöltjük a jelszó mezőt tetszőleges karakterek kombinációjával, legalább 5 karakter hosszúságban, a saját már beregisztrált fiókunkhoz tartozó jelszóval |
-| 8. A | Megnyomjuk a tabulátor billentyűt, ezáltal a **Belép** gomb kerül kijelölésre, majd megnyomjuk az enter billentyűt |
+| 8. A | Megnyomjuk a tabulátor billentyűt, ezáltal a **Belép** gomb kerül kijelölésre |
 | 8. B | Manuálisan rákattintunk a Bejelentkezés gombra |
 | 9.   | A rendszer automatikusan átirányít egy rövid idő után a felhasználó 'Kezdőlap' oldalára |
 | 10.  | A menüpontok között megjelenik a bejelentkezés meletti ikon megváltozik |

@@ -48,32 +48,32 @@
 ## 2. Bejelentkezés
 |Lépés| Feladat | Teszt |
 | --- | ------- | ----------- |
-| 1.   | Weboldal megnyitása. |
-| 2.   | A menüben található **Bejelentkezés** gombra kattintanva elnavigálunk a beléptető oldalra |
-| 3.   | Megjelenik a bejelentkezési űrlap |
-| 4.   | A **Felhasználónév vagy E-mail cím** mezőbe kattintunk |
-| 5.   | A mezőt kitöltjük a magyar ABC és számjegyek tetszőleges kombinációjával legalább 3 karakter hosszan, a saját már beregisztrált fiókunkhoz tartozó felhasználó nevével vagy e-mail címével |
-| 6. A | Megnyomva a tabulátor billentyűt, a következő mezőre ugrik a kurzor |
-| 6. B | Manuálisan is átkattinthatunk a következő mezőre (**Jelszó**) |
-| 7.   | Kitöltjük a jelszó mezőt tetszőleges karakterek kombinációjával, legalább 5 karakter hosszúságban, a saját már beregisztrált fiókunkhoz tartozó jelszóval |
-| 8. A | Megnyomjuk a tabulátor billentyűt, ezáltal a **Belép** gomb kerül kijelölésre, majd megnyomjuk az enter billentyűt |
-| 8. B | Manuálisan rákattintunk a Bejelentkezés gombra |
-| 9.   | A rendszer automatikusan átirányít egy rövid idő után a felhasználó 'Kezdőlap' oldalára |
-| 10.  | A menüpontok között megjelenik a bejelentkezés meletti ikon megváltozik |
+| 1.   | Weboldal megnyitása. |Sikeres|
+| 2.   | A menüben található **Bejelentkezés** gombra kattintanva elnavigálunk a beléptető oldalra |Sikeres|
+| 3.   | Megjelenik a bejelentkezési űrlap |Sikeres|
+| 4.   | A **Felhasználónév vagy E-mail cím** mezőbe kattintunk |Sikeres|
+| 5.   | A mezőt kitöltjük a magyar ABC és számjegyek tetszőleges kombinációjával legalább 3 karakter hosszan, a saját már beregisztrált fiókunkhoz tartozó felhasználó nevével vagy e-mail címével |Sikeres|
+| 6. A | Megnyomva a tabulátor billentyűt, a következő mezőre ugrik a kurzor |Sikeres|
+| 6. B | Manuálisan is átkattinthatunk a következő mezőre (**Jelszó**) |Sikeres|
+| 7.   | Kitöltjük a jelszó mezőt tetszőleges karakterek kombinációjával, legalább 5 karakter hosszúságban, a saját már beregisztrált fiókunkhoz tartozó jelszóval |Sikeres|
+| 8. A | Megnyomjuk a tabulátor billentyűt, ezáltal a **Belép** gomb kerül kijelölésre|Sikeres|
+| 8. B | Manuálisan rákattintunk a Bejelentkezés gombra |Sikertelen|
+| 9.   | A rendszer automatikusan átirányít egy rövid idő után a felhasználó 'Kezdőlap' oldalára |Sikertelen|
+| 10.  | A menüpontok között megjelenik a bejelentkezés meletti ikon megváltozik |Sikertelen|
 
 <hr>
 
 ## 3. Kezdőlap
 |Lépés| Feladat | Teszt |
 | --- | ------- | ----------- |
-| 1.    | Weboldal megnyitása |
-| 2. A  | A felső menün kattintunk a "Kezdőlap" gombra |
-| 2. B  | Megjelenik az oldal alap szerkezete (slide rész(3*3),3 újdonság, 3 népszerű termék)|
-| 3.    | A jobbra és balra nyilak segítségével összesen 9 termék közül választhatunk|
-| 3. B  | A nyilak megnyomásával a következő 3 terméknek kell megjelennie |
-| 4.    | A tabulátor bellentyű megnyomásával az **ÖSSZES AKCIÓ MEGJELENÍTÉSE** vagy **ÖSSZES TERMÉK MEGJENÍTÉSE** gombra ugorhat a felhasználó |
-| 4. B  | Manuálisan rákattintunk a **ÖSSZES AKCIÓ MEGJELENÍTÉSE** vagy **ÖSSZES TERMÉK MEGJENÍTÉSE** gombra |
-| 5.    | A(z) **ÖSSZES AKCIÓ MEGJELENÍTÉSE** vagy **ÖSSZES TERMÉK MEGJENÍTÉSE** gombra kattintva megjelenik a **TERMÉKEK** oldala |
+| 1.    | Weboldal megnyitása |Sikeres|
+| 2. A  | A felső menün kattintunk a "Kezdőlap" gombra |Sikeres|
+| 2. B  | Megjelenik az oldal alap szerkezete (slide rész(3*3),3 újdonság, 3 népszerű termék)|Részben Sikeres|
+| 3.    | A jobbra és balra nyilak segítségével összesen 9 termék közül választhatunk|Részben Sikeres|
+| 3. B  | A nyilak megnyomásával a következő 3 terméknek kell megjelennie |Részben Sikeres|
+| 4.    | A tabulátor bellentyű megnyomásával az **ÖSSZES AKCIÓ MEGJELENÍTÉSE** vagy **ÖSSZES TERMÉK MEGJENÍTÉSE** gombra ugorhat a felhasználó |Sikeres|
+| 4. B  | Manuálisan rákattintunk a **ÖSSZES AKCIÓ MEGJELENÍTÉSE** vagy **ÖSSZES TERMÉK MEGJENÍTÉSE** gombra |Sikeres|
+| 5.    | A(z) **ÖSSZES AKCIÓ MEGJELENÍTÉSE** vagy **ÖSSZES TERMÉK MEGJENÍTÉSE** gombra kattintva megjelenik a **TERMÉKEK** oldala |Sikeres|
 
 <hr>
 
