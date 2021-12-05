@@ -1,4 +1,4 @@
-# Tesztterv
+># Tesztterv
 
 ## Tesztelendő feladatok:
 #### 1.	Regisztráció

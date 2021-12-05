@@ -1,15 +1,16 @@
-# Tesztjegyzőkönyv
+># Tesztjegyzőkönyv
 
-**Tesztelést elvégezte**
-##
-|---|---|
+##Tesztelést elvégezte
+
+
+| | |
+| ---- | ------- |
 | Név: | Zsák József  |
 | Neptun kód: | l4kyxa|
 | Dátum: | 2021.12.05. |
 | Böngésző: | Google Chrome; 96.0.4664.45 (Hivatalos verzió) (64 bites) |
 | Oprendszer: | Windows 10 Pro (21H1) |
 
-# Tesztelendő feladatok:
 
 ## Tesztelendő feladatok:
 #### 1.	Regisztráció
