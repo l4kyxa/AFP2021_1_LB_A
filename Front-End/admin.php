@@ -105,8 +105,8 @@
             <label for="szin"><b>Termék színe</b></label>
             <input type="text" placeholder="szín" name="szin" id="szin" required>
 
-            <label for="meret"><b>Termék mérete</b></label>
-            <input type="text" placeholder="méret" name="meret" id="meret" required>
+            <label for="meret"><b>Termék mérete</b></label><br>
+            <input type="number" placeholder="méret" name="meret" id="meret" required>
 
             <label for="mennyiseg"><b>Raktárkészlet mennyiség</b></label>
             <input type="text" placeholder="mennyiség" name="mennyiseg" id="mennyiseg" required>

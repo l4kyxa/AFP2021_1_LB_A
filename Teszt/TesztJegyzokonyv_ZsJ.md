@@ -30,15 +30,15 @@
 | 2.    | A menüben található **Bejelentkezés** menüpontra , majd a **Regisztráció** gombra kattintanva elnavigálunk a regisztrációs oldalra |Sikeres|
 | 3.    | Megjelenik a regisztrációs űrlap |Sikeres|
 | 4.    | A **Név** mezőbe kattintunk |Sikeres|
-| 5.    | A mezőt kitöltjük a magyar ABC és számjegyek tetszőleges kombinációjával legalább 3 karakter hosszan |Sikeres|
+| 5.    | A mezőt kitöltjük a magyar ABC és számjegyek tetszőleges kombinációjával legalább 3 karakter hosszan |***|
 | 6.  A | Megnyomva a tabulátor billentyűt, a következő mezőre ugrik a kurzor |Sikeres|
 | 6.  B | Manuálisan is átkattinthatunk a következő mezőre |Sikeres|
-| 7.    | Kitöltjük az **E-mail** cím mezőt tetszőleges a következő formátumban: asdf@asdf.asdf, ahol a asdf kifejezés egy alfanumerikus (csak betűből és számjegyekből álló) karakterekből álló kifejezés |Sikeres|
+| 7.    | Kitöltjük az **E-mail** cím mezőt tetszőleges a következő formátumban: asdf@asdf.asdf, ahol a asdf kifejezés egy alfanumerikus (csak betűből és számjegyekből álló) karakterekből álló kifejezés |***|
 | 8.  A | Megnyomva a tabulátor billentyűt, a következő mezőre ugrik a kurzor |Sikeres|
 | 8.  B | Manuálisan is átkattinthatunk a következő mezőre |Sikeres|
-| 9.    | Kitöltjük a **Jelszó** mezőt tetszőleges karakterek kombinációjával, legalább 5 karakter hosszúságban |Sikeres|
+| 9.    | Kitöltjük a **Jelszó** mezőt tetszőleges karakterek kombinációjával, legalább 5 karakter hosszúságban |***|
 | 10.  A | Megnyomjuk a tabulátor billentyűt, ezáltal a **Jelszó-újra** mező kerül kijelölésre |Sikeres|
-| 10.  B | Kitöltjük a **Jelszó-újra** mezőt az előzőleg megadott karakterek kombinációjával |Sikeres|
+| 10.  B | Kitöltjük a **Jelszó-újra** mezőt az előzőleg megadott karakterek kombinációjával |***|
 | 11.  A | Megnyomjuk a tabulátor billentyűt, ezáltal a Regisztráció gomb kerül kijelölésre |Sikeres|
 | 11.  B | Manuálisan rákattintunk a Regisztráció gombra |Sikertelen|
 | 12.    | A rendszer automatikusan átirányít egy rövid idő után |Sikertelen|
@@ -52,10 +52,10 @@
 | 2.   | A menüben található **Bejelentkezés** gombra kattintanva elnavigálunk a beléptető oldalra |Sikeres|
 | 3.   | Megjelenik a bejelentkezési űrlap |Sikeres|
 | 4.   | A **Felhasználónév vagy E-mail cím** mezőbe kattintunk |Sikeres|
-| 5.   | A mezőt kitöltjük a magyar ABC és számjegyek tetszőleges kombinációjával legalább 3 karakter hosszan, a saját már beregisztrált fiókunkhoz tartozó felhasználó nevével vagy e-mail címével |Sikeres|
+| 5.   | A mezőt kitöltjük a magyar ABC és számjegyek tetszőleges kombinációjával legalább 3 karakter hosszan, a saját már beregisztrált fiókunkhoz tartozó felhasználó nevével vagy e-mail címével |***|
 | 6. A | Megnyomva a tabulátor billentyűt, a következő mezőre ugrik a kurzor |Sikeres|
 | 6. B | Manuálisan is átkattinthatunk a következő mezőre (**Jelszó**) |Sikeres|
-| 7.   | Kitöltjük a jelszó mezőt tetszőleges karakterek kombinációjával, legalább 5 karakter hosszúságban, a saját már beregisztrált fiókunkhoz tartozó jelszóval |Sikeres|
+| 7.   | Kitöltjük a jelszó mezőt tetszőleges karakterek kombinációjával, legalább 5 karakter hosszúságban, a saját már beregisztrált fiókunkhoz tartozó jelszóval |***|
 | 8. A | Megnyomjuk a tabulátor billentyűt, ezáltal a **Belép** gomb kerül kijelölésre|Sikeres|
 | 8. B | Manuálisan rákattintunk a Bejelentkezés gombra |Sikertelen|
 | 9.   | A rendszer automatikusan átirányít egy rövid idő után a felhasználó 'Kezdőlap' oldalára |Sikertelen|
@@ -80,50 +80,50 @@
 ## 4. Termék hozzáadása ##
 |Lépés| Feladat | Teszt|
 | --- | ------- | ----------- |
-| 1.   | Weboldal megnyitása. |
-| 2.   | A menüben található **Bejelentkezés** gombra kattintanva elnavigálunk a beléptető oldalra |
-| 3.   | Megjelenik a bejelentkezési űrlap |
-| 4.   | A **Felhasználónév vagy E-mail cím** mezőbe kattintunk |
-| 5.   | A mezőt kitöltjük a magyar ABC és számjegyek tetszőleges kombinációjával legalább 3 karakter hosszan, a saját már beregisztrált fiókunkhoz tartozó felhasználó nevével vagy e-mail címével |
-| 6. A | Megnyomva a tabulátor billentyűt, a következő mezőre ugrik a kurzor |
-| 6. B | Manuálisan is átkattinthatunk a következő mezőre (**Jelszó**) |
-| 7.   | Kitöltjük a jelszó mezőt tetszőleges karakterek kombinációjával, legalább 5 karakter hosszúságban, a saját már beregisztrált fiókunkhoz tartozó jelszóval |
-| 8. A | Megnyomjuk a tabulátor billentyűt, ezáltal a **Belép** gomb kerül kijelölésre, majd megnyomjuk az enter billentyűt |
-| 8. B | Manuálisan rákattintunk a Bejelentkezés gombra |
-| 9.    | Az adminisztrátori felület a(z) **.../admin.php** hivatkozással érhető el |
-| 10.   | Elnavigálunk a **Termék Kezelés** részhez |
-| 11.   | Megadjuk a **Termékkategóriát** (legördülő menüből választható) |
-| 12.  |  A tabulátor bellentyű megnyomásával a **Termék név** mezőre lépünk |
-| 12. A |  Manuálisan rákattintunk **Termék név** mezőre |
-| 12. B | Megadjuk a termék nevét, mely alfanumerikus (csak betűből és számjegyekből álló) karakterekből áll|
-| 13.  |  A tabulátor bellentyű megnyomásával a **Gyártó** mezőre lépünk |
-| 13. A |  Manuálisan rákattintunk **Gyártó** mezőre |
-| 13. B | Megadjuk a Gyártó nevét, mely alfanumerikus (csak betűből és számjegyekből álló) karakterekből áll|
-| 14.  |  A tabulátor bellentyű megnyomásával a **Termék színe** mezőre lépünk |
-| 14. A |  Manuálisan rákattintunk **Termék színe** mezőre |
-| 14. B | Megadjuk a termék színét, mely a magyar "ABC" karaktereiből áll|
-| 15.  |  A tabulátor bellentyű megnyomásával a **Termék mérete** mezőre lépünk |
-| 15. A |  Manuálisan rákattintunk **Termék mérete** mezőre |
-| 15. B | Megadjuk a termék méretét, mely a csak numerikus karakterekből áll|
-| 15. c | Megadhatjuk a termék méretéta mező végén található le-fel nyilak segítségével is |
-| 16.  |  A tabulátor bellentyű megnyomásával a **Raktárkészlet mennyiség (méter)** mezőre lépünk |
-| 16. A |  Manuálisan rákattintunk **Raktárkészlet mennyiség (méter)** mezőre |
-| 16. B | Megadjuk a Raktárkészlet mennyiségét, mely a csak numerikus karakterekből áll|
-| 17.  |  A tabulátor bellentyű megnyomásával a **Megjegyzés** mezőre lépünk |
-| 17. A |  Manuálisan rákattintunk **Megjegyzés** mezőre |
-| 17. B | Adhatunk meg a termékhez kapcsolódó megjegyzést|
-| 18.  |  A tabulátor bellentyű megnyomásával a **Képfájl** mezőre, a **Fájl kiválasztása** gombra lépünk |
-| 18. A |  Manuálisan rákattintunk **Képfájl** mezőre, a **Fájl kiválasztása** gombra |
-| 18. B | A gomb megnyomása után betallózhatjuk a feltölteni kívánt fájl-t|
-| 19.  |  A tabulátor bellentyű megnyomásával a **Ár (Ft)** mezőre lépünk |
-| 19. A |  Manuálisan rákattintunk **Ár (Ft)** mezőre |
-| 19. B | Megadjuk a termék árát, mely a csak numerikus karakterekből áll|
-| 20.  |  A tabulátor bellentyű megnyomásával a **Termék készleten van** mezőre lépünk |
-| 20. A |  Manuálisan rákattintunk **Termék készleten van** mezőre |
-| 20. B | Jelölőnégyzet segítségével kiválaszthatjuk, hogy a temék megtalálható a készleten vagy nem|
-| 21.  |  A tabulátor bellentyű megnyomásával a **Létrehoz** mezőre lépünk |
-| 21. A |  Manuálisan rákattintunk **Létrehoz** mezőre |
-| 21. B | A **Létrehoz** gombot megnyomva az adatok bekerülnek az adatbáziba|
+| 1.   | Weboldal megnyitása. |Sikeres|
+| 2.   | A menüben található **Bejelentkezés** gombra kattintanva elnavigálunk a beléptető oldalra |Sikeres|
+| 3.   | Megjelenik a bejelentkezési űrlap |Sikeres|
+| 4.   | A **Felhasználónév vagy E-mail cím** mezőbe kattintunk |Sikeres|
+| 5.   | A mezőt kitöltjük a magyar ABC és számjegyek tetszőleges kombinációjával legalább 3 karakter hosszan, a saját már beregisztrált fiókunkhoz tartozó felhasználó nevével vagy e-mail címével |***|
+| 6. A | Megnyomva a tabulátor billentyűt, a következő mezőre ugrik a kurzor |Sikeres|
+| 6. B | Manuálisan is átkattinthatunk a következő mezőre (**Jelszó**) |Sikeres|
+| 7.   | Kitöltjük a jelszó mezőt tetszőleges karakterek kombinációjával, legalább 5 karakter hosszúságban, a saját már beregisztrált fiókunkhoz tartozó jelszóval |***|
+| 8. A | Megnyomjuk a tabulátor billentyűt, ezáltal a **Belép** gomb kerül kijelölésre|Sikeres|
+| 8. B | Manuálisan rákattintunk a Bejelentkezés gombra |Sikertelen|
+| 9.    | Az adminisztrátori felület a(z) **.../admin.php** hivatkozással érhető el |Sikeres|
+| 10.   | Elnavigálunk a **Termék Kezelés** részhez |Sikeres|
+| 11.   | Megadjuk a **Termékkategóriát** (legördülő menüből választható) |Sikeres|
+| 12.  |  A tabulátor bellentyű megnyomásával a **Termék név** mezőre lépünk |Sikeres|
+| 12. A |  Manuálisan rákattintunk **Termék név** mezőre |Sikeres|
+| 12. B | Megadjuk a termék nevét, mely alfanumerikus (csak betűből és számjegyekből álló) karakterekből áll|***|
+| 13.  |  A tabulátor bellentyű megnyomásával a **Gyártó** mezőre lépünk |Sikeres|
+| 13. A |  Manuálisan rákattintunk **Gyártó** mezőre |Sikeres|
+| 13. B | Megadjuk a Gyártó nevét, mely alfanumerikus (csak betűből és számjegyekből álló) karakterekből áll|***|
+| 14.  |  A tabulátor bellentyű megnyomásával a **Termék színe** mezőre lépünk |Sikeres|
+| 14. A |  Manuálisan rákattintunk **Termék színe** mezőre |Sikeres|
+| 14. B | Megadjuk a termék színét, mely a magyar "ABC" karaktereiből áll|***|
+| 15.  |  A tabulátor bellentyű megnyomásával a **Termék mérete** mezőre lépünk |***|
+| 15. A |  Manuálisan rákattintunk **Termék mérete** mezőre |Sikeres|
+| 15. B | Megadjuk a termék méretét, mely a csak numerikus karakterekből áll|***|
+| 15. c | Megadhatjuk a termék méretéta mező végén található le-fel nyilak segítségével is |Sikeres|
+| 16.  |  A tabulátor bellentyű megnyomásával a **Raktárkészlet mennyiség (méter)** mezőre lépünk |Sikeres|
+| 16. A |  Manuálisan rákattintunk **Raktárkészlet mennyiség (méter)** mezőre |Sikeres|
+| 16. B | Megadjuk a Raktárkészlet mennyiségét, mely a csak numerikus karakterekből áll|***|
+| 17.  |  A tabulátor bellentyű megnyomásával a **Megjegyzés** mezőre lépünk |Sikeres|
+| 17. A |  Manuálisan rákattintunk **Megjegyzés** mezőre |Sikeres|
+| 17. B | Adhatunk meg a termékhez kapcsolódó megjegyzést|Sikeres|
+| 18.  |  A tabulátor bellentyű megnyomásával a **Képfájl** mezőre, a **Fájl kiválasztása** gombra lépünk |Sikeres|
+| 18. A |  Manuálisan rákattintunk **Képfájl** mezőre, a **Fájl kiválasztása** gombra |Sikeres|
+| 18. B | A gomb megnyomása után betallózhatjuk a feltölteni kívánt fájl-t|Sikeres|
+| 19.  |  A tabulátor bellentyű megnyomásával a **Ár (Ft)** mezőre lépünk |Sikeres|
+| 19. A |  Manuálisan rákattintunk **Ár (Ft)** mezőre |Sikeres|
+| 19. B | Megadjuk a termék árát, mely a csak numerikus karakterekből áll|***|
+| 20.  |  A tabulátor bellentyű megnyomásával a **Termék készleten van** mezőre lépünk |Sikeres|
+| 20. A |  Manuálisan rákattintunk **Termék készleten van** mezőre |Sikeres|
+| 20. B | Jelölőnégyzet segítségével kiválaszthatjuk, hogy a temék megtalálható a készleten vagy nem|Sikeres|
+| 21.  |  A tabulátor bellentyű megnyomásával a **Létrehoz** mezőre lépünk |Sikeres|
+| 21. A |  Manuálisan rákattintunk **Létrehoz** mezőre |Sikertelen|
+| 21. B | A **Létrehoz** gombot megnyomva az adatok bekerülnek az adatbáziba|Sikertelen|
 
 <hr>
 
@@ -203,3 +203,4 @@
 | 17. B | A **Létrehoz** gombot megnyomva az adatok bekerülnek az adatbáziba|
 
 <hr>
+*** az eredmény a tesztelés adott pontján nem megállapítható.
