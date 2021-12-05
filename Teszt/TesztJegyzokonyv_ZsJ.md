@@ -1,7 +1,7 @@
-># Tesztjegyzőkönyv
+>#Tesztjegyzőkönyv
 <hr>
 
-##Tesztelést elvégezte
+## Tesztelést elvégezte
 |  | |
 | --- | --- |
 | Név: | Zsák József  |
