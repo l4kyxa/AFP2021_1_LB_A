@@ -2,8 +2,6 @@
 <hr>
 
 ##Tesztelést elvégezte
-
-
 |  | |
 | --- | --- |
 | Név: | Zsák József  |
