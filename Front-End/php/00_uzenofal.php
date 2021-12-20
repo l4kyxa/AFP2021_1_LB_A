@@ -10,18 +10,6 @@ if (isset($_POST["submit3"]))
     require_once 'dbhandler.php';
 	require_once 'functions.php';
 
-    if (uidWrongUser($conn, $neve) !== true)
-	{
-		header ("location: ../uzenofal.php?error=wrongusername");
-		exit();
-	}
-
-    if (uidWrongEmail($conn, $email) !== true)
-	{
-		header ("location: ../uzenofal.php?error=wrongemail");
-		exit();
-	}
-
     setComment($conn, $neve, $email, $uzenet, $datum);
 }
 else
