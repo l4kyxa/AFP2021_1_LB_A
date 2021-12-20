@@ -54,7 +54,7 @@ function pwdMatch($pwd, $pwdrepeat)
 }
 function uidExists($conn, $username, $email)
 {
-	$sql = "SELECT * FROM Felhasznalok WHERE Felhasznalonev = ? OR Email = ?;";
+	$sql = "SELECT * FROM Felhasznalok WHERE BINARY Felhasznalonev = ? OR Email = ?;";
 	$stmt = mysqli_stmt_init($conn);
 	if (!mysqli_stmt_prepare($stmt, $sql))
 	{
