@@ -67,7 +67,7 @@
     {
         if ($_GET["error"] == "wrongloginusername")
         {
-            echo "<p>Helytelen felhasználónév!</p>";
+            echo "<p>Helytelen felhasználónév vagy e-mail cím!</p>";
         }
 
         if ($_GET["error"] == "wrongloginpwd")
