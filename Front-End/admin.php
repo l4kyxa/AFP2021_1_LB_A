@@ -108,6 +108,16 @@
                 <label for="Kep"><b>Képfájl</b></label>
                 <input type="file" placeholder="Válassz egy képfájlt..." name="Kep" id="Kep" required></br></br>
 
+                <label for="Ar"><b>Ár (Ft)</b></label>
+                <input type="number" placeholder="termék ára" name="Ar" id="Ar" required></br></br>
+
+                <label for="Statusz"><b>Termék készleten van</b></label>
+                <input type="checkbox" placeholder="státusz" name="Statusz" id="Statusz" value="1" required></br>
+
+                <button type="submit" class="button" type="button" name="termek_letrehoz" >Létrehoz</button>
+            </div>
+        </form>
+    </div>
 
 
     <div id="box_1">
