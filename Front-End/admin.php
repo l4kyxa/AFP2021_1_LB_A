@@ -93,6 +93,20 @@
                 <label for="GyartoNev"><b>Gyártó</b></label>
                 <input type="text" placeholder="Gyártó neve" name="GyartoNev" id="GyartoNev" maxlength="100" required>
 
+                <label for="Szin"><b>Termék színe</b></label>
+                <input type="text" placeholder="szín" name="Szin" id="Szin" maxlength="60" required>
+
+                <label for="Meret"><b>Termék mérete (mm)</b></label>
+                <input type="number" placeholder="méret/szélesség" name="Meret" id="Meret" min="1" max="1000" required></br></br>
+
+                <label for="Mennyiseg"><b>Raktárkészlet mennyiség (méter)</b></label>
+                <input type="text" placeholder="Mennyiség" name="Mennyiseg" id="Mennyiseg" required>
+
+                <label for="Megjegyzes"><b>Megjegyzés</b></label>
+                <input type="text" placeholder="megjegyzés" name="Megjegyzes" id="Megjegyzes" maxlength="250" required>
+
+                <label for="Kep"><b>Képfájl</b></label>
+                <input type="file" placeholder="Válassz egy képfájlt..." name="Kep" id="Kep" required></br></br>
 
 
 
