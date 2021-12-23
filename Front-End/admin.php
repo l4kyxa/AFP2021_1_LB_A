@@ -71,73 +71,28 @@
         </div>
         </form>
     </div>
-<div id="box_1">
-    <h2>Termék Kezelés</h2>
-</div>
+
+    <div id="box_1">
+        <h2>TERMÉK FELTÖLTÉSE (kizárólag Admin szerepkör)</h2>
+    </div>
     <div id="box_2">
         <div class="btncontainer">
-            <div class="btnvertical-center">
-                <form class="example" action="php\00_admin_termek.php" method="post">
-                    <input type="text" placeholder="keresés" name="temek_kereses">
-                    <button id="keres" type="submit"  name="termek_keres"><i class="fa fa-search" ></i></button>
-                </form>
-            </div>
         </div>
 
         <form action="php\00_admin_termek.php" method="post">
-        <div class="container">
+            <div class="container">
+                <label for="Kategoria"><b>Válassz termékkategóriát:</b></label>
+                <select name="Kategoria" id="Kategoria">
+                    <option value="1">Gomb</option>
+                    <option value="2">Rövidáru</option>
+                </select>
 
+                <label for="TermekNev"><b>Termék név</b></label>
+                <input type="text" placeholder="Termék neve" name="TermekNev" id="TermekNev" maxlength="60" required>
 
+                <label for="GyartoNev"><b>Gyártó</b></label>
+                <input type="text" placeholder="Gyártó neve" name="GyartoNev" id="GyartoNev" maxlength="100" required>
 
-            <label for="id"><b>Termékkatergória</b></label>
-            <select type="text" placeholder="ID" name="id" id="id" required>
-                <option value="1">gomb</option>
-                <option value="2">rövidáru</option>
-            </select>
-
-
-            <label for="termek"><b>Név</b></label>
-            <input type="text" placeholder="termék" name="termek" id="termek" required>
-
-            <label for="gyarto"><b>Gyártó</b></label>
-            <input type="text" placeholder="gyártó" name="gyarto" id="gyarto" required>
-
-            <label for="szin"><b>Termék színe</b></label>
-            <input type="text" placeholder="szín" name="szin" id="szin" required>
-
-            <label for="meret"><b>Termék mérete</b></label><br>
-            <input type="number" placeholder="méret" name="meret" id="meret" required>
-
-            <label for="mennyiseg"><b>Raktárkészlet mennyiség</b></label>
-            <input type="text" placeholder="mennyiség" name="mennyiseg" id="mennyiseg" required>
-
-            <label for="megjegyzes"><b>Megjegyzés</b></label>
-            <input type="text" placeholder="megjegyzés" name="megjegyzes" id="megjegyzes" required>
-
-            <label for="kep"><b>Kép</b></label>
-            <input type="file" placeholder="kép" name="kep" id="kep" required>
-
-            <label for="ar"><b>Ár</b></label>
-            <input type="text" placeholder="ár" name="ar" id="ar" required>
-
-            <label for="status"><b>Státusz</b></label>
-            <select type="text" placeholder="státusz" name="status" id="status" required>
-                <option value="1">aktiv</option>
-                <option value="2">passziv</option>
-            </select>
-            <label for="status"><b>Termék készleten van</b></label>
-            <select type="text" placeholder="státusz" name="status" id="status" required>
-                <option value="1">igen</option>
-                <option value="2">nem</option>
-            </select>
-
-            <button type="submit" class="button" type="button" name="termek_letrehoz" >Létrehoz</button>
-            <button type="submit" class="button" type="button" name="termek_modosit" >Módosít</button>
-            <button type="submit" class="button" type="button" name="termek_torol">Töröl</button>
-            <button type="submit" class="button" type="button" name="termek_listaz">Listáz</button>
-        </div>
-        </form>
-    </div>
 
 
 
