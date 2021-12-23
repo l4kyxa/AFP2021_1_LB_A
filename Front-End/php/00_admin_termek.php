@@ -1,9 +1,22 @@
 <html>
 <body>
 
-Back-End felé küldött adatok<br><br>
-
 <?php
+if(isset($_POST["termek_letrehoz"])) {
+
+    echo "TERMÉK LÉTREHOZÁSA <br>";
+    echo "Termékazonosító_ID.:" .$id."<br>";
+    echo "Termék név.:" .$termeknev. "<br>";
+    echo "Gyártó név.:" .$gyartonev. "<br>";
+    echo "Szín.:" .$szin. "<br>";
+    echo "Méret.:" .$meret. "<br>";
+    echo "Mennyiség.:" .$mennyiseg. "<br>";
+    echo "Megjegyzés.:" .$megjegyzes. "<br>";
+    echo "Kép.:" .$kep. "<br>";
+    echo "Ár.:" .$ar. "<br>";
+    echo "Státusz.:" .$statusz. "<br>";
+}
+
 if(isset($_POST["termek_letrehoz"]))
 {
     echo "TERMÉK LÉTREHOZÁSA <br>";
