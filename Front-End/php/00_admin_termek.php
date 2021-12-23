@@ -4,7 +4,7 @@
 <?php
 if(isset($_POST["termek_letrehoz"])) {
 
-    echo "TERMÉK LÉTREHOZÁSA <br>";
+/*    echo "TERMÉK LÉTREHOZÁSA <br>";
     echo "Termékazonosító_ID.:" .$id."<br>";
     echo "Termék név.:" .$termeknev. "<br>";
     echo "Gyártó név.:" .$gyartonev. "<br>";
@@ -14,7 +14,22 @@ if(isset($_POST["termek_letrehoz"])) {
     echo "Megjegyzés.:" .$megjegyzes. "<br>";
     echo "Kép.:" .$kep. "<br>";
     echo "Ár.:" .$ar. "<br>";
-    echo "Státusz.:" .$statusz. "<br>";
+    echo "Státusz.:" .$statusz. "<br>";*/
+
+
+    require_once 'dbhandler.php';
+    require_once 'functions.php';
+
+
+    $id = (int)$_POST['Kategoria'];
+    $termeknev = $_POST["TermekNev"];
+    $gyartonev = $_POST["GyartoNev"];
+    $szin = $_POST["Szin"];
+    $meret = $_POST["Meret"];
+
+    print 'Létrehozom a terméket...';
+
+
 }
 
 if(isset($_POST["termek_letrehoz"]))
