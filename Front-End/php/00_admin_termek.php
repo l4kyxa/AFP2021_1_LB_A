@@ -26,6 +26,11 @@ if(isset($_POST["termek_letrehoz"])) {
     $gyartonev = $_POST["GyartoNev"];
     $szin = $_POST["Szin"];
     $meret = $_POST["Meret"];
+    $mennyiseg = $_POST["Mennyiseg"];
+    $megjegyzes = $_POST["Megjegyzes"];
+    $kep = $_POST["Kep"];
+    $ar = $_POST["Ar"];
+    $statusz = $_POST["Statusz"];
 
     print 'Létrehozom a terméket...';
 
