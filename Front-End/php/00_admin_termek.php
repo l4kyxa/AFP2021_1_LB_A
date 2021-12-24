@@ -3,20 +3,6 @@
 
 <?php
 if(isset($_POST["termek_letrehoz"])) {
-
-/*    echo "TERMÉK LÉTREHOZÁSA <br>";
-    echo "Termékazonosító_ID.:" .$id."<br>";
-    echo "Termék név.:" .$termeknev. "<br>";
-    echo "Gyártó név.:" .$gyartonev. "<br>";
-    echo "Szín.:" .$szin. "<br>";
-    echo "Méret.:" .$meret. "<br>";
-    echo "Mennyiség.:" .$mennyiseg. "<br>";
-    echo "Megjegyzés.:" .$megjegyzes. "<br>";
-    echo "Kép.:" .$kep. "<br>";
-    echo "Ár.:" .$ar. "<br>";
-    echo "Státusz.:" .$statusz. "<br>";*/
-
-
     require_once 'dbhandler.php';
     require_once 'functions.php';
 
@@ -32,29 +18,20 @@ if(isset($_POST["termek_letrehoz"])) {
     $ar = $_POST["Ar"];
     $statusz = $_POST["Statusz"];
 
-    print 'Létrehozom a terméket...';
+    /*    echo "TERMÉK LÉTREHOZÁSA <br>";
+    echo "Termékazonosító_ID.:" .$id."<br>";
+    echo "Termék név.:" .$termeknev. "<br>";
+    echo "Gyártó név.:" .$gyartonev. "<br>";
+    echo "Szín.:" .$szin. "<br>";
+    echo "Méret.:" .$meret. "<br>";
+    echo "Mennyiség.:" .$mennyiseg. "<br>";
+    echo "Megjegyzés.:" .$megjegyzes. "<br>";
+    echo "Kép.:" .$kep. "<br>";
+    echo "Ár.:" .$ar. "<br>";
+    echo "Státusz.:" .$statusz. "<br>";
+    print 'Létrehozom a terméket...';*/
 
-
-}
-
-if(isset($_POST["termek_letrehoz"]))
-{
-    echo "TERMÉK LÉTREHOZÁSA <br>";
-    echo "ID.:" .$_POST["id"]."<br>";
-    echo "Termék.:" .$_POST["termek"]."<br>";
-    echo "Főkategória.:" .$_POST["fokategoria"]."<br>";
-    echo "Alkategória.:" .$_POST["alkategoria"]."<br>";
-    echo "Gyártó.:" .$_POST["gyarto"]."<br>";
-    echo "Szín.:" .$_POST["szin"]."<br>";
-    echo "Méret.:" .$_POST["meret"]."<br>";
-    echo "Mennyiség.:" .$_POST["mennyiseg"]."<br>";
-    echo "Megjegyzés.:" .$_POST["megjegyzes"]."<br>";
-    echo "Kép.:" .$_POST["kep"]."<br>";
-    echo "Ár.:" .$_POST["ar"]."<br>";
-    echo "Státusz.:" .$_POST["status"]."<br>";
-
-
-
+    createAru($conn, $id, $termeknev, $gyartonev, $szin, $meret, $mennyiseg, $megjegyzes, $kep, $ar, $statusz);
 }
 
 if(isset($_POST["termek_modosit"]))
