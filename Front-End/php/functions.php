@@ -157,3 +157,11 @@ function setComment($conn, $neve, $email, $uzenet, $datum)
 	header ("location: ../uzenofal.php?error=none");
 	exit();
 }
+
+function createAru($conn, $id, $termeknev, $gyartonev, $szin, $meret, $mennyiseg, $megjegyzes, $kep, $ar, $statusz)
+{
+    $sql = "INSERT INTO Aruk (Termekazonosito_ID, TermekNev, GyartoNev, Szin, Meret, Mennyiseg, Megjegyzes, Kep, Ar, Statusz) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?) ;";
+
+
+
+}
