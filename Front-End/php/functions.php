@@ -161,7 +161,18 @@ function setComment($conn, $neve, $email, $uzenet, $datum)
 function createAru($conn, $id, $termeknev, $gyartonev, $szin, $meret, $mennyiseg, $megjegyzes, $kep, $ar, $statusz)
 {
     $sql = "INSERT INTO Aruk (Termekazonosito_ID, TermekNev, GyartoNev, Szin, Meret, Mennyiseg, Megjegyzes, Kep, Ar, Statusz) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?) ;";
+    $stmt = mysqli_stmt_init($conn);
+    if (!mysqli_stmt_prepare($stmt, $sql))
+    {
+        header ("location: ../admin.php?error=stmtfailed");
+        exit();
+    }
 
+    mysqli_stmt_bind_param($stmt, "ssssssssss", $id, $termeknev, $gyartonev, $szin, $meret, $mennyiseg, $megjegyzes, $kep, $ar, $statusz);
+    mysqli_stmt_execute($stmt);
+    mysqli_stmt_close($stmt);
+    header ("location: ../admin.php?error=none");
+    exit();
 
 
 }
