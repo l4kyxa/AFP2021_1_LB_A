@@ -29,9 +29,19 @@
         <td><?= $termekek[$i] -> Statusz?></td>
         <td>
             <br>
-
-
-
+            <form name="form1" method="post" action="03_admin_termeklist_update.php">
+                <input type="hidden" name="aruID" value="<?= $termekek[$i] -> Aru_ID ?>">
+                <input type="submit" name="termod" value="Módosítás">
+                <!--<input type="image" name="rogzitesgomb" src="link_gomb.jpg">-->
+            </form>
+        </td>
+        <td>
+            <br>
+            <form action="03_admin_termek_delete.php" method="POST" onsubmit="return confirm('Biztos vagy benne, hogy törölni szeretnéd a terméket?')">
+                <input type="hidden" name="aruID" value="<?= $termekek[$i] -> Aru_ID ?>">
+                <input type="submit" name="tertor" value="Törlés">
+            </form>
+        </td>
     </tr>
     <?php } ?>
     </tbody>
