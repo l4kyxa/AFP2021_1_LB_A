@@ -119,6 +119,18 @@
         </form>
     </div>
 
+    <div id="box_1">
+        <h2>TERMÉKEK SZERKESZTÉSE LISTÁZÁS ALAPJÁN <br>(kizárólag Admin szerepkör)</h2>
+        <form action="php\00_admin_termek.php" method="post">
+            <div id="content">
+                <div id="box_2">
+                    <h1 style="text-align: center">
+                        <button type="submit" class="button" type="button" name="termek_listaz">Összes termék listázása</button>
+                    </h1>
+                </div>
+            </div>
+        </form>
+    </div>
 
     <div id="box_1">
         <h2>Bejegyzés Kezelés</h2>
