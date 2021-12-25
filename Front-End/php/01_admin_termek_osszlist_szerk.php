@@ -34,5 +34,26 @@ if ($talalat = mysqli_query($conn, $sql)) {
 }
 
 
+if (empty($termekek))
+{
+    if ($t_ID == 1)
+    {?> <h1>Gomb(ok) listázása:</h1> <?php
+        echo "Nincs termék jelenleg készleten!";}
+    if ($t_ID == 2)
+    {?> <h1>Rövidáru(k) listázása:</h1> <?php
+        echo "Nincs termék jelenleg készleten!";}
+
+}
+
+
+if (!empty($termekek))
+{
+    if ($t_ID == 1)
+    {?> <h1>Gomb(ok) listázása:</h1> <?php
+        include '02_admin_termek_tabla.php'; }
+    if ($t_ID == 2)
+    {?> <h1>Rövidáru(k) listázása:</h1> <?php
+        include '02_admin_termek_tabla.php'; }
+}
 
 ?>
