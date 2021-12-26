@@ -173,6 +173,24 @@ function createAru($conn, $id, $termeknev, $gyartonev, $szin, $meret, $mennyiseg
     mysqli_stmt_close($stmt);
     header ("location: ../admin.php?error=none");
     exit();
+}
+
+function listAru($conn, $sql){
+    $termekek = array();
 
 
+    if ($sql == 'SELECT * FROM Aruk WHERE Termekazonosito_ID = 1') {
+        $t_ID = 1;
+        include '01_admin_termek_osszlist_szerk.php';
+        /*include '02_admin_termek_tabla.php';*/
+    }
+
+
+    if ($sql == 'SELECT * FROM Aruk WHERE Termekazonosito_ID = 2') {
+        $t_ID = 2;
+        include '01_admin_termek_osszlist_szerk.php';
+        /*include '02_admin_termek_tabla.php';*/
+        mysqli_close($conn);
+    }
+    return $termekek;
 }
