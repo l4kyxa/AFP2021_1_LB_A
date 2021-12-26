@@ -29,16 +29,12 @@
         <div id="A" class="tabcontent">
             <div class="btncontainer">
                 <div class="btnvertical-center">
-                    <form class="example" action="#">
-                        <input type="text" placeholder="keresés" name="search">
-                        <button id="keres" type="submit" onclick="button_click()"><i class="fa fa-search"></i></button>
+                    <form class="example" action="php/01_user_termek_keres.php" method="get">
+                        <input type="text" id="szoveg" placeholder="keresés" name="szoveg" value="">
+                        <button id="keres" type="submit" name="kuld" onclick="button_click()" value="Keress!"><i class="fa fa-search"></i></button>
                     </form>
                 </div>
             </div>
-            <br><br>
-            <hr>
-
-
             <!--GOMB PANEL-->
             <div class="flex-container">
 
