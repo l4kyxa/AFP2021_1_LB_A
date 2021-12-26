@@ -72,10 +72,21 @@ if(isset($_POST["termek_torol"]))
 
 if(isset($_POST["termek_listaz"]))
 {
-    echo "TERMÉKEK LISTÁZÁSA<br>";
+    require_once 'TermekMezok.php';
+    require_once 'dbhandler.php';
+    require_once 'functions.php';
 
+    ?>
 
+    <h1>Termékek listázása:</h1>
+    <?php
+    /*$termekek = */
+
+    $sql1 = 'SELECT * FROM Aruk WHERE Termekazonosito_ID = 1';
+    listAru($conn, $sql1);
 }
+
+
 if(isset($_POST["termek_keres"]))
 {
     echo "KERESÉS alábbi paraméterrel:<br>";
