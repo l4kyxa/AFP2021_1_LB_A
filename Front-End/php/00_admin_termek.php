@@ -84,6 +84,9 @@ if(isset($_POST["termek_listaz"]))
 
     $sql1 = 'SELECT * FROM Aruk WHERE Termekazonosito_ID = 1';
     listAru($conn, $sql1);
+
+    $sql2 = 'SELECT * FROM Aruk WHERE Termekazonosito_ID = 2';
+    listAru($conn, $sql2);
 }
 
 
