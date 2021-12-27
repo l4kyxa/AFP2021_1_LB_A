@@ -14,6 +14,18 @@
         <th>Státusz</th>
     </tr>
     </thead>
-
+    <tbody>
+    <?php for ($i = 0; $i < count($utermekek); $i++) { ?>
+        <tr>
+            <td><?= $utermekek[$i] -> TermekNev ?></td>
+            <td><?= $utermekek[$i] -> GyartoNev ?></td>
+            <td><?= $utermekek[$i] -> Szin?></td>
+            <td><?= $utermekek[$i] -> Meret?></td>
+            <td><?= $utermekek[$i] -> Ar?></td>
+            <td><?= $utermekek[$i] -> Statusz?></td>
+        </tr>
+    <?php } ?>
+    </tbody>
+</table>
 </body>
 </html>
