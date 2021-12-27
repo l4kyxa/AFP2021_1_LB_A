@@ -58,6 +58,26 @@ if (isset($_GET["kuld"])) {
                     include '02_user_termek_tabla.php';
                 }
             }
+            if ($sql = "SELECT TermekNev, GyartoNev, Szin, Meret, Ar, Statusz FROM aruk WHERE Termekazonosito_ID = 2 and TermekNev LIKE '%$keresesi_kulcsszo%'")
+            {
+                $talalat = mysqli_query($conn, $sql);
+
+                if ($talalat->num_rows > 0) {
+                    while (($usor = mysqli_fetch_assoc($talalat)) !== null) {
+                        $utermek = new user_TermekMezok();
+
+
+                        /*$termek->Aru_ID = $sor['Aru_ID'];*/
+                        $utermek->TermekNev = $usor['TermekNev'];
+                        $utermek->GyartoNev = $usor['GyartoNev'];
+                        $utermek->Szin = $usor['Szin'];
+                        $utermek->Meret = $usor['Meret'];
+                        $utermek->Ar = $usor['Ar'];
+                        $utermek->Statusz = $usor['Statusz'];
+                        array_push($utermekek, $utermek);
+
+                    }
+                }
 
 
 
