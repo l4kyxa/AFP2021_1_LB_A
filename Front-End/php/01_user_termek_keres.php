@@ -78,10 +78,21 @@ if (isset($_GET["kuld"])) {
 
                     }
                 }
+                if (empty($utermekek))
+                {
+
+                    ?><h1>Rövidáru(k) listázása:</h1> <?php
+                    echo "Nincs a keresésnek megfelelő termék!";
+                }
 
 
-
-
+                if (!empty($utermekek))
+                {
+                    ?> <h1>Rövidáru(k) listázása:</h1> <?php
+                    include '02_user_termek_tabla.php';
+                }
+            }
+            mysqli_close($conn);
         }
     }
 }
