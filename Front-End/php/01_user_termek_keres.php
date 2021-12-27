@@ -21,7 +21,33 @@ if (isset($_GET["kuld"])) {
             $keresesi_kulcsszo = trim($keresesi_kulcsszo);
             //plusz speciális karakterek törlése sql-ből:
             $keresesi_kulcsszo = mysqli_real_escape_string($conn, $keresesi_kulcsszo);
-        }
+
+            $utermekek = array();
+
+            if ($sql = "SELECT TermekNev, GyartoNev, Szin, Meret, Ar, Statusz FROM aruk WHERE Termekazonosito_ID = 1 and TermekNev LIKE '%$keresesi_kulcsszo%'")
+            {
+                $talalat = mysqli_query($conn, $sql);
+
+                if ($talalat->num_rows > 0) {
+                    while (($usor = mysqli_fetch_assoc($talalat)) !== null) {
+                        $utermek = new user_TermekMezok();
+
+
+                        /*$termek->Aru_ID = $sor['Aru_ID'];*/
+                        $utermek->TermekNev = $usor['TermekNev'];
+                        $utermek->GyartoNev = $usor['GyartoNev'];
+                        $utermek->Szin = $usor['Szin'];
+                        $utermek->Meret = $usor['Meret'];
+                        $utermek->Ar = $usor['Ar'];
+                        $utermek->Statusz = $usor['Statusz'];
+                        array_push($utermekek, $utermek);
+
+                    }
+                }
+
+
+
+            }
     }
 }
 
