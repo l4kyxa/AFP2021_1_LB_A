@@ -41,9 +41,22 @@ if (isset($_GET["kuld"])) {
                         $atermek->Ar = $asor['Ar'];
                         $atermek->Statusz = $asor['Statusz'];
                         array_push($atermekek, $atermek);
+                        if (empty($atermekek))
+                        {
 
+                            ?><h1>Gomb(ok) listázása:</h1> <?php
+                            echo "Nincs a keresésnek megfelelő termék!";
+                        }
+
+
+                        if (!empty($atermekek))
+                        {
+                            ?> <h1>Gomb(ok) listázása:</h1> <?php
+                            include '02_admin_termek_keres_tabla.php';
+                        }
                     }
-
+                }
+            }
         }
     }
 }
