@@ -120,6 +120,20 @@
     </div>
 
     <div id="box_1">
+        <h2>TERMÉKEK SZERKESZTÉSE KERESÉS ALAPJÁN <br>(kizárólag Admin szerepkör)</h2>
+        <div id="box_2">
+            <h1 style="text-align: center">Egyszerű keresés:</h1>
+            <div class="btncontainer">
+                <div class="btnvertical-center">
+                    <form class="example" action="php/01_admin_termek_keres.php" method="get">
+                        <!--<label for="szoveg">Keresett kifejezés:</label>-->
+                        <input type="text" id="szoveg" placeholder="Szerkesztett termék neve" name="szoveg" value="">
+                        <button id="keres" type="submit" name="kuld" onclick="button_click()" value="Keress!"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
         <h2>TERMÉKEK SZERKESZTÉSE LISTÁZÁS ALAPJÁN <br>(kizárólag Admin szerepkör)</h2>
         <form action="php\00_admin_termek.php" method="post">
             <div id="content">
