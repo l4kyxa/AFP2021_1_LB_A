@@ -64,7 +64,7 @@ if (isset($_GET["kuld"])) {
                 if ($talalat->num_rows > 0) {
                     while (($asor = mysqli_fetch_assoc($talalat)) !== null) {
                         $atermek = new admin_TermekMezok();
-                        
+
                         $atermek->Aru_ID = $asor['Aru_ID'];
                         $atermek->TermekNev = $asor['TermekNev'];
                         $atermek->GyartoNev = $asor['GyartoNev'];
@@ -76,11 +76,21 @@ if (isset($_GET["kuld"])) {
                         $atermek->Statusz = $asor['Statusz'];
                         array_push($atermekek, $atermek);
                     }
+                    if (empty($atermekek))
+                    {
+                        ?><h1>Rövidáru(k) listázása:</h1> <?php
+                        echo "Nincs a keresésnek megfelelő termék!";
+                    }
 
+                    if (!empty($atermekek))
+                    {
+                        ?> <h1>Rövidáru(k) listázása:</h1> <?php
+                        include '02_admin_termek_keres_tabla.php';
+                    }
                 }
+                mysqli_close($conn);
             }
         }
     }
 }
-
 ?>
