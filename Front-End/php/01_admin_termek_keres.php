@@ -57,6 +57,10 @@ if (isset($_GET["kuld"])) {
                     }
                 }
             }
+            if ($sql = "SELECT Aru_ID, TermekNev, GyartoNev, Szin, Meret, Mennyiseg, Megjegyzes, Ar, Statusz FROM aruk WHERE Termekazonosito_ID = 2 and TermekNev LIKE '%$keresesi_kulcsszo%'")
+            {
+                
+            }
         }
     }
 }
