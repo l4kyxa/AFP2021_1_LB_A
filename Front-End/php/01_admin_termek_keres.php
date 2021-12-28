@@ -22,6 +22,27 @@ if (isset($_GET["kuld"])) {
 
             $atermekek = array();
 
+            if ($sql = "SELECT Aru_ID, TermekNev, GyartoNev, Szin, Meret, Mennyiseg, Megjegyzes, Ar, Statusz FROM aruk WHERE Termekazonosito_ID = 1 and TermekNev LIKE '%$keresesi_kulcsszo%'")
+            {
+                $talalat = mysqli_query($conn, $sql);
+
+                if ($talalat->num_rows > 0) {
+                    while (($asor = mysqli_fetch_assoc($talalat)) !== null) {
+                        $atermek = new admin_TermekMezok();
+
+
+                        $atermek->Aru_ID = $asor['Aru_ID'];
+                        $atermek->TermekNev = $asor['TermekNev'];
+                        $atermek->GyartoNev = $asor['GyartoNev'];
+                        $atermek->Szin = $asor['Szin'];
+                        $atermek->Meret = $asor['Meret'];
+                        $atermek->Mennyiseg = $asor['Mennyiseg'];
+                        $atermek->Megjegyzes = $asor['Megjegyzes'];
+                        $atermek->Ar = $asor['Ar'];
+                        $atermek->Statusz = $asor['Statusz'];
+                        array_push($atermekek, $atermek);
+
+                    }
 
         }
     }
