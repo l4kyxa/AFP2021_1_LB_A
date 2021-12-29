@@ -63,8 +63,35 @@ $record = recordFetch() ?>
     </tr>
     </tbody>
 </table>
+<?php }
+
+if(isset($_POST["Mennymodosit"])) {
+    require_once 'dbhandler.php';
+
+    $aID = $_POST['aruID'];
+
+    if (array_key_exists('Mennymodosit', $_POST) && $_POST['Mennymodosit'] == 1) {
+        $uj_menny = $_POST['Mennymod'];
+        /*print $uj_menny;*/
+        if ($uj_menny != null && !empty($uj_menny)) {
+            $query = "UPDATE aruk SET Mennyiseg = '$uj_menny' WHERE Aru_ID = '$aID'";
+
+            if ($conn->query($query) === TRUE) {
+                echo "Adat sikeresen módosítva!";
+                /*header( 'Refresh: 1; URL=03_admin_termeklist_update.php');*/
+            } else {
+                echo "Hiba a módosítás során: " . $conn->error;
+            }
 
 
+            $conn->close();
+
+
+        }
+    }
+}
+
+?>
 
 </body>
 </html>
