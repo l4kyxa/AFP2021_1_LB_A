@@ -194,3 +194,27 @@ function listAru($conn, $sql){
     }
     return $termekek;
 }
+
+function recordFetch()
+{
+    require_once 'dbhandler.php';
+
+
+    $aID = $_POST['aruID'];
+
+
+    $sql = "SELECT * FROM aruk WHERE Aru_ID = '$aID'";
+
+    if (empty($conn)) {
+        $serverName = "localhost";
+        $dbUsername = "c22578keret";
+        $dbPassword = "c22578keret";
+        $dBName = "c22578keret";
+
+        $conn = mysqli_connect($serverName, $dbUsername, $dbPassword, $dBName);
+        $result = mysqli_query($conn, $sql);
+    }
+    $record = mysqli_fetch_assoc($result);
+
+    return $record;
+}
