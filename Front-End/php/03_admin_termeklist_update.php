@@ -131,7 +131,35 @@ if(isset($_POST["Armodosit"])) {
     }
 }
 
+if(isset($_POST["Statmodosit"])) {
+    require_once 'dbhandler.php';
 
+    $aID = $_POST['aruID'];
+
+    if (array_key_exists('Statmodosit', $_POST) && $_POST['Statmodosit'] == 1) {
+        $uj_stat = $_POST['Statmod'];
+        /*print $uj_menny;*/
+        if ($uj_stat != null && !empty($uj_stat)) {
+            $query = "UPDATE aruk SET Statusz = '$uj_stat' WHERE Aru_ID = '$aID'";
+
+            if (empty($conn)) {
+                $serverName = "localhost";
+                $dbUsername = "c22578keret";
+                $dbPassword = "c22578keret";
+                $dBName = "c22578keret";
+
+                $conn = mysqli_connect($serverName, $dbUsername, $dbPassword, $dBName);
+                if ($conn->query($query) === TRUE) {
+                    echo "Record updated successfully";
+                    /*header("Refresh:0");*/
+                } else {
+                    echo "Error updating record: " . $conn->error;
+                }
+            }
+            $conn->close();
+        }
+    }
+}
 
 ?>
 
