@@ -109,6 +109,29 @@ if(isset($_POST["Megjmodosit"])) {
     }
 }
 
+if(isset($_POST["Armodosit"])) {
+    require_once 'dbhandler.php';
+
+    $aID = $_POST['aruID'];
+
+    if (array_key_exists('Armodosit', $_POST) && $_POST['Armodosit'] == 1) {
+        $uj_ar = $_POST['Armod'];
+        /*print $uj_menny;*/
+        if ($uj_ar != null && !empty($uj_ar)) {
+            $query = "UPDATE aruk SET Ar = '$uj_ar' WHERE Aru_ID = '$aID'";
+
+            if ($conn->query($query) === TRUE) {
+                echo "Record updated successfully";
+                header("Refresh:0");
+            } else {
+                echo "Error updating record: " . $conn->error;
+            }
+            $conn->close();
+        }
+    }
+}
+
+
 
 ?>
 
