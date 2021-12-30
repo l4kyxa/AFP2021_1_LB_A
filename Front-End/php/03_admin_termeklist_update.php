@@ -82,14 +82,33 @@ if(isset($_POST["Mennymodosit"])) {
             } else {
                 echo "Hiba a módosítás során: " . $conn->error;
             }
-
-
             $conn->close();
-
-
         }
     }
 }
+
+if(isset($_POST["Megjmodosit"])) {
+    require_once 'dbhandler.php';
+
+    $aID = $_POST['aruID'];
+
+    if (array_key_exists('Megjmodosit', $_POST) && $_POST['Megjmodosit'] == 1) {
+        $uj_megj = $_POST['Megjmod'];
+        /*print $uj_menny;*/
+        if ($uj_megj != null && !empty($uj_megj)) {
+            $query = "UPDATE aruk SET Megjegyzes = '$uj_megj' WHERE Aru_ID = '$aID'";
+
+            if ($conn->query($query) === TRUE) {
+                echo "Record updated successfully";
+                header("Refresh:0");
+            } else {
+                echo "Error updating record: " . $conn->error;
+            }
+            $conn->close();
+        }
+    }
+}
+
 
 ?>
 
