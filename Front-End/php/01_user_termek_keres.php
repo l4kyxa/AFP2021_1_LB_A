@@ -24,7 +24,7 @@ if (isset($_GET["kuld"])) {
 
             $utermekek = array();
 
-            if ($sql = "SELECT TermekNev, GyartoNev, Szin, Meret, Ar, Statusz FROM aruk WHERE Termekazonosito_ID = 1 and TermekNev LIKE '%$keresesi_kulcsszo%'")
+            if ($sql = "SELECT TermekNev, GyartoNev, Szin, Meret, Ar, Statusz FROM Aruk WHERE Termekazonosito_ID = 1 and TermekNev LIKE '%$keresesi_kulcsszo%'")
             {
                 $talalat = mysqli_query($conn, $sql);
 
@@ -58,7 +58,7 @@ if (isset($_GET["kuld"])) {
                     include '02_user_termek_tabla.php';
                 }
             }
-            if ($sql = "SELECT TermekNev, GyartoNev, Szin, Meret, Ar, Statusz FROM aruk WHERE Termekazonosito_ID = 2 and TermekNev LIKE '%$keresesi_kulcsszo%'")
+            if ($sql = "SELECT TermekNev, GyartoNev, Szin, Meret, Ar, Statusz FROM Aruk WHERE Termekazonosito_ID = 2 and TermekNev LIKE '%$keresesi_kulcsszo%'")
             {
                 $talalat = mysqli_query($conn, $sql);
 

@@ -74,7 +74,7 @@ if(isset($_POST["Mennymodosit"])) {
         $uj_menny = $_POST['Mennymod'];
         /*print $uj_menny;*/
         if ($uj_menny != null && !empty($uj_menny)) {
-            $query = "UPDATE aruk SET Mennyiseg = '$uj_menny' WHERE Aru_ID = '$aID'";
+            $query = "UPDATE Aruk SET Mennyiseg = '$uj_menny' WHERE Aru_ID = '$aID'";
 
             if ($conn->query($query) === TRUE) {
                 echo "Adat sikeresen módosítva!";
@@ -96,7 +96,7 @@ if(isset($_POST["Megjmodosit"])) {
         $uj_megj = $_POST['Megjmod'];
         /*print $uj_menny;*/
         if ($uj_megj != null && !empty($uj_megj)) {
-            $query = "UPDATE aruk SET Megjegyzes = '$uj_megj' WHERE Aru_ID = '$aID'";
+            $query = "UPDATE Aruk SET Megjegyzes = '$uj_megj' WHERE Aru_ID = '$aID'";
 
             if ($conn->query($query) === TRUE) {
                 echo "Record updated successfully";
@@ -118,7 +118,7 @@ if(isset($_POST["Armodosit"])) {
         $uj_ar = $_POST['Armod'];
         /*print $uj_menny;*/
         if ($uj_ar != null && !empty($uj_ar)) {
-            $query = "UPDATE aruk SET Ar = '$uj_ar' WHERE Aru_ID = '$aID'";
+            $query = "UPDATE Aruk SET Ar = '$uj_ar' WHERE Aru_ID = '$aID'";
 
             if ($conn->query($query) === TRUE) {
                 echo "Record updated successfully";
@@ -140,13 +140,13 @@ if(isset($_POST["Statmodosit"])) {
         $uj_stat = $_POST['Statmod'];
         /*print $uj_menny;*/
         if ($uj_stat != null && !empty($uj_stat)) {
-            $query = "UPDATE aruk SET Statusz = '$uj_stat' WHERE Aru_ID = '$aID'";
+            $query = "UPDATE Aruk SET Statusz = '$uj_stat' WHERE Aru_ID = '$aID'";
 
             if (empty($conn)) {
-                $serverName = "localhost";
+                $serverName = "mysql.rackhost.hu";
                 $dbUsername = "c22578keret";
                 $dbPassword = "c22578keret";
-                $dBName = "c22578keret";
+                $dBName = "c22578DB";
 
                 $conn = mysqli_connect($serverName, $dbUsername, $dbPassword, $dBName);
                 if ($conn->query($query) === TRUE) {

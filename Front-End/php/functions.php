@@ -203,13 +203,13 @@ function recordFetch()
     $aID = $_POST['aruID'];
 
 
-    $sql = "SELECT * FROM aruk WHERE Aru_ID = '$aID'";
+    $sql = "SELECT * FROM Aruk WHERE Aru_ID = '$aID'";
 
     if (empty($conn)) {
-        $serverName = "localhost";
+        $serverName = "mysql.rackhost.hu";
         $dbUsername = "c22578keret";
         $dbPassword = "c22578keret";
-        $dBName = "c22578keret";
+        $dBName = "c22578DB";
 
         $conn = mysqli_connect($serverName, $dbUsername, $dbPassword, $dBName);
         $result = mysqli_query($conn, $sql);

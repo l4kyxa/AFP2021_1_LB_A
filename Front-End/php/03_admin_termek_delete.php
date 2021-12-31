@@ -4,7 +4,7 @@ if(isset($_POST["tertor"])) {
 
     $aID = $_POST['aruID'];
 
-    $sql = "DELETE FROM aruk WHERE Aru_ID = '$aID'";
+    $sql = "DELETE FROM Aruk WHERE Aru_ID = '$aID'";
 
     if ($conn->query($sql) === TRUE) {
         echo "Record deleted successfully";
