@@ -41,24 +41,24 @@
 | 8. A |  Manuálisan rákattintunk **Termék mérete (mm) (szélesség/átmérő)** mezőre |Sikeres|
 | 8. B | Megadjuk a termék méretét, mely csak numerikus karakterekből állhat |Sikeres|
 | 8. C | Megadhatjuk a termék méretét a mező végén található le-fel nyilak segítségével is |Sikeres|
-| 9.  |  A tabulátor billentyű megnyomásával a **Raktárkészlet mennyiség (méter/darab)** mezőre lépünk |
-| 9. A |  Manuálisan rákattintunk **Raktárkészlet mennyiség (méter/darab) ** mezőre |
-| 9. B | Megadjuk a Raktárkészlet mennyiségét, mely a csak numerikus karakterekből áll|
-| 10.  |  A tabulátor bellentyű megnyomásával a **Megjegyzés** mezőre lépünk |
-| 10. A |  Manuálisan rákattintunk **Megjegyzés** mezőre |
-| 10. B | Adhatunk meg a termékhez kapcsolódó megjegyzést|
-| 11.  |  A tabulátor billentyű megnyomásával a **Képfájl** mezőre, a **Fájl kiválasztása** gombra lépünk |
-| 11. A |  Manuálisan rákattintunk **Képfájl** mezőre, a **Fájl kiválasztása** gombra |
-| 11. B | A gomb megnyomása után betallózhatjuk a feltölteni kívánt fájl-t|
-| 12.  |  A tabulátor bellentyű megnyomásával a **Ár (méter/darab) (Ft)** mezőre lépünk |
-| 12. A |  Manuálisan rákattintunk **Ár (méter/darab) (Ft)** mezőre |
-| 12. B | Megadjuk a termék árát, mely a csak numerikus karakterekből áll|
-| 13.  |  A tabulátor bellentyű megnyomásával a **Termék készleten van** mezőre lépünk |
-| 13. A |  Manuálisan rákattintunk **Termék készleten van** mezőre |
-| 13. B | A jelölőnégyzetbe kötelező pipát tenni, vagyis kötelező kiválasztani, hogy a termék készleten megtalálható. Ez a termék létrehozásának feltétele|
-| 14.  |  A tabulátor billentyű megnyomásával a **Létrehoz** mezőre lépünk |
-| 14. A |  Manuálisan rákattintunk **Létrehoz** mezőre |
-| 14. B | A **Létrehoz** gombot megnyomva az adatok bekerülnek az adatbáziba|
+| 9.  |  A tabulátor billentyű megnyomásával a **Raktárkészlet mennyiség (méter/darab)** mezőre lépünk |Sikeres|
+| 9. A |  Manuálisan rákattintunk **Raktárkészlet mennyiség (méter/darab) ** mezőre |Sikeres|
+| 9. B | Megadjuk a Raktárkészlet mennyiségét, mely a csak numerikus karakterekből áll |Sikeres|
+| 10.  |  A tabulátor bellentyű megnyomásával a **Megjegyzés** mezőre lépünk |Sikeres|
+| 10. A |  Manuálisan rákattintunk **Megjegyzés** mezőre |Sikeres|
+| 10. B | Adhatunk meg a termékhez kapcsolódó megjegyzést |Sikeres|
+| 11.  |  A tabulátor billentyű megnyomásával a **Képfájl** mezőre, a **Fájl kiválasztása** gombra lépünk |Sikeres|
+| 11. A |  Manuálisan rákattintunk **Képfájl** mezőre, a **Fájl kiválasztása** gombra |Sikeres|
+| 11. B | A gomb megnyomása után betallózhatjuk a feltölteni kívánt fájl-t |Sikeres|
+| 12.  |  A tabulátor bellentyű megnyomásával a **Ár (méter/darab) (Ft)** mezőre lépünk |Sikeres|
+| 12. A |  Manuálisan rákattintunk **Ár (méter/darab) (Ft)** mezőre |Sikeres|
+| 12. B | Megadjuk a termék árát, mely a csak numerikus karakterekből áll |Sikeres|
+| 13.  |  A tabulátor bellentyű megnyomásával a **Termék készleten van** mezőre lépünk |Sikeres|
+| 13. A |  Manuálisan rákattintunk **Termék készleten van** mezőre |Sikeres|
+| 13. B | A jelölőnégyzetbe kötelező pipát tenni, vagyis kötelező kiválasztani, hogy a termék készleten megtalálható. Ez a termék létrehozásának feltétele |Sikeres|
+| 14.  |  A tabulátor billentyű megnyomásával a **Létrehoz** mezőre lépünk |Sikeres|
+| 14. A |  Manuálisan rákattintunk **Létrehoz** mezőre |Sikeres|
+| 14. B | A **Létrehoz** gombot megnyomva az adatok bekerülnek az adatbáziba |Sikeres|
 
 <hr>
 
