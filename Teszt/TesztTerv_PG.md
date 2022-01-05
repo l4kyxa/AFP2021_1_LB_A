@@ -62,3 +62,18 @@
 
 <hr>
 
+## 2. Termék szerkesztése (módosítása vagy törlése) minden termék listázása alapján (kizárólag Admin szerepkör)##
+| Lépés | Feladat |
+| ----- | --- |
+| 1.   | Weboldal megnyitása. |
+| 2.    | Az adminisztrátori felület a(z) **.../admin.php** hivatkozással érhető el |
+| 3.   | Elnavigálunk a **TERMÉKEK SZERKESZTÉSE LISTÁZÁS ALAPJÁN (kizárólag Admin szerepkör)** részhez |
+| 4.   | Manuálisan rákattintunk a **Összes termék listázása** gombra |
+| 5.  |  A gomb átirányít a **/php/00_admin_termek.php** oldalra |
+| 5.  |  Az oldalon az összes termék megjelenik kategória szerint listázva a "Termékek listázása:" felirat alatt |
+| 6.  | Ez alapján kettő táblázatban listázódik a két kategória: |
+| 6. A  | első táblázat a "Gomb(ok) listázása:" alatt jelenik meg |
+| 6. B  | A táblázat tíz darab oszlopot tartalmaz, amely közül az első nyolc oszlop a termék tulajdonságait jeleníti meg, |
+| 6. C  | a kilencedik oszlop: Módosítás gomb: termék adatainak szerkesztése/módosítása|
+| 6. D  | a tizedik oszlop: Törlés gomb: termék adatainak törlése|
+| 7. A  | második táblázat a "Rövidáru(k) listázása:" alatt jelenik meg |
