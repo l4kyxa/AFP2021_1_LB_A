@@ -107,3 +107,14 @@
 | 7. B  | A táblázat tíz darab oszlopot tartalmaz, amely közül az első nyolc oszlop a termék tulajdonságait jeleníti meg, |
 | 7. C  | a kilencedik oszlop: Módosítás gomb: termék adatainak szerkesztése/módosítása|
 | 7. D  | a tizedik oszlop: Törlés gomb: termék adatainak törlése|
+| 8.  |  Bármelyik termékkategóriában mindegyik Módosítás gomb a **/php/03_admin_termeklist_update.php** oldalra hivatkozik |
+| 8. A | Az így megnyitott oldalon a módosítandó termék taladonságai nyolc oszlopban jelennek meg: |
+| 8. B | Az első négy oszlop nem módosítható - ez a ténylegesen azonosított termék nevét, gyártóját, színét, és méretét tartalmazza |
+| 8. C | A következő négy oszlopban módosítható a termék mennyisége, a hozzá kapcsolódó megjegyzés, ára, és annak eldöntése, hogy a termék van-e készleten (I/N) |
+| 8. D | A módosítható adatok mind a négy módosítható oszlopban megjelennek, így akár ez is segítséget nyújthat az új adatok bevitelében |
+| 8. E | Az új adat bevitelét követően a Mentés gombra kattintva történik meg a tényleges módosítás az adatbázisban.|
+| 9.  |  Bármelyik termékkategóriában mindegyik Törlés gomb a **/php/03_admin_termek_delete.php** oldalra hivatkozik |
+| 9. A | A Törlés gombra kattintva figyelmeztető üzenet jelenik meg: Biztos vagy benne, hogy törölni szeretnéd a terméket? |
+| 9. B | Itt még meggondolhatjuk magunkat: Ok gomb -> végrehajtás, Mégse -> elutasítás |
+
+<hr>
