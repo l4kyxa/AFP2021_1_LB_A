@@ -122,16 +122,16 @@
 ## 4. Termék keresése (felhasználó szerepkör)##
 | Lépés | Feladat |
 | ----- | --- |
-| 1.   | Weboldal megnyitása. |
-| 2.    | Az felhasználói felület a(z) **.../kezdolap.php** hivatkozással érhető el |
-| 3.   | A Termékek fülre kattintva az oldal átirányít a **../termekek.php** oldalra
-| 4.   | Manuálisan rákattintunk az **Egyszerű keresés**-hez tartozó mezőre |
-| 5.  |  Be kell írni a keresendő termék nevét, majd a mező jobb oldalán található kereső gombra (nagyító jel) kattintva:|
-| 6.  | átirányít a **/php/01_user_termek_keres.php** oldalra |
-| 6. A | A keresési kulcsszó alapján az oldal listázza a találatokat kategória szerint: |
-| 6. B | Ha csak egy termékkategóriában volt találat, akkor csak egy kategória táblázata jelenik meg, másik kategóriában: "Nincs a keresésnek megfelelő termék!" |
-| 6. C | Ha két termékkategóriában volt találat, akkor mindkettő kategória táblázata megjelenik |
-| 6. D  | A táblázat hat darab oszlopot tartalmaz: Termék neve, gyártója, színe, mérete, státusza |
+| 1.   | Weboldal megnyitása. |Sikeres|
+| 2.    | Az felhasználói felület a(z) **.../kezdolap.php** hivatkozással érhető el |Sikeres|
+| 3.   | A Termékek fülre kattintva az oldal átirányít a **../termekek.php** oldalra |Sikeres|
+| 4.   | Manuálisan rákattintunk az **Egyszerű keresés**-hez tartozó mezőre |Sikeres|
+| 5.  |  Be kell írni a keresendő termék nevét, majd a mező jobb oldalán található kereső gombra (nagyító jel) kattintva:|Sikeres|
+| 6.  | átirányít a **/php/01_user_termek_keres.php** oldalra |Sikeres|
+| 6. A | A keresési kulcsszó alapján az oldal listázza a találatokat kategória szerint: |Sikeres|
+| 6. B | Ha csak egy termékkategóriában volt találat, akkor csak egy kategória táblázata jelenik meg, másik kategóriában: "Nincs a keresésnek megfelelő termék!" |Sikeres|
+| 6. C | Ha két termékkategóriában volt találat, akkor mindkettő kategória táblázata megjelenik |Sikeres|
+| 6. D  | A táblázat hat darab oszlopot tartalmaz: Termék neve, gyártója, színe, mérete, státusza |Sikeres|
 
 
 <hr>
