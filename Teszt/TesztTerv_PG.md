@@ -92,3 +92,18 @@
 
 <hr>
 
+## 3. Termék szerkesztése (módosítása vagy törlése) keresés alapján (kizárólag Admin szerepkör)##
+| Lépés | Feladat |
+| ----- | --- |
+| 1.   | Weboldal megnyitása. |
+| 2.    | Az adminisztrátori felület a(z) **.../admin.php** hivatkozással érhető el |
+| 3.   | Elnavigálunk a **TERMÉKEK SZERKESZTÉSE KERESÉS ALAPJÁN (kizárólag Admin szerepkör)** részhez |
+| 4.   | Manuálisan rákattintunk az **Egyszerű keresés**-hez tartozó mezőre |
+| 5.  |  Be kell írni a szerkesztendő termék nevét, majd a mező jobb oldalán található kereső gombra (nagyító jel) kattintva:|
+| 6.  | átirányít a **/php/01_admin_termek_keres.php** oldalra |
+| 6. A | A keresési kulcsszó alapján az oldal kilistázza a találatokat kategória szerint: |
+| 6. B | Ha csak egy termékkategóriában volt találat, akkor csak egy kategória táblázata jelenik meg |
+| 7. A | Ha két termékkategóriában volt találat, akkor mindkettő kategória táblázata megjelenik |
+| 7. B  | A táblázat tíz darab oszlopot tartalmaz, amely közül az első nyolc oszlop a termék tulajdonságait jeleníti meg, |
+| 7. C  | a kilencedik oszlop: Módosítás gomb: termék adatainak szerkesztése/módosítása|
+| 7. D  | a tizedik oszlop: Törlés gomb: termék adatainak törlése|
