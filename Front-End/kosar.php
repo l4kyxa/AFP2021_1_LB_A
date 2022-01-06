@@ -26,7 +26,7 @@
 
         <div class="flex-item">
             <div class="card">
-                <img src="images\P_00.jpg" style="width:100%">
+                <img src="images\p_10.jpg" width="100%" height="300">
                 <h1>db_name_1</h1>
                 <p>db_price_1</p>
                 <form action="php\00_kosar_torol.php" method="post">
