@@ -149,6 +149,8 @@ Menü-hierarchiák:
 
 ## VIII. Adatbázis terv
 
+Az adatbázis megtekinthető a /Database_SQL/DATABASE_kep.jpg phpmyadmin tervezőjében készített fotóképen is.
+
 * Felhasznalok tábla
 
 | Felhasznalo_ID | Felhasznalonev | Email | Jelszo | Aszf | Bejelentkezve | Statusz | 
