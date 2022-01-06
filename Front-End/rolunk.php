@@ -25,70 +25,32 @@
         </div>
 
         <div class="content">
-            <p>   Szerencsés helyzetben vagyok, hiszen két hónapja vehettem át a nagyszüleim által indított rövidáru
-                és gomb kereskedést, melyről elmondhatom, hogy apáról-fiúra szállt, tehát családi vállalkozás.
-                Nagy lehetőség van benne, hiszen Budapesten közlekedési szempontból is kiváló helyen fekszik.
-                Az árukészlet adott volt, amikor átvettem a vállalkozást.</p>
+            <h2>Cég története</h2>
+            <p> Nagyszüleim vágya volt, akik még mindent manuálisan, kézzel festve alakítottak, színezték ki a gombokat, hogy létrehozzanak egy gomb birodalmat.
+                Édesapám mesélte, hogy hosszú éjszakákba nyúlóan varrták fel a gombokat nagy kartonlapokra olyan megrendelőknek, akik személyesen szállították el kisebb
+                gyáraikba a nagyszüleim termékeit. Így kezdődött minden. Nagypapám halálát követően, 1993 óta édesapám és húga vették át és álmodták tovább ezt a kis vállalkozást.
+                Édesapám tavaly bekövetkezett halála után én vagyok az, aki tanári pályámat hátra hagyva kötelezettségemnek érzem a cég tovább működtetését.
+                Szívből remélem, hogy a három gyermekem közül valamelyik ráérez a szépségére, és képes leszek ezt továbbadni számára. </p>
         </div>
-            <hr>
-
-            <div class="content">
-                <p>A jelenlegi árukészlet legfőbb termékei a gumi, cérna, tű, szalag, cipzár, cipőfűző, gomb, melyet
-                    folyamatosan igyekszem bővíteni fajtája, mérete, színe alapján a vásárlók kérésének,
-                    kívánságának megfelelően, illetve más üzletek termékeit figyelemmel kísérve.
-                   </p>
-            </div>
-            <hr>
-
-            <div class="content">
-                <p> Az üzlet népszerű, kedvelt elsősorban az idősebb korosztály körében,
-                    valamint a rövidáru termékeket nagyobb mennyiségben vásárló varró,
-                    illetve hasonló szakmában dolgozók számára. Jelenleg az üzletnek nincs saját weboldala.</p>
-            </div>
-
-            <hr>
-
-            <div class="content">
-                <p>Manapság a legtöbb vállalkozás számára óriási előnyt jelent,
-                    ha rendelkezik egy saját honlappal, hiszen egy cég ilyen irányú hirdetése,
-                    illetve egy jó termékkereső rendszerrel rendelkező,
-                    megfelelően kivitelezett internetes vásárlás nagy mértékben fellendítheti
-                    egy üzlet hírnevét és forgalmát. Úgy gondolom, most jött el az ideje,
-                    hogy a cégnek saját weblapja is legyen.</p>
-            </div>
-
-            <hr>
-
-            <div class="content">
-                <p> Célom,
-                    hogy vásárlóink naprakész információkkal rendelkezzenek a termékkészlettel kapcsolatban.
-                    Természetesen az árukészletet különböző alkategóriák szerint,
-                    mint pl. cipzár: 16 cm széles, fehér színű, fém fogazatú alkategória alapján adatbázisba kellene
-                    szervezni egy jól működő keresőrendszerrel. </p>
-            </div>
-
-            <hr>
-
-            <div class="content">
-                <p>Fontos számomra az árukészlet folyamatos bővítése,
-                    figyelembe véve a vásárlók kérését, kívánságát, igényeit. Szeretném továbbá a fiatalabb korosztályt
-                    is megnyerni egyrészt
-                    az aktuális divat, trendi állandó nyomon követésével, másrészt azzal,
-                    hogy egy kreatív hobbi aloldalt is ki lehet alakítani, amelyen a honlap felhasználói megoszthatják
-                    egymással új ötleteiket,
-                    elképzeléseiket, pl. különböző anyagokból milyen mintákat, praktikus megoldásokat tudnak létrehozni.
-                </p>
-            </div>
-
-            <hr>
-
-            <div class="content">
-                <p> Elvárt, hogy a weboldal könnyen üzemeltethető legyen.
-                    A projekt elkészítése …… nyelveken történik.
-                    Az online megjelenés lehetőleg a PC/Laptopon kívül mobiltelefonon és tableten is működjön,
-                    reszponzív felülettel.</p>
-            </div>
+        <hr>
+        <div class="content">
+            <h2>Már 50 éve a gombok és rövidáruk világában!</h2>
+            <p>Több mint 50 éves tapasztalattal a hátunk mögött 2021. nyarán átalakultunk, és a nagyszüleim, szüleim munkáját folytatva átvettem a vállalkozás irányítását.
+                Óriási felelősség egy ilyen nagy múltú cég tulajdonosának lenni, hiszen felelősséggel tartozom elsősorban a hírnevünk fenntartásáért, illetve további
+                népszerűsítéséért, valamint felelősséggel tartozom azoknak a vásárlóknak, akik hosszú ideje bizalmat szavaznak nekünk azzal, hogy nálunk vásárolnak.
+                Ezért kollégámmal folyamatosan arra törekszünk, hogy minőségi termékeket forgalmazzunk megfizethető áron. Közhelynek tűnhet, de igaz, hogy nagypapámat,
+                édesapámat és testvérét, mint cégvezetőket nemcsak ezért a törekvéséért kedvelték, szerették a vásárlók, hanem azért is, mert mindig is megbízható,
+                szavahihető emberek voltak. A vásárlói igényeket igyekeztek maximálisan kielégíteni. Egy ilyen arculattal rendelkező céget nemcsak nagy felelősség
+                tovább működtetni, fenntartani, hanem nagy kihívás is. Ez ad számomra éltető erőt, lelkesedést, és igyekszem mindvégig ezzel a hozzáállással képviselni a céget.
+                Arra törekszem, hogy folyamatosan bővítsem a termék kínálatot. Jelenleg gombok, valamint a rövidáru termékek nagy választéka, mint a gumi szalag, szatén szalag,
+                ripsz szalag, csipkék, valamint cipzárak, tépőzárak, különböző fajta cérnák, tűk, és egyéb kiegészítők széles választékával várjuk vásárlóinkat.
+                Nemcsak termékkészletünket igyekszünk folyamatosan bővíteni, hanem webáruházunkon keresztül törekszünk a lehető leghatékonyabb módon való kiszolgálásra.
+                Ha ideje engedi kérem derítse fel webáruházunk színes kínálatát, barangoljon kedvére, és ha valamelyik termékünk elnyerte tetszését, bátran rendelje meg, és mi
+                igyekszünk azt rövid időn belül eljuttatni Önhöz. Vagy keresse fel akár személyesen is üzletünket. Várjuk Szeretettel!<br>
+                Pál Gábor, ügyvezető</p>
         </div>
+        <hr>
+    </div>
     </div>
     <!---->
     <div id="box_2">
