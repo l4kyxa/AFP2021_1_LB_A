@@ -90,11 +90,11 @@ V. Az adminisztrátor postázza a terméket.
  	- Felhasználó rögzítés
  	- Felhasználó módosítás
  	- Felhasználó törlés
- 	- Termék rögzítés
- 	- Termék módisítás
+ 	- Termék rögzítés/hozzáadás
+ 	- Termék módosítás
  	- Termék törlés
  	- Bejegyzés rögzítés
- 	- Bejegyzés módisítás
+ 	- Bejegyzés módosítás
  	- Bejegyzés törlés
 	- Termék keresés
  	- Termék szűrés
@@ -123,11 +123,11 @@ ADMIN:
  - Felhasználó rögzítés
  - Felhasználó módosítás
  - Felhasználó törlés
- - Termék rögzítés
- - Termék módisítás
+ - Termék rögzítés/hozzáadás
+ - Termék módosítás
  - Termék törlés
  - Bejegyzés rögzítés
- - Bejegyzés módisítás
+ - Bejegyzés módosítás
  - Bejegyzés törlés
 
 USER:
@@ -163,12 +163,13 @@ Menü-hierarchiák:
 ```
 A felhasznáók adatait tároló tábla, személyes adatot nem tárol.
 Regisztrációkor: a felhasználó automatikusan kap egy ID-t.
-A felhasználó megadja a vezeték és keresztnevét.
-A Username-t, az email címet és a hozzá tartozó jelszót a felhasználó adja meg.
+A felhasználónevet, az email címet és a hozzá tartozó jelszót a felhasználó adja meg.
 Az ÁSZF oszlop segítségével jogilag igazolva van a hatóság felé, hogy a felhasználó elfogadta az ÁSZF-et a regisztfáció során, vagyis többek közt a weboldal és webshop felhasználási feltételeit.
 A bejelntkezve mező tárolja az aktuális felhasználó jelenlegi állapotát.
-A státuszt az adminisztrátor választja (2:admin, 1: aktív felhasználó, 2: passzív felhasználó).
-```
+A státuszt az adminisztrátor választja (2:admin, 1: aktív felhasználó, 0: passzív felhasználó).
+
+Megkötések a táblához:
+ A Felhasznalok tábla Felhasznalo_ID attributuma, mint elsődleges kulcs 1:N kapcsolatban van a Kosar tábla Felhasznalo_ID-jával.
 
 
 * Termekek tábla
@@ -182,7 +183,12 @@ A státuszt az adminisztrátor választja (2:admin, 1: aktív felhasználó, 2: 
 ||||||||||||
 
 Külön táblába helyeztem a cég termékkínálatának két alapkategóriáját. Nevezhetjük termék profil választó táblának is: Gomb vagy rövidáru a két alapkategória.
-A Termekazonosito_ID 1:N kapcsolatba van az Aruk tábla Termekazonosito_ID-jával. 
+
+
+Megkötések a táblához:
+A Termekek tábla Termekazonosito_ID-ja 1:N kapcsolatba van az Aruk tábla Termekazonosito_ID-jával. 
+A Termekek tábla Termekazonosito_ID-ja 1:N kapcsolatba van az Kosar tábla Termekazonosito_ID-jával. 
+
 
 * Aruk tábla
 
@@ -200,11 +206,11 @@ A Termekazonosito_ID 1:N kapcsolatba van az Aruk tábla Termekazonosito_ID-jáva
 ```
 Az áruk rögzítése/módosítása/törlése csak admin számára lehetséges.
 Regisztráláskor autamitikusan kap a termék egy ID-t. Ez az Aru_ID.
-A Termekazonosito_ID/TermekNev/GyartoNev/Szín/Meret/Mennyiseg/Ar megadása a rögzítő feladata, amely egyértelműen meghatározza az árut.
+A Termekazonosito_ID kiválasztása (Gomb = 1 vagy Rovidaru = 2)/TermekNev/GyartoNev/Szín/Meret/Mennyiseg/Ar megadása a rögzítő feladata, amely egyértelműen meghatározza az Aru_ID-ját, azaz az árut.
 A megjegyzés tárolja az akció státuszát vagy egyéb információt a termékről.
 A kép tarolja az elérési utat.
 A státusz adja meg, hogy a termék aktiv vagy passzív.
-```
+
 
 
 * Kosar tábla
@@ -221,31 +227,31 @@ A kosár adatbázis a megrendelni kívánt elemeket tárolja.
 Az elem kosárba tételekor kap egy automatikus Vasarlas_ID-t.
 Az adatbázishoz hozzárendelődik az aktuális felhasználó ID-je, és a termék ID-je (Termekazonosito_ID).
 A tétel kiválasztásakor a felhasználó megadja a mennyiséget/darabszámot(alapesetben:1).
-A dátum automatikusan kerül rögzítéser.
+A dátum automatikusan kerül rögzítésre.
 A Teljesítve mutatja, hogy a rendelés megtörtént, a kosár üres(0), vagy a felhasználó még nem adta le a rendelését(1).
 A Lakcím és a Szállítási cím megadása kötelező. A vásárlás során a lakcím másolható a szállítási címbe, ha a vásárló tesz egy pipát a "Lakcím megegyezik a szállítási címmel" előtti jelölőnégyzetbe.
 
 
 * Bejegyzés tábla
 
-| Bejegyzes_ID  | Felhasznalo_ID  | Uzenet | Datum |  Status |
+| Bejegyzes_ID  | Neve  | Emailcim | Uzenet |  Datum |
 | :-:   | :-: | :-: |  :-: | :-: |
-| 01 | 01 | Első bejegyzés | 2021-11-01 18:00 | 0 |
+| 01 | Kiss István | kiss.istvan86@gmail.com | Első bejegyzés | 2021-11-01 18:00 |
 | :-:   | :-: | :-: | :-: | :-: |
-| 02 | 02|  Második bejegyzés | 2021-11-01 18:05 | 1 |
+| 02 | Nagy Noémi | nagy.noncsi74@gmail.com | Második bejegyzés | 2021-11-24 12:34 |
 ||||||
 
 
 A bejegyzés a felhasználó és az admin számára biztosítva van.
-Az adatbázis tárolja a bejegyzés ID-jét, a felhasználó ID-jét, a felhasználó által megírt üzenetet, a megírás dátumát és az üzenet státuszát(0:passzív, 1:aktív).
+Az adatbázis tárolja a bejegyzés ID-jét, felhasználó nevét, a felhasználó email címét, a felhasználó által megírt üzenetet, és a megírás dátumát.
 
 
 ## IX. Fizikai környezet
 
-Webes alkalmazás révén minden platformon elérhető ami rendelkezik interneteléréssel ,illetve böngészővel.
+A webes alkalmazás jelenleg PC/Laptop platformon elérhető, ami rendelkezik interneteléréssel, illetve böngészővel.
 
 
->## X. Absztrakt domain modellje
+## X. Absztrakt domain modellje
 
 **A megvalósítás nagyon magas szintű váza**
 * Adatrögzítés ->
