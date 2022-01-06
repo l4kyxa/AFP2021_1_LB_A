@@ -180,7 +180,7 @@ Megkötések a táblához:
 | :-:   | :-: |
 | 02 | Rovidaru |
 | :-:   | :-: |
-||||||||||||
+|||
 
 Külön táblába helyeztem a cég termékkínálatának két alapkategóriáját. Nevezhetjük termék profil választó táblának is: Gomb vagy rövidáru a két alapkategória.
 
