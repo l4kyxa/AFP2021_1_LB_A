@@ -232,7 +232,7 @@ A Teljesítve mutatja, hogy a rendelés megtörtént, a kosár üres(0), vagy a 
 A Lakcím és a Szállítási cím megadása kötelező. A vásárlás során a lakcím másolható a szállítási címbe, ha a vásárló tesz egy pipát a "Lakcím megegyezik a szállítási címmel" előtti jelölőnégyzetbe.
 
 
-* Bejegyzés tábla
+* Bejegyzes tábla
 
 | Bejegyzes_ID  | Neve  | Emailcim | Uzenet |  Datum |
 | :-:   | :-: | :-: |  :-: | :-: |
