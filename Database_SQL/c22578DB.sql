@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: localhost
--- Létrehozás ideje: 2022. Jan 06. 10:20
+-- Létrehozás ideje: 2022. Jan 06. 11:30
 -- Kiszolgáló verziója: 10.3.31-MariaDB-0+deb10u1
 -- PHP verzió: 7.3.31-1~deb10u1
 
@@ -240,6 +240,12 @@ ALTER TABLE `Termekek`
 --
 -- Megkötések a kiírt táblákhoz
 --
+
+--
+-- Megkötések a táblához `Aruk`
+--
+ALTER TABLE `Aruk`
+  ADD CONSTRAINT `Aruk_ibfk_1` FOREIGN KEY (`Termekazonosito_ID`) REFERENCES `Termekek` (`Termekazonosito_ID`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Megkötések a táblához `Kosar`
