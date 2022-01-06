@@ -160,6 +160,7 @@
             </div>
             <br><br>
             <hr>
+
                 <div class="flex-container">
 
                     <div class="flex-item">
@@ -279,7 +280,7 @@
                 <div class="flex-container">
                     <div class="flex-item">
                         <div class="card">
-                            <img src="images\P_00.jpg" style="width:100%">
+                            <img src="images\p_15.jpg" width="100%" height="300">
                             <h1>db_name_1</h1>
                             <p>db_price_1</p>
                             <input type="number" value="1">
@@ -288,7 +289,7 @@
                     </div>
                     <div class="flex-item">
                         <div class="card">
-                            <img src="images\P_00.jpg" style="width:100%">
+                            <img src="images\p_14.jpg" width="100%" height="300">
                             <h1>db_name_2</h1>
                             <p>db_price_2</p>
                             <input type="number" value="1">
@@ -298,7 +299,7 @@
 
                     <div class="flex-item">
                         <div class="card">
-                            <img src="images\P_00.jpg" style="width:100%">
+                            <img src="images\p_13.jpg" width="100%" height="300">
                             <h1>db_name_3</h1>
                             <p>db_price_3</p>
                             <input type="number" value="1">
