@@ -160,7 +160,7 @@ Menü-hierarchiák:
 | 03 | paszív | passziv@email.hu | passziv01 | 1 | 0 | 0 | 
 |||||||
 
-```
+
 A felhasznáók adatait tároló tábla, személyes adatot nem tárol.
 Regisztrációkor: a felhasználó automatikusan kap egy ID-t.
 A felhasználónevet, az email címet és a hozzá tartozó jelszót a felhasználó adja meg.
