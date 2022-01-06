@@ -203,7 +203,7 @@ A Termekek tábla Termekazonosito_ID-ja 1:N kapcsolatba van az Kosar tábla Term
 | 04 | 04 | Terítő | Len | színes | 120*5000 | 1 henger | * | 04.png | 1000ft/méter | 0 | 
 ||||||||||||
 
-```
+
 Az áruk rögzítése/módosítása/törlése csak admin számára lehetséges.
 Regisztráláskor autamitikusan kap a termék egy ID-t. Ez az Aru_ID.
 A Termekazonosito_ID kiválasztása (Gomb = 1 vagy Rovidaru = 2)/TermekNev/GyartoNev/Szín/Meret/Mennyiseg/Ar megadása a rögzítő feladata, amely egyértelműen meghatározza az Aru_ID-ját, azaz az árut.
