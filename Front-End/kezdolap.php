@@ -27,21 +27,21 @@
 
                     <div class="flex-item">
 
-                            <img src="images\P_00.jpg" style="width:100%">
+                            <img src="images\p_28.jpg" width="100%" height="300">
                             <h1>db_name_1</h1>
                             <p>db_price_1</p>
 
                     </div>
 
                     <div class="flex-item">
-                            <img src="images\P_00.jpg" style="width:100%">
+                            <img src="images\p_27.jpg" width="100%" height="300">
                             <h1>db_name_2</h1>
                             <p>db_price_2</p>
 
                     </div>
 
                     <div class="flex-item">
-                            <img src="images\P_00.jpg" style="width:100%">
+                            <img src="images\p_26.jpg" width="100%" height="300">
                             <h1>db_name_3</h1>
                             <p>db_price_3</p>
                     </div>
@@ -57,20 +57,20 @@
                 <div class="flex-container">
 
                     <div class="flex-item">
-                            <img src="images\P_00.jpg" style="width:100%">
+                            <img src="images/p_25.jpg" width="100%" height="300">
                             <h1>db_name_1</h1>
                             <p>db_price<_1</p>
                     </div>
 
                     <div class="flex-item">
-                            <img src="images\P_00.jpg" style="width:100%">
+                            <img src="images\p_24.jpg" width="100%" height="300">
                             <h1>db_name_2</h1>
                             <p>db_price_2</p>
                     </div>
 
 
                     <div class="flex-item">
-                            <img src="images\P_00.jpg" style="width:100%">
+                            <img src="images\p_23.jpg" width="100%" height="300">
                             <h1>db_name_3</h1>
                             <p>db_price_3</p>
                     </div>
@@ -85,20 +85,20 @@
                 <div class="flex-container">
 
                     <div class="flex-item">
-                            <img src="images\P_00.jpg" style="width:100%">
+                            <img src="images\p_22.jpg" width="100%" height="300">
                             <h1>db_name_1</h1>
                             <p>db_price_1</p>
                     </div>
 
                     <div class="flex-item">
-                            <img src="images\P_00.jpg" style="width:100%">
+                            <img src="images\p_21.jpg" width="100%" height="300">
                             <h1>db_name_2</h1>
                             <p>db_price_2</p>
                     </div>
 
 
                     <div class="flex-item">
-                            <img src="images\P_00.jpg" style="width:100%">
+                            <img src="images\p_20.jpg" width="100%" height="300">
                             <h1>db_name_3</h1>
                             <p>db_price_3</p>
                     </div>
@@ -120,7 +120,7 @@
 
         <div class="btncontainer">
             <div class="btnvertical-center">
-                <button class="button" type="button" onclick="document.location.href='termekek.php'">ÖSSZES AKCIÓ
+                <button class="button" type="button" onclick="document.location.href='termekek.php'">ÖSSZES TERMÉK
                     MEGJELENÍTÉSE
                 </button>
             </div>
@@ -134,19 +134,19 @@
         <div class="flex-container">
 
             <div class="flex-item">
-                    <img src="images\P_00.jpg" style="width:100%">
+                    <img src="images\p_19.jfif" width="100%" height="300">
                     <h1>db_name_1</h1>
                     <p>db_price_1</p>
             </div>
 
             <div class="flex-item">
-                    <img src="images\P_00.jpg" style="width:100%">
+                    <img src="images\p_18.jpg" width="100%" height="300">
                     <h1>db_name_2</h1>
                     <p>db_price_2</p>
             </div>
 
             <div class="flex-item">
-                    <img src="images\P_00.jpg" style="width:100%">
+                    <img src="images\p_17.jpg" width="100%" height="300">
                     <h1>db_name_3</h1>
                     <p>db_price_3</p>
             </div>
@@ -167,19 +167,19 @@
         <div class="flex-container">
 
             <div class="flex-item">
-                    <img src="images\P_00.jpg" style="width:100%">
+                    <img src="images\p_16.jpg" width="100%" height="300">
                     <h1>db_name_1</h1>
                     <p>db_price_1</p>
             </div>
 
             <div class="flex-item">
-                    <img src="images\P_00.jpg" style="width:100%">
+                    <img src="images\p_15.jpg" width="100%" height="300">
                     <h1>db_name_2</h1>
                     <p>db_price_2</p>
             </div>
 
             <div class="flex-item">
-                    <img src="images\P_00.jpg" style="width:100%">
+                    <img src="images\p_14.jpg" width="100%" height="300">
                     <h1>db_name_3</h1>
                     <p>db_price_3</p>
             </div>
