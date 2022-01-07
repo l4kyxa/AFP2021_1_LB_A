@@ -11,3 +11,16 @@
 | Oprendszer: | Windows 10 PRO (21H2) |
 
 <hr>
+
+<hr>
+
+## Tesztelendő feladatok:
+#### 1.	Regisztráció
+#### 1.	Bejelentkezés
+#### 1.	Kezdőlap
+#### 1.	Termék hozzáadása
+#### 1.	Felhasználó hozzáadása
+#### 1.	Bejegyzés hozzáadása (üzenőfal)
+
+<hr>
+
