@@ -1,4 +1,4 @@
-# <div align="center">Tesztterv </div>
+# <div align="center">Tesztjegyzőkönyv </div>
 <hr>
 
 ## Tesztjegyzőkönyvet írta:
@@ -22,11 +22,11 @@
 
 
 ## 1. Termék hozzáadása (kizárólag Admin szerepkör)##
-| Lépés | Feladat |
-| ----- | --- |
-| 1.   | Weboldal megnyitása. |
+| Lépés | Feladat | Eredmény |
+| ----- | --- | --- |
+| 1.   | Weboldal megnyitása. |Sikeres|
 | 2.    | Az adminisztrátori felület a(z) **.../admin.php** hivatkozással érhető el |Sikeres|
-| 3.   | Elnavigálunk a **TERMÉK FELTÖLTÉSE (kizárólag Admin szerepkör)** részhez |Sikeres||
+| 3.   | Elnavigálunk a **TERMÉK FELTÖLTÉSE (kizárólag Admin szerepkör)** részhez |Sikeres|
 | 4.   | Megadjuk a termékkategóriát a **Válassz termékkategóriát:** alatt található mezőre lépve (legördülő menüből kiválasztva) |Sikeres|
 | 5.  |  A tabulátor billentyű megnyomásával a **Termék név** mezőre lépünk |Sikeres|
 | 5. A |  Manuálisan rákattintunk **Termék név** mezőre |Sikeres|
@@ -63,9 +63,9 @@
 <hr>
 
 ## 2. Termék szerkesztése (módosítása vagy törlése) minden termék listázása alapján (kizárólag Admin szerepkör)##
-| Lépés | Feladat |
-| ----- | --- |
-| 1.   | Weboldal megnyitása. |
+| Lépés | Feladat | Eredmény |
+| ----- | --- | --- |
+| 1.   | Weboldal megnyitása. |Sikeres|
 | 2.    | Az adminisztrátori felület a(z) **.../admin.php** hivatkozással érhető el |Sikeres|
 | 3.   | Elnavigálunk a **TERMÉKEK SZERKESZTÉSE LISTÁZÁS ALAPJÁN (kizárólag Admin szerepkör)** részhez |Sikeres|
 | 4.   | Manuálisan rákattintunk a **Összes termék listázása** gombra |Sikeres|
@@ -93,8 +93,8 @@
 <hr>
 
 ## 3. Termék szerkesztése (módosítása vagy törlése) keresés alapján (kizárólag Admin szerepkör)##
-| Lépés | Feladat |
-| ----- | --- |
+| Lépés | Feladat | Eredmény |
+| ----- | --- | --- |
 | 1.   | Weboldal megnyitása. |Sikeres|
 | 2.    | Az adminisztrátori felület a(z) **.../admin.php** hivatkozással érhető el |Sikeres|
 | 3.   | Elnavigálunk a **TERMÉKEK SZERKESZTÉSE KERESÉS ALAPJÁN (kizárólag Admin szerepkör)** részhez |Sikeres|
@@ -120,8 +120,8 @@
 <hr>
 
 ## 4. Termék keresése (felhasználó szerepkör)##
-| Lépés | Feladat |
-| ----- | --- |
+| Lépés | Feladat | Eredmény |
+| ----- | --- | --- |
 | 1.   | Weboldal megnyitása. |Sikeres|
 | 2.    | Az felhasználói felület a(z) **.../kezdolap.php** hivatkozással érhető el |Sikeres|
 | 3.   | A Termékek fülre kattintva az oldal átirányít a **../termekek.php** oldalra |Sikeres|
