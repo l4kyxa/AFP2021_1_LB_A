@@ -63,3 +63,17 @@
 | 10.  | A menüpontok között megjelenik a bejelentkezés meletti ikon megváltozik |
 
 <hr>
+
+## 3. Kezdőlap
+| Lépés | Feladat |
+| ----- | --- |
+| 1.    | Weboldal megnyitása |
+| 2. A  | A felső menün kattintunk a "Kezdőlap" gombra |
+| 2. B  | Megjelenik az oldal alap szerkezete (slide rész(3*3),3 újdonság, 3 népszerű termék)|
+| 3.    | A jobbra és balra nyilak segítségével összesen 9 termék közül választhatunk|
+| 3. B  | A nyilak megnyomásával a következő 3 terméknek kell megjelennie |
+| 4.    | A tabulátor bellentyű megnyomásával az **ÖSSZES AKCIÓ MEGJELENÍTÉSE** vagy **ÖSSZES TERMÉK MEGJENÍTÉSE** gombra ugorhat a felhasználó |
+| 4. B  | Manuálisan rákattintunk a **ÖSSZES AKCIÓ MEGJELENÍTÉSE** vagy **ÖSSZES TERMÉK MEGJENÍTÉSE** gombra |
+| 5.    | A(z) **ÖSSZES AKCIÓ MEGJELENÍTÉSE** vagy **ÖSSZES TERMÉK MEGJENÍTÉSE** gombra kattintva megjelenik a **TERMÉKEK** oldala |
+
+<hr>
