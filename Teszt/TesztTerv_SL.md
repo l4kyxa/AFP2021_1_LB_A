@@ -167,3 +167,40 @@
 | 18. B | A **Létrehoz** gombot megnyomva az adatok bekerülnek az adatbáziba|
 
 <hr>
+
+## 6. Bejegyzés hozzáadása (üzenőfal) ##
+| Lépés | Feladat |
+| ----- | --- |
+| 1.   | Weboldal megnyitása. |
+| 2.   | A menüben található **Bejelentkezés** gombra kattintanva elnavigálunk a beléptető oldalra |
+| 3.   | Megjelenik a bejelentkezési űrlap |
+| 4.   | A **Felhasználónév vagy E-mail cím** mezőbe kattintunk |
+| 5.   | A mezőt kitöltjük a magyar ABC és számjegyek tetszőleges kombinációjával legalább 3 karakter hosszan, a saját már beregisztrált fiókunkhoz tartozó felhasználó nevével vagy e-mail címével |
+| 6. A | Megnyomva a tabulátor billentyűt, a következő mezőre ugrik a kurzor |
+| 6. B | Manuálisan is átkattinthatunk a következő mezőre (**Jelszó**) |
+| 7.   | Kitöltjük a jelszó mezőt tetszőleges karakterek kombinációjával, legalább 5 karakter hosszúságban, a saját már beregisztrált fiókunkhoz tartozó jelszóval |
+| 8. A | Megnyomjuk a tabulátor billentyűt, ezáltal a **Belép** gomb kerül kijelölésre|
+| 8. B | Manuálisan rákattintunk a Bejelentkezés gombra |
+| 9.    | Az adminisztrátori felület a(z) **.../admin.php** hivatkozással érhető el |
+| 10.   | Elnavigálunk a **Bejegyzés Kezelés** részhez |
+| 11.   | Az **ID** mező kitöltése elhagyható új felhasználó esetén, mivel azt az adatbázis generálja|
+| 12.  |  A tabulátor bellentyű megnyomásával a **Felhasználó** mezőre lépünk |
+| 12. A |  Manuálisan rákattintunk **Felhasználó** mezőre |
+| 12. B | A mezőt kitöltjük a magyar ABC és számjegyek tetszőleges kombinációjával legalább 3 karakter hosszan |
+| 13.   | Megnyomva a tabulátor billentyűt, a következő mezőre ugrik a kurzor |
+| 13.  A | Manuálisan is átkattinthatunk a következő mezőre |
+| 13.  B | Kitöltjük az **E-mail** cím mezőt tetszőleges a következő formátumban: asdf@asdf.asdf, ahol a asdf kifejezés egy alfanumerikus (csak betűből és számjegyekből álló) karakterekből álló kifejezés |
+| 14.   | Megnyomva a tabulátor billentyűt, a következő mezőre ugrik a kurzor |
+| 14.  A| Manuálisan is átkattinthatunk a következő mezőre |
+| 14.  B| Kitöltjük a **Üzenet** mezőt tetszőleges karakterek kombinációjával |
+| 15.   | Megnyomjuk a tabulátor billentyűt, ezáltal a **Dátum** mező kerül kijelölésre |
+| 15.  A|  Manuálisan is átkattinthatunk a következő mezőre|
+| 15.  B| A sorvégi ikon segítségével kiválaszthatjuk a megfelelő értéket|
+| 16.   | Megnyomjuk a tabulátor billentyűt, ezáltal a **Státusz** mező kerül kijelölésre |
+| 16.  A |  Manuálisan is átkattinthatunk a **Státusz** mezőre|
+| 16.  B| A legördülő menüből kiválaszthatjuk a megfelelő értéket||
+| 17.  |  A tabulátor bellentyű megnyomásával a **Létrehoz** mezőre lépünk |
+| 17. A |  Manuálisan rákattintunk **Létrehoz** mezőre |
+| 17. B | A **Létrehoz** gombot megnyomva az adatok bekerülnek az adatbáziba|
+
+<hr>
